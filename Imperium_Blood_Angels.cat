@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="37eb-776c-a55c-48b4" name="Imperium - Blood Angels" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="37eb-776c-a55c-48b4" name="Imperium - Blood Angels" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
     <selectionEntry id="8974-55aa-68b2-2a38" name="Chief Librarian Mephiston" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -28,7 +28,10 @@
         <categoryLink id="9e89-cfb8-8ce4-b273" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="f14d-28d7-f5cb-ab72" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="5b69-f002-be02-e5cf" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="b58e-4409-019b-4002" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="572f-0450-88e1-4cfe" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="6ccf-84c5-f188-4b90" name="Tacticus" hidden="false" targetId="6d08-59e9-28ad-4b36" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6231-64c0-1a4f-8771" name="Fury of the Ancients" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -259,7 +262,9 @@
         <categoryLink id="01d2-a031-4796-ad74" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="8010-9a76-6cc3-d777" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="34b7-e4b2-ff3d-7b0f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="5efb-4e81-98fc-4dbb" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="ee18-bd36-f122-4955" name="Tacticus" hidden="false" targetId="6d08-59e9-28ad-4b36" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8245-16ac-7369-8d2f" name="Relic Weapon" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
@@ -338,7 +343,8 @@
         <categoryLink id="8f27-4f95-ac16-3a6f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="303e-3d3b-22b4-3dd3" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="ac9b-b6f1-fde1-3591" name="Chaplain" hidden="false" targetId="89c1-3354-3e0d-279e" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="8082-8c8e-4eb8-4577" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ce7a-e797-424a-c36c" name="The Executioner&apos;s Axe" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
@@ -401,7 +407,9 @@
         <categoryLink id="d117-f50c-d263-aa28" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="3599-4a08-f2dd-3e1c" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="1a56-8c4a-45b0-96f2" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="5484-9dd0-242c-4fb8" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="89dc-f4e7-4225-4364" name="Tacticus" hidden="false" targetId="6d08-59e9-28ad-4b36" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b21b-2f25-c36d-2398" name="Perdition Pistol" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
@@ -489,7 +497,9 @@
         <categoryLink id="052b-95e7-cc18-10e1" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="6f29-07ef-ee98-0394" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="3e9c-5b90-71b9-8803" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="a214-0aa8-07f1-43a0" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="264d-207d-c23e-49a4" name="Tacticus" hidden="false" targetId="6d08-59e9-28ad-4b36" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="089d-5906-6828-2fc1" name="Relic Weapon" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
@@ -572,7 +582,9 @@
         <categoryLink id="f3bc-0851-96c9-967e" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="cd6b-6aa9-4d71-26ff" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="75d7-f4d1-3fc1-f6da" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="86c2-896e-61c1-4f24" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="6e71-cad7-3ce5-4cf6" name="Tacticus" hidden="false" targetId="6d08-59e9-28ad-4b36" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="464e-2c32-4c05-b970" name="Relic Weapon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -649,7 +661,8 @@
       <categoryLinks>
         <categoryLink id="a241-0c8d-208d-bc58" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="7d38-485e-4bf5-8bcb" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="8677-6381-e8a1-4583" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5b4b-09de-7d53-56b1" name="Chassis Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6222-d51f-a619-2eff">
           <constraints>
@@ -756,7 +769,9 @@
       <categoryLinks>
         <categoryLink id="dcd9-5ce7-8fc3-4100" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="96cf-b900-13ad-43c7" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="0a34-1a20-fd73-44fa" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="0ab5-a4ad-c5e3-4eba" name="Tacticus" hidden="false" targetId="6d08-59e9-28ad-4b36" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c6f7-aec5-aa67-365d" name="Heavy Weapon" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -808,7 +823,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="98d5-aa51-0939-8bbb" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -826,7 +841,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -874,7 +889,9 @@
       <categoryLinks>
         <categoryLink id="d6e8-1f24-bd65-8d0f" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="ac58-2d9d-dd46-c470" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="f790-9dc8-013d-4696" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="d7b2-c962-4772-41bd" name="Tacticus" hidden="false" targetId="6d08-59e9-28ad-4b36" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ca77-d297-933b-4dad" name="Heavy Weapon" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -926,7 +943,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b608-c029-b303-f5c6" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -944,7 +961,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -988,7 +1005,9 @@
         <categoryLink id="16bd-705a-b58b-9c5e" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="0fe0-47e4-8737-3804" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="01bd-aae5-ff31-9752" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="a986-8e63-35c9-44e7" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="7861-66b3-6686-4c8f" name="Tacticus" hidden="false" targetId="6d08-59e9-28ad-4b36" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1af5-71e6-ce15-bf1f" name="Heavy Weapon" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -1123,7 +1142,8 @@
         <categoryLink id="f198-3b19-2511-a3d3" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="fc50-4ee1-f00b-06fc" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="aa18-6892-2413-b399" name="Chaplain" hidden="false" targetId="89c1-3354-3e0d-279e" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="6e68-fcc7-0f1f-41e0" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2c6a-8f2e-537f-e9f2" name="Absolver Bolt Pistol" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1198,7 +1218,8 @@
         <categoryLink id="5cc3-7c14-8715-b658" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="29fe-abf1-e409-6ff6" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="011d-e3b8-71e3-fa93" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="856a-5b20-a9a1-4238" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ce16-b123-ddd0-773d" name="Angelus Boltguns" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1268,7 +1289,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a1fa-133d-1c4f-3a22" name="06 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1286,7 +1307,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1337,7 +1358,9 @@ You can attach this model to one of the above units, even if one Captain, CHAPTE
         <categoryLink id="b7f6-abfb-5160-4ee6" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="b656-20b4-a7c8-464d" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="e9b4-4bf4-9a2a-a30a" name="Chaplain" hidden="false" targetId="89c1-3354-3e0d-279e" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="d3e1-f5ce-334d-4c33" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="7753-4b91-52d6-4646" name="Tacticus" hidden="false" targetId="6d08-59e9-28ad-4b36" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f05f-fed8-e5f4-66e1" name="Absolver Bolt Pistol" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1441,6 +1464,593 @@ You can attach this model to one of the above units, even if one Captain, CHAPTE
       </selectionEntries>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+      </costs>
+    </selectionEntry>
+    
+    
+    
+    <selectionEntry id="1ab2-90cc-b175-4032" name="Death Company Intercessors" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="31f0-338e-a18c-48c8" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">No additional abilities.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="42cf-9a53-d5b7-4a3d" name="Bolt Rifle" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7888-739e-980b-4946" name="Astartes Chainsword" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3739-cad6-2a2a-40bb" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="3112-cc55-48d4-421e" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="9827-759e-6bea-42fc" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="6dbf-6d3e-6b35-4d95" name="Tacticus" hidden="false" targetId="6d08-59e9-28ad-4b36" primary="false"/>
+        <categoryLink id="52ab-93b5-a2d3-426b" name="Death Company Intercessors" hidden="false" targetId="5e81-3e4b-42bd-40d3" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="839e-42e5-3eab-4b34" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="c491-4d31-d21d-4924">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e02-39e2-8f85-4bab" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e67f-64bf-af6e-46c5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c491-4d31-d21d-4924" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="9303-d20f-6c89-4ec8" name="Death Company Intercessors (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="813f-ffea-9bd5-4588" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="0367-1b08-1337-4454" name="Death Company Intercessors (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">11</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f682-4eb7-6238-4005" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="72f1-6439-00ed-47bc" name="Death Company Dreadnought with Magna-Grapple [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="1391-2359-2b7b-486a" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Frenzied Reprisal; Magna-grapple</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fdcc-32b5-6cfa-49c9" name="Death Company Dreadnought with Magna-Grapple [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">N/A</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="513a-3a77-7c91-4225" name="Heavy Flamer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignores Cover, Torrent</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0e31-a92d-314c-47ee" name="Blood Talons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="79eb-0132-095a-46f0" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="f624-cd39-4e9f-4a37" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="96a7-37db-fa8a-4090" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        <categoryLink id="57f9-ff81-4733-4d35" name="Death Company Dreadnought with Magna-Grapple" hidden="false" targetId="51f6-5489-32f6-4b9b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e3d7-b1f0-be54-4239" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2763-95e7-fd26-4d01" name="Furioso Dreadnought [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="a209-c9a3-554c-475d" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Wrathful Rampage</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4508-0ed8-9e4c-44d0" name="Furioso Dreadnought [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="d5c0-4183-5d27-453b" name="Heavy Frag Cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast, Rapid Fire D6</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="763b-717a-c2f9-4a66" name="Blood Talons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="03b4-1de2-6794-4405" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="5083-d3dc-e03c-4117" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="b29f-7593-06f1-4456" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        <categoryLink id="dab9-abdf-bd3d-4637" name="Furioso Dreadnought" hidden="false" targetId="c4d2-e33b-eda2-46d5" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="18f7-80fd-99d8-4f31" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b8d0-d467-ba65-413e" name="Gabriel Seth [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="817e-5b89-9b98-4d02" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Lord of Slaughter; Whirlwind of Rage; Leader</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1b94-cc5d-9355-442c" name="Gabriel Seth [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="4ef0-223f-6391-41ed" name="Bolt pistol" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Pistol</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2832-a289-63ed-4d78" name="Blood Reaver" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="bb40-ebd5-c1b4-4b14" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="7593-8109-b4d0-4586" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="6efc-55e5-39d6-4912" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="1b37-eb60-454b-4fba" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="09c8-d59a-d3e4-472d" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="a33b-a62d-2b00-4da2" name="Gabriel Seth" hidden="false" targetId="b18f-f78c-f0dd-4786" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a160-1d73-7b6b-4b8f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f95-9291-6c8d-42e2" name="Sanguinary Priest with Jump Pack [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="4d41-838b-222b-4e29" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Sanguinary Priest; Blood Chalice; Support</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4c96-dc40-8101-4e8a" name="Sanguinary Priest with Jump Pack [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="534c-2c06-6616-4b3b" name="Bolt pistol" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Pistol</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6c58-ccc8-697a-4c52" name="Astartes Chainsword" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2db0-04fe-05b2-4456" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="6e6d-d7f5-8686-41fb" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="d0bd-b017-dc28-4541" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="b7a0-beaf-cca5-4492" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="90fe-4a4d-0d5a-4937" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="c990-e2c4-171d-4ee0" name="Sanguinary Priest with Jump Pack" hidden="false" targetId="4df4-4204-3585-4585" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f35f-ec88-6452-421b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b2ad-d787-e0e1-4030" name="Death Company Marines with Boltguns [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="666c-c5cc-a8a8-40e7" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">An Honourable Death in Combat; Attached Leader</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d394-7bb0-5cae-4d47" name="Boltgun" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="95fa-1ad8-a407-4753" name="Astartes Chainsword" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="785b-52eb-48f1-4f34" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="b89a-0c0a-af7a-4dd8" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="c67b-8ef9-8b30-488d" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="f618-e46d-bc5b-45f3" name="Death Company Marines with Boltguns" hidden="false" targetId="b23c-a435-cbea-4121" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9d5e-f9ad-b1bf-4bbd" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="3a34-8731-f051-4661">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac22-3cbd-75aa-41a2" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe69-968b-e74a-47f1" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3a34-8731-f051-4661" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="3473-42a8-7aac-4a1e" name="Death Company Marines with Boltguns [Legends] (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dd79-5127-e6b0-4a90" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="acd4-07da-e2a7-42f2" name="Death Company Marines with Boltguns [Legends] (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">11</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8e3a-4da3-9720-40f2" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d11-d07d-7ba9-4f12" name="Sanguinary Priest on Bike [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="fde3-64de-9678-4ac6" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Blood Chalice; Leader; Sanguinary Priest</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b919-8902-abc0-4122" name="Sanguinary Priest on Bike [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="9891-db77-1f7c-47ab" name="Twin boltgun" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="31a1-1b6d-6ddd-41c5" name="Astartes Chainsword" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2050-e0d6-8f96-463e" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="09f0-9c1d-991a-4544" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="f9ec-5ae2-8881-41ed" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        <categoryLink id="9747-f5e1-a96b-4c94" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="7042-9534-82ee-47d7" name="Sanguinary Priest on Bike" hidden="false" targetId="15bb-510a-308c-4a85" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="da88-0bdc-4383-40fe" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="00e4-a190-2f2c-4832" name="Death Company Marines with Boltguns and Jump Packs [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="141b-876a-c793-4fbd" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Beserk Fury; Attached Leader</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="63e7-6823-d627-4ad0" name="Boltgun" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="22fe-20b4-d6ee-4f2e" name="Astartes Chainsword" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7291-d3df-b518-4251" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="4976-649a-3989-4364" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="fd27-7a58-7b6c-4658" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="c2c3-0322-6be8-4e0d" name="Death Company Marines with Boltguns and Jump Packs" hidden="false" targetId="951f-14b2-f938-47a0" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d3ae-bc93-cd89-43f0" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="639e-3366-bb2a-43c7">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3218-79b4-968f-4335" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2989-b5fe-1324-45da" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="639e-3366-bb2a-43c7" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="06fb-466c-e524-4fce" name="Death Company Marines with Boltguns and Jump Packs [Legends] (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0b14-f06f-9653-46df" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="5c8a-ce53-2da6-4af7" name="Death Company Marines with Boltguns and Jump Packs [Legends] (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">11</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6286-a5a8-b189-4e7a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

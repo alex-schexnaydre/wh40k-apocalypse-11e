@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b5f7-7d07-9d3b-1c24" name="Imperium - Grey Knights" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="b5f7-7d07-9d3b-1c24" name="Imperium - Grey Knights" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
     <selectionEntry id="b810-a479-8ab6-bf86" name="Brother-Captain" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -39,7 +39,9 @@
         <categoryLink id="b733-1052-6a43-8b3c" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="04da-1719-d4a1-9174" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="4179-84a0-4e33-296c" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="d351-2769-5662-45af" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="77d6-42e4-490e-4568" name="Terminator" hidden="false" targetId="fdbf-e3f2-29b1-461c" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2ed6-b809-43a4-5e0a" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="bdca-5a3a-b10a-a71f">
           <constraints>
@@ -105,7 +107,9 @@
         <categoryLink id="e974-7251-aca7-9734" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="a1a6-84aa-f5c5-f060" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="61e2-19e5-a07b-74b8" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="2378-4321-73cf-46c5" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="642e-1853-029f-46ef" name="Terminator" hidden="false" targetId="fdbf-e3f2-29b1-461c" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f897-9dfc-0fb3-8cea" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="4544-434d-e848-1940">
           <constraints>
@@ -126,7 +130,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4676-88b0-ab1c-db8d" name="Brotherhood Champion" hidden="false" collective="false" import="true" type="upgrade">
@@ -167,7 +171,8 @@
         <categoryLink id="e563-88c7-2b0b-a31d" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="6ed5-ca9d-67f2-5148" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="bcf0-ba22-c5a3-9d09" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="90c0-ec8d-9980-4b58" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="04bd-c4ce-455a-bb62" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="4a63-671e-18e2-2347">
           <constraints>
@@ -229,7 +234,9 @@
         <categoryLink id="8881-4e5c-27e7-b8b7" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="4b32-c7d3-03c7-b111" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="4297-88b9-6607-50a9" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="dc55-1152-423e-4601" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="3528-c2d7-6749-48b0" name="Terminator" hidden="false" targetId="fdbf-e3f2-29b1-461c" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4996-f728-7b8b-39df" name="Crozius Arcanum" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -395,7 +402,8 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         <categoryLink id="2d20-a6f5-e9f3-543f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="bba2-4a77-adc1-74ad" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="6f99-608a-7b34-0c8e" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="414d-de2f-7208-4a09" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="661c-58a4-7938-7dae" name="Techmarine Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -471,7 +479,8 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         <categoryLink id="9c26-2f0b-9365-1aba" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="bb68-72e9-29c7-fecb" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="3f6e-8264-0d22-31f8" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="ea45-11c6-318c-4b9b" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3319-8ddc-3dc1-916d" name="Black Blade of Antwyr " hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -554,7 +563,10 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         <categoryLink id="c103-db0f-f444-36dd" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="e39c-ae3d-8eba-0345" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="2a1f-6bee-7ee6-b0ee" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="23ac-6478-6b27-4182" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="f0ec-6675-c08f-4c5c" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="4d6e-d74b-8829-486c" name="Terminator" hidden="false" targetId="fdbf-e3f2-29b1-461c" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6e72-3132-837a-22c9" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="7017-73ff-4b5c-ded9">
           <constraints>
@@ -606,7 +618,9 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <categoryLinks>
         <categoryLink id="5ca4-2dc4-e52c-ab2c" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="6379-2d4a-3562-4a4a" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="3647-c35e-3dc6-4608" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="3e5d-97b4-213f-42fb" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="098b-5108-8eca-9e78" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="d0a8-0190-d9ae-76ee">
           <constraints>
@@ -682,7 +696,9 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         <categoryLink id="3a2d-48ad-b832-c2e6" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="f3ba-f38b-0cf0-0bd0" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="6c1c-d284-238f-c71d" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="f85d-51e9-e7f2-4207" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="77a4-b87d-02db-489e" name="Terminator" hidden="false" targetId="fdbf-e3f2-29b1-461c" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f8e8-d9f6-4bcc-ea07" name="Malleus Argyrum" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -757,7 +773,10 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         <categoryLink id="0ede-068e-495b-be8b" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="77b2-fbe6-b47a-6657" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="d18b-9493-40fc-0f86" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="2d22-4282-3ba1-4b10" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="32a0-0c36-d6db-4237" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="9f6d-92ca-d0cf-410f" name="Terminator" hidden="false" targetId="fdbf-e3f2-29b1-461c" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a5e7-7ebb-5533-7d4b" name="The Titansword" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -837,7 +856,10 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         <categoryLink id="2959-369e-2c23-1173" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="df06-ee76-afd2-0e2b" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="232e-87a5-0902-11bf" name="Battleline" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="2b96-b6ca-2521-4e81" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
+        <categoryLink id="6c9f-f3ae-a123-448f" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="5408-7226-8445-464b" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="e104-7986-6861-4f9f" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="932d-55e5-469d-c6b3">
           <modifiers>
@@ -877,7 +899,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c9db-5d7e-5ecf-c967" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1059,7 +1081,9 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         <categoryLink id="48f8-5f64-93b7-2291" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="7b50-6222-84e6-4088" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="dac1-25d4-5135-cc85" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="6d18-a036-4a57-4bb1" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="4c82-6a55-bf24-491a" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="de92-a2fe-ea25-f3a6" name="Ranged Weapon" hidden="false" collective="false" import="true">
           <constraints>
@@ -1093,7 +1117,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ed5a-ae42-1f05-e786" name="Interceptor Squad" hidden="false" collective="false" import="true" type="upgrade">
@@ -1110,7 +1134,10 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <categoryLinks>
         <categoryLink id="379f-2f33-9d77-6b07" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="3cf1-4c11-ddc8-5db0" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="42fa-42b1-400a-46b1" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="53f7-3a34-dae6-4e09" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="73d4-eaff-7261-4889" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7d04-ab24-9e26-afe1" name="Ranged Weapon" hidden="false" collective="false" import="true">
           <modifiers>
@@ -1150,7 +1177,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="75ae-2a67-6e18-ece3" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1168,7 +1195,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1297,7 +1324,9 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <categoryLinks>
         <categoryLink id="e290-d974-81e0-6fdd" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="844f-a59c-8eba-49b4" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="ab2f-5b60-727e-44ff" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="dd5e-f0fd-7e56-40ac" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5aa5-e537-1e53-facb" name="Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1360,7 +1389,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0f38-6149-d1bd-60c4" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1378,7 +1407,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1422,7 +1451,9 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       <categoryLinks>
         <categoryLink id="b339-dbc4-6e64-8310" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="b3f5-b11c-9409-c98d" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="07d1-4fdb-c6fa-4160" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="4394-c045-7ac3-4e42" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4445-a0bd-9436-be47" name="Purifying Flame" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1485,7 +1516,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6d98-5ba8-2b8d-70c1" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1503,7 +1534,7 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1605,6 +1636,419 @@ Additionally, add 1 to that model&apos;s hit rolls until the end of the turn.</c
       </selectionEntryGroups>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
+      </costs>
+    </selectionEntry>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <selectionEntry id="b2fb-816d-f749-488c" name="Brotherhood Librarian" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="bd2b-db52-889c-4a10" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Haloed in Soulfire (Psychic); Leader; Sanctic Hood</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="518a-a323-c67f-476e" name="Brotherhood Librarian (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="e1ae-7b18-38f3-49a4" name="Vortex of Doom" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="daf5-196f-a7bb-4151" name="Nemesis force weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="cce8-5932-9f3f-4e09" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="4d63-1d1d-a792-4574" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="9100-3012-28e1-4d22" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="1585-8e4e-464d-4c9a" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="4fb6-f607-ab4d-4211" name="Terminator" hidden="false" targetId="fdbf-e3f2-29b1-461c" primary="false"/>
+        <categoryLink id="f148-9c36-6ebf-442a" name="Brotherhood Librarian" hidden="false" targetId="7d7d-2d98-5247-4a5a" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7fc6-1da9-6a79-47b5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8fc6-b54f-f69a-4407" name="Grey Knights Thunderhawk Gunship" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="975f-96ff-1f84-4540" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Damaged: 1-10 Wounds Remaining; Aerial Assault; Thunderhawk cluster bombs</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5832-a7d0-6a91-4b96" name="Grey Knights Thunderhawk Gunship (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">20&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="5126-6a57-c826-4b14" name="Thunderhawk heavy cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9c09-75d2-0391-4cbd" name="Armored Hull" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c031-7f22-c995-4902" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="70a5-4b0f-f339-49c9" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
+        <categoryLink id="6949-aae5-b2b0-47d8" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="6c3c-5828-a7fc-44a8" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="1dd8-0cc5-a32f-4690" name="Grey Knights Thunderhawk Gunship" hidden="false" targetId="cef4-a3b1-110b-49b1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4850-6829-52c1-4134" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="40"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="497b-f05a-c719-49ae" name="Champion of Titan [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="40f6-c8ae-2098-4741" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Might of Titan; Leader</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b738-c28e-91e1-442f" name="Champion of Titan [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="58ba-d4ed-4f84-4aed" name="Gatling psilencer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x6</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="13c5-3542-0261-4690" name="Nemesis flail" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x5</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f55c-e4f3-9342-47f2" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="d796-798f-b7c6-4d95" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="0086-5655-30a4-466f" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="ac4d-7061-6138-427c" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="c2f2-057c-6215-42e1" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="671a-1338-f6b4-4121" name="Champion of Titan [Crucible]" hidden="false" targetId="e1fc-38ae-58a7-48e4" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="aa96-7c06-ff97-4d14" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4570-a41b-9a06-4871" name="Venerable Daemon Slayer [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="52fe-8c43-d885-44b4" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Guidance of the Ancients</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="48b7-4daa-d6e5-446b" name="Venerable Daemon Slayer [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="cae7-302a-d1c9-4c1f" name="Gatling psilencer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x6</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="192d-d248-c51b-419c" name="Nemesis flail" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x5</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ff2a-f509-4975-4f2d" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="db77-6c67-6fbd-4d06" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="237c-d70f-f7ce-4306" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="a2da-6c08-e326-4331" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="be5a-f3ad-c488-40b9" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        <categoryLink id="e93f-0620-26ee-44ef" name="Venerable Daemon Slayer [Crucible]" hidden="false" targetId="02aa-cc0b-8630-449c" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="805b-aa66-1d1d-47ab" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2858-1ca4-4abf-4e5c" name="Dreadknight Champion [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="2341-81ec-7f48-4858" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Surge of Wrath; Damaged: 1-4 Wounds Remaining</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c2b1-61b7-9e5c-495e" name="Dreadknight Champion [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="a65a-b6d4-d9b9-49e5" name="Gatling psilencer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x6</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e7d9-a748-bbd8-4cd1" name="Nemesis flail" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x5</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b778-8c39-1862-4f59" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="eb01-ac6b-17b0-4d7d" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="3806-64e8-9ceb-4938" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="7d96-bcaf-6786-4226" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="f9de-495a-50b7-45fe" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        <categoryLink id="14c2-c3fc-8b0e-4858" name="Dreadknight Champion [Crucible]" hidden="false" targetId="ccad-c20e-903b-4bd6" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="44c5-e50e-0620-4d37" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce9e-0211-e82d-45d4" name="Grey Knights Relic Razorback [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="74dc-ff88-c3ed-4f51" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Fire Support</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fba1-efd3-3e3b-42ae" name="Grey Knights Relic Razorback [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="cd91-4458-ef5c-4fda" name="Twin assault cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Devastating Wounds</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e477-9fc7-a5e2-4dc9" name="Armoured tracks" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="bebf-b737-0e3f-499b" name="Dedicated Transport" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
+        <categoryLink id="41af-7ff9-55ad-40c8" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="9820-df9a-5442-4f8d" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="e316-1d69-8106-43b2" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="0b8a-fa1b-b91f-4978" name="Grey Knights Relic Razorback" hidden="false" targetId="cba5-a8c7-ccd5-44d6" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="35e5-de26-3eca-4510" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6aa4-ba50-0739-409a" name="Grey Knights Dreadnought [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="bfd0-cf7b-f49d-463b" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Wisdom of the Ancients (Aura)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2468-b114-9769-4379" name="Grey Knights Dreadnought [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="d8d0-8d56-82be-4563" name="Assault cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Devastating Wounds</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="95ca-5e38-39e1-49bf" name="Nemesis doomglaive" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8005-5180-8a45-4838" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="41d3-82af-24ff-4d46" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="9697-f148-978d-4412" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="50d9-13bb-a5b4-4a43" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        <categoryLink id="84fe-6958-333b-4071" name="Grey Knights Dreadnought" hidden="false" targetId="c62c-74bb-955a-42dc" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3981-e38f-c9d4-4233" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

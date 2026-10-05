@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="440c-9567-ca71-f95b" name="Warhammer 40,000 Apocalypse 10th Edition" revision="20" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="440c-9567-ca71-f95b" name="Warhammer 40,000 Apocalypse 11th Edition" revision="25" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <publications>
     <publication id="8df9-0b3e-abea-3c15" name="Warhammer 40,000: Apocalypse" publicationDate="2019"/>
     <publication id="3434-17b5-4a22-f338" name="Fundapocalypse Custom Rules" shortName="Fundapocalypse Custom Rules" publisherUrl="https://github.com/normanthesquid/wh40k-fundapocalypse/wiki"/>
@@ -9,6 +9,7 @@
     <publication id="f066-1559-6a6d-ec22" name="Chamber 42 / Nathan Bishop" shortName="Chamber 42" publicationDate="June 25 2019" publisherUrl="https://chamber42.com"/>
     <publication id="3cec-4691-df0c-544c" name="Warhammer 40,000: Apocalypse 2007" publicationDate="2007"/>
     <publication id="d219-022c-3b23-cf52" name="Apocalypse Reload 2008" publicationDate="2008"/>
+    <publication id="1261-0680-10b6-4602" name="11th edition datasheets" shortName="11e" publicationDate="2026"/>
   </publications>
   <costTypes>
     <costType id="1466-da3f-0d27-dace" name=" PL" defaultCostLimit="-1" hidden="false"/>
@@ -105,6 +106,13 @@
     <categoryEntry id="1926-ea62-3b12-977a" name="Epic Hero" hidden="false"/>
     <categoryEntry id="21ec-008a-47d1-d863" name="Battleline" hidden="false"/>
     <categoryEntry id="f75d-9741-bdba-0bf6" name="Heresy" hidden="false"/>
+    <categoryEntry id="b4a0-6913-48c3-42c1" name="Walker" hidden="false"/>
+    <categoryEntry id="0b38-2089-28fe-4a7e" name="Towering" hidden="false"/>
+    <categoryEntry id="3f52-4395-f39d-4c62" name="Grenades" hidden="false"/>
+    <categoryEntry id="6d08-59e9-28ad-4b36" name="Tacticus" hidden="false"/>
+    <categoryEntry id="4617-924c-3abb-4e50" name="Phobos" hidden="false"/>
+    <categoryEntry id="fdce-f364-6f5c-4a53" name="Gravis" hidden="false"/>
+    <categoryEntry id="fdbf-e3f2-29b1-461c" name="Terminator" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="af5e-d646-110f-deb4" name="Detachment" hidden="false">

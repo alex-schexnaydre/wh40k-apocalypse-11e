@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f987-45fa-a3a1-9f1b" name="Leagues of Votann" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="f987-45fa-a3a1-9f1b" name="Leagues of Votann" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
     <selectionEntry id="09a2-55a0-4d86-8452" name="Brôkhyr Iron-master" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -442,7 +442,7 @@
         <entryLink import="true" name="Commander" hidden="false" id="735f-3dc5-3216-24ed" type="selectionEntry" targetId="7347-5716-355f-9165"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a7b7-457e-3d00-1107" name="Hearthkyn Warriors" hidden="false" collective="false" import="true" type="upgrade">
@@ -462,7 +462,9 @@
         <categoryLink id="d840-b8d1-6e7d-d46e" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="b022-ffa4-16cc-451a" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="1229-762a-7dbf-8411" name="Battleline" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="e3d0-cca4-8fb7-48f2" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
+        <categoryLink id="ced6-9c59-8954-4573" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1a67-d528-5ab9-136f" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -483,7 +485,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -620,7 +622,8 @@ At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN
         <categoryLink id="59c1-d3a2-b06f-99b9" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="5b85-a9fd-bd04-5430" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="140a-37db-b861-0dcf" name="Dedicated Transport" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="83fd-604a-5e9f-4f48" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d564-5ef5-7e26-4c7d" name="Twin Bolt Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -752,7 +755,7 @@ At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1239-13db-4f70-6c8d" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1037,7 +1040,7 @@ At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1347,7 +1350,8 @@ At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN
         <categoryLink id="542b-6eba-1ef5-4d3d" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="2c31-d4e0-7738-1173" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="e6cc-5d65-7ea9-8ae3" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="2589-1c16-5c32-41b2" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6d61-f26e-88fa-4b2d" name="Magna-Coil Autocannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1417,7 +1421,7 @@ At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0da1-4d5b-c7c1-48e3" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1435,7 +1439,7 @@ At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1512,6 +1516,938 @@ At the start of the DECLARE BATTLE FORMATIONS step, you can select one HEARTHKYN
       </selectionEntryGroups>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
+    </selectionEntry>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <selectionEntry id="f4e1-b8f1-3f7f-48b0" name="Cthonian Beserks" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="f7fb-3437-fca4-4160" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Cyberstimms; Subterranean Explosives</characteristic>
+          </characteristics>
+        </profile>
+
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="0cbd-940c-56ac-49ca" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="ab6e-71c5-4347-4c05" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="6c12-011e-5df2-4459" name="Cthonian Beserks" hidden="false" targetId="21c5-955d-8d51-4ce6" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4607-f34c-227a-4bc7" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="9e05-07f1-8af6-4020">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f65-1a86-855a-484c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10b9-d60c-ae2e-4901" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9e05-07f1-8af6-4020" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="4223-ec0a-0fdd-46e8" name="Cthonian Beserks (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a0af-c8a2-9229-4ed6" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="63cf-aab9-48d5-44e6" name="Cthonian Beserks (10 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8b9b-fc57-2ab6-45bd" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="309d-1950-9a57-4baa" name="Hernkyn Yaegirs" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="d98b-40b7-27c7-411a" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Pragmatic Hunters; Shroudwërke Talismans</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ac40-76cf-4710-4d2f" name="Hernkyn Yaegirs (9 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">5</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="2ea1-84eb-7fcf-49c1" name="Bolt shotgun" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5364-2081-11fa-4710" name="Plasma knife" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c6c6-64d0-79df-4769" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="652e-8d62-b33c-4fcf" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="f938-cdd8-b91f-4931" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="39ab-c5a2-f5c1-4f7b" name="Hernkyn Yaegirs" hidden="false" targetId="cb28-036e-cb22-4c72" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2a37-6ef5-caa6-49ab" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b52b-1ee2-a2c8-46d1" name="Buri Aegnirssen" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="fb4c-23fb-4adb-4346" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Grudge-fuelled Fortitude; Unhinged Vengeance</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3a87-fa87-a59d-4cd6" name="Buri Aegnirssen (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="7222-a957-14b4-46a2" name="Autoch-pattern bolt pistol" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Pistol</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4280-eda8-6674-4d8f" name="➤ Bane - sweep" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x5</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="44ec-0bd3-e55d-40c4" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="1474-bdfa-8774-4f99" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="952d-eddd-1237-4284" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="bbf1-dbbd-4537-46dd" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="247a-a4eb-f6db-4625" name="Buri Aegnirssen" hidden="false" targetId="904c-e477-172f-4f09" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f5f6-bae1-0994-41e0" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c2fd-f687-55c4-4e29" name="Memnyr Strategist" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="0dbe-2263-03c0-4222" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Computational Mastermind; Predictive Guidance; Leader</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5c64-a1ae-d7b3-4bf9" name="Memnyr Strategist (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="5cef-5f81-9423-4db3" name="Autoch-pattern bolt pistol" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Pistol</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="be6c-1bec-fede-4abf" name="Close combat weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d9d3-ea9a-aff9-4fce" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="bc80-7c6a-0e32-4a7d" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="1700-8cf0-1d5c-4887" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="8120-e31e-f578-421a" name="Memnyr Strategist" hidden="false" targetId="443c-94e2-88ec-41f5" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bf65-60b0-98e1-4bb4" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d7f9-89f3-71c6-4abd" name="Arkanyst Evaluator" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="5495-ac0f-9bda-4a7a" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Science Guild Support; Resource Transmutation</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7ca9-b68c-aa2f-4d86" name="Arkanyst Evaluator (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="96ad-1c27-e542-4f1b" name="➤ Transmatter inverter - half charge" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b7ca-383c-68c7-4ba8" name="Close combat weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="eff7-53c8-19e7-449c" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="a8fe-80c1-b61e-45fc" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="f52f-cac6-c3d3-4049" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="4e7e-1eff-11e2-48f7" name="Arkanyst Evaluator" hidden="false" targetId="dd9e-af27-a69a-4e80" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="14b1-ddb1-2a89-401f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1177-b294-37c2-4e86" name="Kapricus Defenders" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="cbb7-63c9-b633-4ffc" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Opportunistic Manoeuvre; Smoke Launcher</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bec9-2b36-0b03-40d5" name="HYLas rotary cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="37c5-4a30-93b4-45c4" name="Armoured hull" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5544-21ca-950d-4dd7" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="dab7-480a-299f-4b04" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="d1fa-7978-d9cd-458a" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="e930-51a2-edab-4e05" name="Kapricus Defenders" hidden="false" targetId="f509-2b9e-0ebe-47f0" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a7f5-8ff9-ec98-4820" name="1 - 3 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="8f75-9270-6f1d-4eee">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdd7-41e5-b37e-490f" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d8e-d977-3e22-4c06" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8f75-9270-6f1d-4eee" name="01 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="b8e8-f10b-12ba-41c7" name="Kapricus Defenders (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="960f-3889-00aa-457e" name="03 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="7cc2-abfd-e439-49c4" name="Kapricus Defenders (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5ef1-4377-13ae-449b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3ad9-8893-acf8-40a3" name="Kapricus Carrier" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="4d30-009b-91b1-40ff" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Scanner Uplinks; Smoke Launcher</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e6aa-28fd-c89d-45c5" name="Kapricus Carrier (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="ad6e-efb5-bd22-41f5" name="Twin magna-coil autocannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="92d5-90a0-15fb-4eee" name="Armoured hull" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="6a23-f32b-faf8-4143" name="Dedicated Transport" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
+        <categoryLink id="620e-8750-bcdc-4e91" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="b918-e656-0edf-4ec1" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="45ac-afa9-60b2-4532" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="9ae3-b7d2-bb28-45f3" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="8b2d-ea4e-95fb-419a" name="Kapricus Carrier" hidden="false" targetId="6af3-54db-5de3-4300" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9e14-05d4-6dd0-4a4a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="78d6-14ee-8e9a-4c43" name="Ironkin Steeljacks with Heavy Volkanite Disintegrators" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="9400-dc46-2ac1-45d1" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Purge Response</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a9eb-d982-64c5-4d11" name="Heavy volkanite disintegrator" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Devastating Wounds</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a60e-093a-d95d-4a71" name="Plasma knife" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ae32-4e65-ac11-47fa" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="7969-f636-4985-4a49" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="90d3-55d1-0c7b-498e" name="Ironkin Steeljacks with Heavy Volkanite Disintegrators" hidden="false" targetId="e8fb-ca6f-51e2-4fc6" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="28f2-7f89-64c2-4266" name="1 - 3 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="6cc4-a420-a687-4d18">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1a6-ce70-008b-495d" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af39-92db-09d0-404e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6cc4-a420-a687-4d18" name="01 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f62e-cb2e-cd2c-45aa" name="Ironkin Steeljacks with Heavy Volkanite Disintegrators (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7345-1b51-8752-4d29" name="03 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="7ad2-4864-a0ff-41c4" name="Ironkin Steeljacks with Heavy Volkanite Disintegrators (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f315-9873-ec1c-477a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1748-ff04-dbaf-46cd" name="Ironkin Steeljacks with Melee Weapons" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="4253-7abe-3a39-4c24" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Merciless Eradication</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="888c-5e15-5e4f-4d33" name="Autoch-pattern bolter" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Pistol</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="33b8-3647-ca4e-430e" name="Plasma sword" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3be8-b502-5059-4d06" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="474a-351e-0497-4eb5" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="904c-d0b3-34e7-42cf" name="Ironkin Steeljacks with Melee Weapons" hidden="false" targetId="492b-5dd3-9d1b-4e91" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="12bd-0943-4f37-43c7" name="2 - 5 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="b16f-f9f0-1501-483c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="236d-4ed2-67e9-438b" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c877-18be-a2fd-4d63" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b16f-f9f0-1501-483c" name="02 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="c522-2615-8b0d-4e97" name="Ironkin Steeljacks with Melee Weapons (2 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f275-b320-23cb-40e0" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="eea0-5711-2099-4ccb" name="Ironkin Steeljacks with Melee Weapons (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">9</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="18ba-c1ce-3437-46ac" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ad6-ffa1-0c91-40dc" name="Cthonian Earthshakers" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="394b-0965-fc7d-426a" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Geomantic Hunters; Destabilising Quakes</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ecc4-3f13-35d0-4796" name="Breacher ordnance" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast, Indirect Fire</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e71c-e5a7-f622-4007" name="Plasma picks" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4ae6-2fe4-a0cb-4414" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="3305-def2-748d-44a0" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="f09e-0317-ce58-4666" name="Cthonian Earthshakers" hidden="false" targetId="cd69-86a0-0971-4037" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="35dc-fc79-a5ba-4b74" name="1 - 3 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="249c-d608-2d77-4d6d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b69-496b-9c1f-4bcb" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b9e-d678-d53d-4a88" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="249c-d608-2d77-4d6d" name="01 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="cc3b-f1e9-2671-4cdf" name="Cthonian Earthshakers (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">4&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1e40-d7c9-f246-4d39" name="03 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="72f3-be1d-1109-460e" name="Cthonian Earthshakers (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">4&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">7+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="61a3-855e-e372-4341" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b00-fd40-6623-409d" name="Living Ancestor [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="2e92-90d0-0c55-4bad" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Grimnyr's Regard</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b217-16a6-f877-42a7" name="Living Ancestor [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="24f6-0860-d2c8-469f" name="➤ Ancestral Wrath - focused witchfire" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Hazardous</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="70b9-9ac2-adf3-45c2" name="Darkstar axe" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="70b2-fc87-3b0f-43c3" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="e129-8f34-c146-4ce0" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="d351-8993-ce8e-4e54" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="abfd-c1e0-e448-4e2b" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="b1b7-b0df-b775-4101" name="Living Ancestor [Crucible]" hidden="false" targetId="8bac-a83c-fa9c-47f5" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e12b-c1e8-f1cd-4d01" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="663d-51b9-a319-4dae" name="Kinhost Commander [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="e22a-9b8e-347a-4577" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Seized Opportunity</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f1ed-aba3-d0da-4795" name="Kinhost Commander [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="dafa-d832-24bb-46f5" name="➤ Ancestral Wrath - focused witchfire" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Hazardous</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="feac-761a-94b4-4fb6" name="Darkstar axe" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d7ea-002b-18cb-47a6" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="95ab-43b5-574a-4ab2" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="6a87-908f-7c66-4f0c" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="2869-f71f-bf61-481c" name="Kinhost Commander [Crucible]" hidden="false" targetId="8c1e-9843-3ea9-4045" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1782-223e-95ad-407c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4766-0ac0-aa34-4e8e" name="Steeljack Elder [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="612d-4bc1-f46a-41b1" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Forgewrought Skill</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5fe3-e642-a602-44a5" name="Steeljack Elder [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="22c1-2389-61fb-45e7" name="➤ Ancestral Wrath - focused witchfire" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Hazardous</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9c38-9e56-3e5d-4814" name="Darkstar axe" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3007-c2bc-72a0-48b7" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="3483-15da-7fa7-4156" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="278a-9e77-acf9-4a7c" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="3685-8b50-5002-4b31" name="Steeljack Elder [Crucible]" hidden="false" targetId="bd60-1c12-8429-4798" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1e5c-19e5-fa8d-41cf" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c1e-95fc-1625-48d9" name="Berehk Stornbröw" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="f3b1-1a56-d787-4adc" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Break the Foe; Relentless Avalanche; Leader</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="af35-faa0-14b0-48ec" name="Berehk Stornbröw (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="4fcb-5258-98ef-48d4" name="➤ Kromlôk's Revenge - plasma sweeps" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3159-cc9e-3d90-4766" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="7a8a-f5ae-3244-4de5" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="e042-7428-7d8c-4eca" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="4e87-cd47-e1d2-4611" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="c90d-51d3-1b8f-4cc7" name="Berehk Stornbröw" hidden="false" targetId="7270-78c2-710e-4c5c" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2b96-531e-efeb-4571" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

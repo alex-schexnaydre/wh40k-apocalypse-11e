@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4bc5-da27-91a1-e275" name="Imperium - Imperial Knights" revision="6" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="4bc5-da27-91a1-e275" name="Imperium - Imperial Knights" revision="7" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="a6fe-fc09-5627-ff05" name="Faction: Imperial Knights" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
     <categoryEntry id="d37d-c3f9-f400-4093" name="Faction: &lt;Questor Allegiance&gt;" publicationId="8df9-0b3e-abea-3c15" hidden="false"/>
@@ -2171,7 +2171,9 @@ All weapons equipped by this model have [SUSTAINED HITS 1].</characteristic>
         <categoryLink id="3355-a6fb-8a5b-f4c4" name="Faction: Freeblade" hidden="false" targetId="fb8e-ba09-4af0-5e91" primary="false"/>
         <categoryLink id="c0e7-0084-bbb7-ba62" name="Faction: Questor Imperialis" hidden="false" targetId="37dc-8b76-4f93-f016" primary="false"/>
         <categoryLink id="0a08-e7c4-5df7-05e2" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="e9c8-2f4e-9df6-447f" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="cbdb-6780-213a-4601" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        </categoryLinks>
       <entryLinks>
         <entryLink id="b36c-69a9-8659-ed50" name="Freedom&apos;s Hand" hidden="false" collective="false" import="true" targetId="fde9-5224-30af-d963" type="selectionEntry">
           <constraints>
@@ -2195,7 +2197,7 @@ All weapons equipped by this model have [SUSTAINED HITS 1].</characteristic>
         <entryLink id="f67e-17de-6cd7-fd91" name="Warmaster" hidden="false" collective="false" import="true" targetId="1509-e8a6-2816-95d2" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="66f8-0fed-77e2-896e" name="Knight Crusader" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">

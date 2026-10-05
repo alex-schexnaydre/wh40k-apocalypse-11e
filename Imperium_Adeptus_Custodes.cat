@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bf41-54b8-a7f3-8a9f" name="Imperium - Adeptus Custodes" revision="5" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="bf41-54b8-a7f3-8a9f" name="Imperium - Adeptus Custodes" revision="10" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="a70b-b27c-4926-d99c" name="Faction: Adeptus Custodes" hidden="false"/>
     <categoryEntry id="e6c3-ba23-fdf0-2498" name="Captain-General Trajann Valoris" hidden="false"/>
@@ -29,6 +29,10 @@
     <categoryEntry id="6232-30be-371f-0538" name="Anathema Psykana" hidden="false"/>
     <categoryEntry id="3406-ba3e-88bc-198f" name="Knight Centura" hidden="false"/>
     <categoryEntry id="2a19-d723-19bb-9baa" name="Ares Gunship" hidden="false"/>
+    <categoryEntry id="751d-8c1b-5fce-493d" name="Custodian Guard with Adrasite and Pyrithite spears" hidden="false"/>
+    <categoryEntry id="6c73-1629-185b-4306" name="Guardian of the Throne [Crucible]" hidden="false"/>
+    <categoryEntry id="d69e-7851-23a5-4068" name="Null Maiden [Crucible]" hidden="false"/>
+    <categoryEntry id="af71-b548-6fdb-4def" name="Kataphraktoi Exemplar [Crucible]" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="4723-62f6-a2f8-2990" name="Trajann Valoris" hidden="false" collective="false" import="true" type="unit">
@@ -137,13 +141,14 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <categoryLink id="27f5-22a3-20c4-daba" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="7da9-dbf9-1996-0e0a" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="9c8f-0799-e6bc-ec73" name="Shield Captain" hidden="false" targetId="af37-16cc-82fd-38b6" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="3f5c-7149-a93a-4934" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        </categoryLinks>
       <entryLinks>
         <entryLink id="94f3-a644-48d8-46db" name="Relics of Terra" hidden="false" collective="false" import="true" targetId="2376-49ec-e176-a257" type="selectionEntry"/>
         <entryLink id="dcf2-c9d0-bc0a-dffe" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="265d-5a70-e8ba-b3d1" name="Shield Captain in Allarus Terminator Armour" hidden="false" collective="false" import="true" type="unit">
@@ -186,7 +191,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="d1e7-89f4-0afe-09c3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="142f-6af3-6633-5284" name="Shield Captain on Dawneagle Jetbike" hidden="false" collective="false" import="true" type="unit">
@@ -221,7 +226,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <categoryLink id="dd20-ac24-0eed-b4c7" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="11d1-7c05-7c44-22fe" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="adea-bb9a-bcb2-4eb9" name="Shield Captain" hidden="false" targetId="af37-16cc-82fd-38b6" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="b42c-1179-34dd-4ba7" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="faad-31ce-255e-ffc5" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="bd50-2d8b-e1d4-86b6">
           <constraints>
@@ -239,7 +245,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="2334-86e5-2b11-edf4" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d20-9ff9-5cb6-b9b9" name="Custodian Guard" hidden="false" collective="false" import="true" type="unit">
@@ -275,7 +281,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <categoryLink id="5dee-9144-93b9-2b0e" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="b14d-0d78-186f-d743" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="d862-ea18-7344-b620" name="Custodian Guard" hidden="false" targetId="c60e-fb1a-958f-b85d" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="d65a-b44a-d7c2-47af" name="Battleline" hidden="false" targetId="21ec-008a-47d1-d863" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bfa1-c28d-5865-d565" name="Storm Shields" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -317,7 +324,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <categoryLink id="bd09-cd1b-b8b6-0a56" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="eae4-2bad-313c-8dda" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="2f65-9278-336f-c685" name="Allarus Custodians" hidden="false" targetId="a4aa-4425-bb3f-a98b" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="476f-2554-f293-4877" name="Terminator" hidden="false" targetId="8d1e-d3ac-9bac-56e2" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="361c-115b-9c6d-7504" name="3 - 6 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="9a58-e7b5-3a9e-2ec2">
           <constraints>
@@ -340,7 +348,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9a58-e7b5-3a9e-2ec2" name="3 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -358,7 +366,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -486,7 +494,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <categoryLink id="0022-e662-a796-d8c6" name="Dreadnought" hidden="false" targetId="5f52-c8e5-1f2f-5161" primary="false"/>
         <categoryLink id="f4f9-4e97-677e-8016" name="Venerable Dreadnought" hidden="false" targetId="3261-8061-cd1a-034b" primary="false"/>
         <categoryLink id="5ca0-7dc0-7f21-0a4f" name="Contemptor Dreadnought" hidden="false" targetId="bdfe-cd0f-9cf5-cfcb" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="4de9-6ba9-38f8-4b05" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ce3f-6764-9ab5-2886" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="5181-5109-988f-f0e9">
           <constraints>
@@ -620,7 +629,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <categoryLink id="8d82-2c88-0fbb-32b4" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="7aea-b00d-df6f-069e" name="Dreadnought" hidden="false" targetId="5f52-c8e5-1f2f-5161" primary="false"/>
         <categoryLink id="18e2-5e8c-c2d5-52b8" name="Contemptor-Achillus Dreadnought" hidden="false" targetId="d7e4-bc48-57d1-1f79" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="3a1b-8415-fde6-481f" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bf7f-8d40-8cc2-9d1a" name="Achillus Dreadspear" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -798,7 +808,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <categoryLink id="ee69-52f5-c230-a2fa" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="c975-9830-2bc5-bff5" name="Dreadnought" hidden="false" targetId="5f52-c8e5-1f2f-5161" primary="false"/>
         <categoryLink id="2588-12e7-8453-fb1c" name="Telemon Heavy Dreadnought" hidden="false" targetId="cdbf-186a-2d90-1ff6" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="74c2-5968-b8b3-4153" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="94b9-b97a-2603-d4d2" name="Spiculus Bolt Launcher" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -974,7 +985,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <categoryLink id="1bec-4431-b945-2aa1" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="9609-b1f2-f107-cdd1" name="Dreadnought" hidden="false" targetId="5f52-c8e5-1f2f-5161" primary="false"/>
         <categoryLink id="647d-e0c7-e8da-f03f" name="Contemptor-Galatus Dreadnought" hidden="false" targetId="de30-01a7-6b6e-b224" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="5275-a99c-b216-4755" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ef02-2dca-6571-de2b" name="Galatus Warblade" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1088,7 +1100,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="59a1-1510-48dc-ef2e" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1106,7 +1118,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="21"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1267,7 +1279,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <categoryLink id="4a1d-12d3-516b-6956" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="2b42-f136-4f64-7149" name="Agamatus Custodians" hidden="false" targetId="e2be-4700-de43-419a" primary="false"/>
         <categoryLink id="6faf-e255-d025-1ec9" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="e7c0-fcee-9b42-4856" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="1ac9-2bdf-57e9-50d6" name="3 -6 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="48c0-6470-1eaf-de39">
           <constraints>
@@ -1290,7 +1303,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="af01-3220-6c98-1188" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1308,7 +1321,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1508,7 +1521,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f798-41f1-015b-7f07" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1533,7 +1546,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1894,7 +1907,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <categoryLink id="5ab3-0a05-3e93-ee2b" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="4e75-2b44-0688-b9d5" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="879b-daa0-65d9-75fa" name="Blade Champion" hidden="false" targetId="8891-662c-b052-6e2e" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="cd58-3a5c-1fcb-4bf4" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        </categoryLinks>
       <entryLinks>
         <entryLink id="fc1b-4812-248e-7959" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="44b3-fb8e-882f-659b" name="Vaultswords" hidden="false" collective="false" import="true" targetId="357a-109c-069d-7869" type="selectionEntry"/>
@@ -1980,7 +1994,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4fbb-b9be-0fb4-e223" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1998,7 +2012,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2058,7 +2072,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ba63-d9ca-26a7-d305" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2076,7 +2090,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2137,7 +2151,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7aee-d8ed-42ad-637d" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2155,7 +2169,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2206,7 +2220,8 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <categoryLink id="a978-acc2-c3f3-8352" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="87e4-a491-f874-4c9e" name="Shield Captain" hidden="false" targetId="af37-16cc-82fd-38b6" primary="false"/>
         <categoryLink id="f29d-2193-753e-25b5" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="9a1c-7cee-dc17-4a11" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        </categoryLinks>
       <entryLinks>
         <entryLink id="f167-b65d-02fa-017d" name="Relics of Terra" hidden="false" collective="false" import="true" targetId="2376-49ec-e176-a257" type="selectionEntry"/>
         <entryLink id="ca96-0617-0025-75ed" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
@@ -2413,7 +2428,7 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
         <entryLink id="efc9-1240-c6b2-6f89" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7805-1a62-2e62-8131" name="Ares Gunship" hidden="false" collective="false" import="true" type="unit">
@@ -2506,6 +2521,226 @@ throw for this unit, irrespective of the size of the blast marker.</characterist
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="29"/>
+      </costs>
+    </selectionEntry>
+    
+    
+    
+    
+    
+    
+    
+    
+    <selectionEntry id="82c0-1799-0c1e-48ad" name="Custodian Guard with Adrasite and Pyrithite spears" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="f7da-abe9-dfaf-442c" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Stand Vigil; No Foe Shall Stand</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6d8f-fc9d-91e2-4b97" name="Custodian Guard with Adrasite and Pyrithite spears (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">7</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="5d0a-8379-6996-42d8" name="Adrasite spear" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d876-222e-518a-4872" name="Adrasite spear" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f81c-8a39-3bb8-4c3e" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="d8a4-f9db-167e-45ac" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="24f8-e2b1-5933-489c" name="Custodian Guard with Adrasite and Pyrithite spears" hidden="false" targetId="751d-8c1b-5fce-493d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="46cf-d24a-6954-46f7" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2d25-274d-6d5f-430a" name="Guardian of the Throne [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="6d4f-122d-24c9-4c25" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Ka'tah Master</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="adea-9aa4-d3ca-43a2" name="Guardian of the Throne [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="98e0-613b-5b33-4bc4" name="Balistus grenade launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5566-6e59-0f89-4ad7" name="➤ Vaultswords - Hurricanis" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="63c5-4028-db38-4fa0" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="9f07-ac10-673a-45d6" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="2e1e-ee15-ea60-4e46" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="86c6-6a0c-93ef-44a0" name="Guardian of the Throne [Crucible]" hidden="false" targetId="6c73-1629-185b-4306" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="49b2-c586-8f5a-4c6a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8e92-af40-6ec3-49bb" name="Null Maiden [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="6a7a-4833-9fc3-4883" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Daughter of the Abyss</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="85c2-b9b6-ec24-4cfa" name="Null Maiden [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="c7a7-25ac-d8bc-4eb6" name="Balistus grenade launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="13ac-3eac-29a4-410a" name="➤ Vaultswords - Hurricanis" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2990-a4cd-c93e-4b47" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="35b3-1d84-847c-4177" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="de90-8eef-f369-4135" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="0655-928f-5b04-4a1e" name="Null Maiden [Crucible]" hidden="false" targetId="d69e-7851-23a5-4068" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9558-3ed8-8176-4fb6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="413c-f1a8-ad7f-4e35" name="Kataphraktoi Exemplar [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="c9e7-304b-c200-4fb0" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Fiend Slayer</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1f94-f5d9-478d-46b4" name="Kataphraktoi Exemplar [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="17ae-a84f-fb95-496a" name="Balistus grenade launcher" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="09d7-e754-81dd-4a59" name="➤ Vaultswords - Hurricanis" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c166-dde0-c432-417e" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="c80b-a854-77eb-4325" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="99d3-8423-0db6-4e31" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        <categoryLink id="f978-9136-88af-436a" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="7ced-64b9-e017-430d" name="Kataphraktoi Exemplar [Crucible]" hidden="false" targetId="af71-b548-6fdb-4def" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e771-7d25-b68b-41ec" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a344-676a-c53b-5e5b" name="Chaos - Chaos Space Marines" revision="11" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="a344-676a-c53b-5e5b" name="Chaos - Chaos Space Marines" revision="17" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="9ce0-92a4-75e9-c09f" name="Faction: Skulltakers" hidden="false"/>
     <categoryEntry id="77e2-0635-9df5-4f43" name="Zhufor the Impaler" hidden="false"/>
@@ -50,6 +50,36 @@
     <categoryEntry id="9a9d-5c54-ec18-a714" name="Cultists" hidden="false"/>
     <categoryEntry id="6af1-8271-f4e2-8b39" name="Cultists Mob" hidden="false"/>
     <categoryEntry id="6e3e-74fc-dcfd-4f5e" name="Accursed Cultists" hidden="false"/>
+    <categoryEntry id="5fe8-3ff6-76ca-49e8" name="Traitor Guardsmen Squad" hidden="false"/>
+    <categoryEntry id="af69-ab12-a512-4d27" name="Fellgor Beastmen" hidden="false"/>
+    <categoryEntry id="292c-4018-edb9-4d59" name="Nemesis Claw" hidden="false"/>
+    <categoryEntry id="235f-d77a-390f-45fa" name="Masters of the Maelstrom" hidden="false"/>
+    <categoryEntry id="5b5e-1828-000c-447d" name="Red Corsairs Raiders" hidden="false"/>
+    <categoryEntry id="e3dd-7605-e2d8-4eb9" name="Heretic Astartes Daemon Prince" hidden="false"/>
+    <categoryEntry id="10ca-87dd-0cf8-48e7" name="Heretic Astartes Daemon Prince with wings" hidden="false"/>
+    <categoryEntry id="daf5-366f-da8e-4e28" name="Chaos Lord in Terminator Armour" hidden="false"/>
+    <categoryEntry id="0334-8273-aed4-4b27" name="Sorcerer in Terminator Armour" hidden="false"/>
+    <categoryEntry id="4d6c-27ff-52e1-412c" name="Red Corsairs Reave-captain" hidden="false"/>
+    <categoryEntry id="a500-18b7-78ee-4156" name="Exalted Champion [Crucible]" hidden="false"/>
+    <categoryEntry id="c8dc-73bf-9c21-4fbc" name="Sorcerous Champion [Crucible]" hidden="false"/>
+    <categoryEntry id="d949-7787-5bd6-490b" name="Soul Forge Tyrant [Crucible]" hidden="false"/>
+    <categoryEntry id="19e6-b3ca-1ea1-4fc3" name="Kravek Morne" hidden="false"/>
+    <categoryEntry id="9ad0-784a-5e62-46bd" name="Sorcerer on Disc of Tzeentch" hidden="false"/>
+    <categoryEntry id="a3c6-5ce3-9830-461a" name="Sorcerer on Palanquin of Nurgle" hidden="false"/>
+    <categoryEntry id="0183-3405-a3b6-43c1" name="Chaos Lord on Disc of Tzeentch" hidden="false"/>
+    <categoryEntry id="aed0-507e-69d8-47d4" name="Chaos Lord on Palanquin of Nurgle" hidden="false"/>
+    <categoryEntry id="8b58-fba1-8fec-4933" name="Chaos Lord on Juggernaut" hidden="false"/>
+    <categoryEntry id="6295-9091-0984-412e" name="Chaos Lord on Steed of Slaanesh" hidden="false"/>
+    <categoryEntry id="ea7a-9d41-7733-44d7" name="Sorcerer on Steed of Slaanesh" hidden="false"/>
+    <categoryEntry id="d035-b981-0504-4eaf" name="Renegade Enforcer" hidden="false"/>
+    <categoryEntry id="6ff9-9117-c6e8-4bc3" name="Renegade Heavy Weapons Squad" hidden="false"/>
+    <categoryEntry id="a620-fa67-95fb-49eb" name="Renegade Plague Ogryns" hidden="false"/>
+    <categoryEntry id="6283-9c43-fb5e-4c62" name="Renegade Ogryn Brutes" hidden="false"/>
+    <categoryEntry id="99a2-dc2a-7cd3-4b29" name="Sorcerer on Bike" hidden="false"/>
+    <categoryEntry id="8b75-0f83-8573-4478" name="Renegade Ogryn Beast Handler" hidden="false"/>
+    <categoryEntry id="0314-6c92-d9a9-450d" name="Chaos Lord on Bike" hidden="false"/>
+    <categoryEntry id="8133-7245-c081-461e" name="Chaos Deimos Predator" hidden="false"/>
+    <categoryEntry id="78e3-ca44-20b4-42b8" name="Cultist Mob with Firearms" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="c206-bec8-fd54-b551" name="Cultists of the Abyss" hidden="false" collective="false" import="true" type="unit">
@@ -152,6 +182,1911 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
+      </costs>
+    </selectionEntry>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <selectionEntry id="d5af-06cd-09f4-4c1c" name="Heretic Astartes Daemon Prince" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="b091-4dff-c1d7-4fb7" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Dark Blessing (Aura); Ascended Daemon; Lord of Chaos</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8d14-f3ae-e7c7-4212" name="Heretic Astartes Daemon Prince (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="8ca8-4267-dd4c-4ae6" name="Infernal cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c531-6715-6c10-49a9" name="➤ Hellforged weapons - sweep" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x7</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9df4-dac3-5f3e-4cd9" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="d246-5c1f-5770-4b04" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="555f-5a06-bc5b-4bce" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="0f06-abe7-e291-49a0" name="Heretic Astartes Daemon Prince" hidden="false" targetId="e3dd-7605-e2d8-4eb9" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bae8-43e1-3df4-4a1a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="038e-445e-2414-40af" name="Heretic Astartes Daemon Prince with wings" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="e7bd-5469-6e3e-4818" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Flying Horror; Daemonic Destruction</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7465-ae97-b53b-4d1b" name="Heretic Astartes Daemon Prince with wings (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="c9d2-7c0a-70eb-4e52" name="Infernal cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="182a-f11f-0584-425a" name="➤ Hellforged weapons - sweep" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x7</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ddbd-0f78-5b53-42cd" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="73d9-5a8e-323a-4c1a" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="6bf5-5078-9efd-44d4" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="2956-576c-f632-40d6" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="40bb-2247-b073-48e0" name="Heretic Astartes Daemon Prince with wings" hidden="false" targetId="10ca-87dd-0cf8-48e7" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4161-fe6e-e0c9-44b3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1aac-279d-78e8-4fb5" name="Chaos Lord in Terminator Armour" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="602e-c77b-39fd-4500" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Formidably Resilient</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="89d3-da89-e476-462a" name="Chaos Lord in Terminator Armour (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="eb9d-8a60-a7b3-43c4" name="Combi-bolter" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7ed7-3ad4-14d7-4f99" name="Paired accursed weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ad64-f1cb-43e0-4b98" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="ad94-f46c-6527-48ed" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="1e4d-11d6-7b0e-4326" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="c9d1-6fdf-ef0f-437c" name="Terminator" hidden="false" targetId="fdbf-e3f2-29b1-461c" primary="false"/>
+        <categoryLink id="90d5-ea36-dc69-489a" name="Chaos Lord in Terminator Armour" hidden="false" targetId="daf5-366f-da8e-4e28" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6c78-08ab-d138-42b1" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b211-6749-632e-4d13" name="Sorcerer in Terminator Armour" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="b56a-ca56-d556-4f50" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Warptime (Psychic); Death Hex (Psychic); Chaos Familiar</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8b30-ced5-179a-4086" name="Sorcerer in Terminator Armour (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="d064-b58d-5a30-4348" name="➤ Infernal Gaze - witchfire" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1d98-9166-02c0-4dc5" name="Force weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2733-7c41-0298-4080" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="824c-6ca5-1875-492a" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="09ed-f204-bac1-4914" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="8c3d-1a7f-27c5-4503" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="9543-226b-e957-4600" name="Terminator" hidden="false" targetId="fdbf-e3f2-29b1-461c" primary="false"/>
+        <categoryLink id="5647-c91d-d7b6-4de5" name="Sorcerer in Terminator Armour" hidden="false" targetId="0334-8273-aed4-4b27" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c1b0-55b7-a1f3-49f7" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8c9e-52a6-8460-4ca4" name="Traitor Guardsmen Squad" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="f929-7d9e-ae93-463f" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Twisted Defence Force</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="479b-0c0f-ee7d-46b3" name="Traitor Guardsmen Squad (9 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">8</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="1d76-54c4-0bcd-40eb" name="Boltgun" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d5e1-0eb9-43f0-40c4" name="Chainsword" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8a29-8b72-a7f8-4820" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="6aef-113b-a5af-423e" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="4b08-c9bb-9f73-4a3d" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="29f1-4e70-8684-475b" name="Traitor Guardsmen Squad" hidden="false" targetId="5fe8-3ff6-76ca-49e8" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b868-c23d-9e82-4d14" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="13ef-fa67-d905-41f6" name="Fellgor Beastmen" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="4d6e-b782-79e0-4ae1" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Bestial Raiders</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4a26-b88b-067e-4b42" name="Fellgor Beastmen (9 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">8</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="d910-24ea-bac7-43ab" name="Bolt pistol" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Pistol</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="67c6-2e35-5817-4323" name="Chainsword" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="caf9-78dc-d29b-41c3" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="f396-0c9e-37a4-43b2" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="ba04-c0ac-7f01-4e02" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="c327-4b4f-3aaa-41a1" name="Fellgor Beastmen" hidden="false" targetId="af69-ab12-a512-4d27" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="af96-6a34-8ff4-4ca0" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c711-2fe1-bfb0-4953" name="Nemesis Claw" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="0ce3-1f69-2fa3-444d" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Visions of Suffering (Psychic); Attached Unit; Voice eater</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ecd6-066d-5c60-4054" name="Nostraman chainblade" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2d65-4d90-39d2-4c55" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="b097-7534-fdc5-43ba" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="cf67-9166-9bd6-447f" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="424d-e515-1b61-4baf" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="5122-078d-9ecb-4063" name="Nemesis Claw" hidden="false" targetId="292c-4018-edb9-4d59" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7fcc-7d79-1ede-40ac" name="4 - 9 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="a902-f6e5-8cbb-44b8">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2de-838e-aefc-4aff" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f47-faa8-a429-4280" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a902-f6e5-8cbb-44b8" name="04 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="b2e2-7229-5a1d-41fc" name="Nemesis Claw (4 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9503-3eae-e774-4889" name="09 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="ca86-bd51-932c-4173" name="Nemesis Claw (9 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">13</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="44ae-543b-ab68-4a65" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0924-7b9c-4828-4ad5" name="Masters of the Maelstrom" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="ee97-9687-a7f7-4a33" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Fleet Command; Plunder; Support; Choice Samples</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fd86-5393-8238-48bc" name="Masters of the Maelstrom (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="76c0-02df-6d66-4e32" name="Absolver bolt pistol" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Pistol</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b765-8b93-4b5f-496c" name="Reductor array" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="91ba-f6b9-0025-403d" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="d39a-f22e-868e-448d" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="1a2e-04d1-bfe3-4586" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="4dda-5b68-3b90-4994" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="715d-e878-7507-44dd" name="Masters of the Maelstrom" hidden="false" targetId="235f-d77a-390f-45fa" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5df3-d6de-d184-4249" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a664-c681-f149-48cf" name="Red Corsairs Raiders" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="1a62-9780-f294-4a88" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Trophy Takers; Attached Unit</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7635-e462-90ac-47ea" name="Reaver's blade" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9f18-ed55-c0f2-4b1e" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="3386-7f3e-83ee-40b1" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="2aaf-0dc9-7bb2-45c7" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="6c69-0bf2-dd2d-43dc" name="Red Corsairs Raiders" hidden="false" targetId="5b5e-1828-000c-447d" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="94c8-dd68-d342-4a1d" name="4 - 9 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="cf65-2cac-22cd-444d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dd0-58bd-46ff-4c23" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bf7-dcbb-760a-4005" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="cf65-2cac-22cd-444d" name="04 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="814b-e32c-3f71-4d31" name="Red Corsairs Raiders (4 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">5</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d0de-b13a-c4d8-4de2" name="09 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="6e9c-6342-62b9-4094" name="Red Corsairs Raiders (9 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">10</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">5</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ffdf-3a00-1bad-46cf" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9a9a-2f8e-a741-4218" name="Red Corsairs Reave-captain" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="49b1-b210-043d-4d2b" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Brutal Raider; Raider's Due; Leader</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0f5a-7323-e6db-4685" name="Red Corsairs Reave-captain (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="24c8-1484-36bb-4f3f" name="Bolt pistol" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Pistol</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="697b-589f-a6ad-4db6" name="Power sword" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ebe5-0a19-ca13-4693" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="988f-5366-3c21-4c33" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="153c-43e6-250c-4164" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="a3bb-4b97-b577-42fc" name="Red Corsairs Reave-captain" hidden="false" targetId="4d6c-27ff-52e1-412c" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="637c-67b1-9c07-4d6f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3667-59d6-bfde-4707" name="Exalted Champion [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="df7c-2d9e-4411-4df9" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Marked by the Dark Gods</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9b8c-1792-a98c-4472" name="Exalted Champion [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="d2c3-b57c-80a3-410a" name="➤ Infernal Gaze - witchfire" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1b77-3abe-71a4-45c9" name="Astartes chainblade" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="6415-e36f-a174-49cb" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="6c91-0a29-707e-4474" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="cc37-37e0-8bd2-4794" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="89f8-017c-8489-4b26" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="9b7f-3b23-1b11-4273" name="Exalted Champion [Crucible]" hidden="false" targetId="a500-18b7-78ee-4156" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="934e-25db-027e-44fb" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a28d-20e4-2a46-41ae" name="Sorcerous Champion [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="39ec-2b74-d0f0-4232" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Gift of Chaos (Psychic)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2acc-8b01-f1d9-42ca" name="Sorcerous Champion [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="3cad-2821-b6cb-421c" name="➤ Infernal Gaze - witchfire" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8ec5-97aa-1e23-49c0" name="Astartes chainblade" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8df7-48bd-0087-487d" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="f447-a57d-0f1b-45f7" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="6b6f-2efc-bf4c-4cac" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="5aaf-7c3a-ad5e-49b4" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="282e-f44b-2d34-47d8" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="e26d-ea79-07df-424f" name="Sorcerous Champion [Crucible]" hidden="false" targetId="c8dc-73bf-9c21-4fbc" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="53a1-5207-3297-498d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c841-1cc2-5b8e-495b" name="Soul Forge Tyrant [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="efe1-fddc-1f49-45c4" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Skulking Nightmare</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0026-8181-1814-48d4" name="Soul Forge Tyrant [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="bfdc-c185-f5b4-47d1" name="➤ Infernal Gaze - witchfire" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="910e-c707-3457-46e3" name="Astartes chainblade" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7989-c413-9bc9-4ab4" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="bdf4-9e6c-a2e4-4889" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="66b2-dfe1-f5dc-402e" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        <categoryLink id="deaf-6f2d-4171-4ba3" name="Soul Forge Tyrant [Crucible]" hidden="false" targetId="d949-7787-5bd6-490b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ed2b-5100-71aa-4375" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3a08-c15c-29e7-4b59" name="Kravek Morne" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="05a6-9741-bf1c-4909" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Headlong Destruction; Architect of Ruin; Leader</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9129-4ab0-0399-46f7" name="Kravek Morne (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">N/A</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="437d-2c52-8d8a-4b2a" name="Baleflamer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignores Cover, Torrent</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="73fb-c95a-f597-455e" name="Last Argument and power fist" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">5+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Devastating Wounds</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3cd2-34b1-db2e-46a6" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="2974-9cfd-d5d8-4efc" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="963f-b009-2349-4ea3" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="b8e6-a432-65b5-4814" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="2348-0cb1-76a5-410c" name="Terminator" hidden="false" targetId="fdbf-e3f2-29b1-461c" primary="false"/>
+        <categoryLink id="c3a5-f4d6-17c3-4c52" name="Kravek Morne" hidden="false" targetId="19e6-b3ca-1ea1-4fc3" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fe93-32a7-56f3-4b31" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="78b9-3893-043f-48a7" name="Sorcerer on Disc of Tzeentch [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="570c-380e-9f91-4313" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Flames of Change (Psychic); Altered Reality (Psychic)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8923-2da8-ba00-40ad" name="Sorcerer on Disc of Tzeentch [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="7168-3ecd-a6d1-41ac" name="➤ Infernal Gaze - witchfire" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f223-1d58-192f-482a" name="Accursed weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="aa2e-fadf-66c3-412f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="6ebc-1630-dd8f-476e" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="a30b-3d5b-c8f2-4680" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="ba87-a622-98a8-4532" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="ff23-e95f-bfd6-48e4" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="e06f-6d33-c362-4a90" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="e82f-3012-7cf1-4d34" name="Sorcerer on Disc of Tzeentch" hidden="false" targetId="9ad0-784a-5e62-46bd" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b3f1-d3dc-6b4a-4bfe" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8f3b-f5aa-0999-427b" name="Sorcerer on Palanquin of Nurgle [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="29a2-5fe5-21ed-47a0" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Gift of Poxes (Psychic); Feculent Despair (Aura, Psychic)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4393-51d0-4514-4179" name="Sorcerer on Palanquin of Nurgle [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="670c-d827-80f0-41df" name="➤ Infernal Gaze - witchfire" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9449-2eae-03a8-4922" name="Accursed weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="65e6-d0e6-508e-48ff" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="4ed8-c5a6-e7bc-47d0" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="d7af-4667-2a02-40dd" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="3780-dfac-6647-4242" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="3380-4790-731f-4f78" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="5379-1c17-ce31-485a" name="Sorcerer on Palanquin of Nurgle" hidden="false" targetId="a3c6-5ce3-9830-461a" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="46b5-719e-473e-41e1" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1804-eedf-cd5d-4a43" name="Chaos Lord on Disc of Tzeentch [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="e419-7b1d-b01d-4d08" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Lord of Fate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a699-da77-fbab-44e8" name="Chaos Lord on Disc of Tzeentch [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="847c-6c3f-6c6f-4c32" name="Combi-bolter" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cdf3-9356-143d-4aed" name="Astartes chainsword" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="007a-55c0-0150-4447" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="e733-a273-b783-40be" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="0c9e-7a07-8c2c-484d" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="cc9d-5937-ec44-41a0" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="a450-a3b8-1758-41a2" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="b5a3-d503-f882-4c6c" name="Chaos Lord on Disc of Tzeentch" hidden="false" targetId="0183-3405-a3b6-43c1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f06c-d3cf-f6ee-4ded" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ffcb-d24f-eafb-455b" name="Chaos Lord on Palanquin of Nurgle [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="cb6f-29fa-bc14-4a4e" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Revolting Regeneration</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c6e7-fe63-613a-4f97" name="Chaos Lord on Palanquin of Nurgle [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="abab-c114-edf7-411d" name="Combi-bolter" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b2d8-b1b2-c9ff-4882" name="Astartes chainsword" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b265-fc86-4e70-43ea" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="6940-b330-682f-4845" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="da6d-25ca-be90-46c5" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="4dda-304d-32d8-4c46" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="24d8-3ba7-f0c6-477f" name="Chaos Lord on Palanquin of Nurgle" hidden="false" targetId="aed0-507e-69d8-47d4" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="34ab-e013-c9c4-4bf5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f4a-b243-ac12-460e" name="Chaos Lord on Juggernaut [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="11fb-c872-1870-49c0" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Bloody Stampede</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5cfb-1706-11b0-4eda" name="Chaos Lord on Juggernaut [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="c4e4-89e9-e3c9-45f9" name="Combi-bolter" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9348-1dd8-1dc1-4df4" name="Astartes chainsword" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7dce-ad52-0f5f-46d9" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="ff4a-10bc-32ba-4703" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="d6b3-52cb-82c4-4a40" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        <categoryLink id="c13d-c95a-30b2-4c16" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="96d1-f836-7e4e-4343" name="Chaos Lord on Juggernaut" hidden="false" targetId="8b58-fba1-8fec-4933" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9076-b0f7-1695-4dfc" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a23-e376-dc78-4972" name="Chaos Lord on Steed of Slaanesh [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="b48a-0c88-1ae6-44be" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Cut Off Their Escape</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4d90-f935-5e3a-4185" name="Chaos Lord on Steed of Slaanesh [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="c2b3-81dc-13fa-4c96" name="Combi-bolter" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b456-0692-dc51-45bd" name="Astartes chainsword" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="6877-84fc-2a03-42a1" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="c48c-b959-07ca-48de" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="6ecf-dd36-51db-488c" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        <categoryLink id="daa7-5da0-2f7e-4079" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="24a3-b43e-ccc7-4017" name="Chaos Lord on Steed of Slaanesh" hidden="false" targetId="6295-9091-0984-412e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7e31-9d09-5b41-4048" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a970-c190-0a13-4a0b" name="Sorcerer on Steed of Slaanesh [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="9b3b-73b3-2a60-4e30" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Infernal Speed; Dark Favour (Psychic)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7b7f-a443-f274-4134" name="Sorcerer on Steed of Slaanesh [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="d91b-4a17-3fbd-4c07" name="➤ Infernal Gaze - witchfire" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="38a3-d57d-7004-476d" name="Accursed weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7d67-b782-d978-4dc8" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="4281-2247-be59-4291" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="3595-4bd2-b674-4a86" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        <categoryLink id="a148-da35-3ceb-463a" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="bb07-6686-c6b6-420b" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="1158-26e4-ce07-4538" name="Sorcerer on Steed of Slaanesh" hidden="false" targetId="ea7a-9d41-7733-44d7" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1228-193d-95ad-40c5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="27e5-2551-9b43-4f6f" name="Renegade Enforcer [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="b8d4-90c9-f1ac-4b84" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Brutal Example; Enforcer; Leader</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="deaa-45fd-cdde-404e" name="Renegade Enforcer [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="f765-08e7-3dbd-464e" name="Shotgun" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dca6-3b10-2a2f-44e6" name="Enforcer melee weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="60d8-cff6-cb84-4dd7" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="441f-ee9a-e28e-4c46" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="620c-a5e4-d4af-485a" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="3da2-11e2-8120-4ec9" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="0b90-030b-99e6-4b2c" name="Renegade Enforcer" hidden="false" targetId="d035-b981-0504-4eaf" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d22a-0dbf-5f43-4d1d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dcc9-4e47-ee1e-4962" name="Renegade Heavy Weapons Squad [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="0a5c-526a-053a-48e0" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Covering Fire</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f17a-9212-83b4-45e6" name="➤ Missile launcher - frag" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="704a-5cdb-12c3-41ae" name="Close combat weapons" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1c85-f927-ed59-49f6" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="9d95-54e2-5a72-4fae" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="5396-80a2-d3ad-49f7" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="7bfb-7b21-a674-46b1" name="Renegade Heavy Weapons Squad" hidden="false" targetId="6ff9-9117-c6e8-4bc3" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="81a2-138e-6f9f-418a" name="1 - 3 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="a54c-c442-4612-42bd">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b36d-efeb-75d1-4e83" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb18-f342-d864-4b0a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a54c-c442-4612-42bd" name="01 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="3148-f8ff-ef36-48d7" name="Renegade Heavy Weapons Squad [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="65c0-0e68-883c-447d" name="03 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="5f36-aaa4-945a-4e91" name="Renegade Heavy Weapons Squad [Legends] (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="bc78-7797-0253-41a5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8d15-753c-62f7-49a5" name="Renegade Plague Ogryns [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="d439-91a6-eddf-4c30" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Wall of Muscle</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bf5a-8fdf-e353-4948" name="Ogryn plague claws" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Lethal Hits</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7cf4-7511-1ee3-4aa1" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="59b6-ab2d-a580-4bae" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="4362-4623-bbd2-4b65" name="Renegade Plague Ogryns" hidden="false" targetId="a620-fa67-95fb-49eb" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f508-6b8e-1c34-4051" name="1 - 3 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="2059-a3d1-edcb-499e">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="387f-8cd8-0f50-44e3" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8475-d8ce-a7a6-45dc" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2059-a3d1-edcb-499e" name="01 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="5f22-5c1b-86d0-423c" name="Renegade Plague Ogryns [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6e0a-7c12-3181-4509" name="03 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="6b55-ea34-0610-4d5c" name="Renegade Plague Ogryns [Legends] (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="deee-07ab-e24c-4439" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8e6f-7fc1-f2e0-4742" name="Renegade Ogryn Brutes [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="3822-3d12-2343-4702" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Ogryn Combat Stimms</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ecc8-6701-2efb-4ba9" name="Renegade Ogryn Brutes [Legends] (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="f412-4230-be65-4dda" name="Ogryn weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9a16-51e5-1b5c-4aeb" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="58f9-4b21-0b75-427f" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="82fe-64f8-6a2d-4b14" name="Renegade Ogryn Brutes" hidden="false" targetId="6283-9c43-fb5e-4c62" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="710c-be45-1fc1-4d45" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e515-f0df-d0af-4c4a" name="Sorcerer on Bike [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="e7c6-ed40-d3ae-4c94" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Prescience (Psychic); Unholy Power</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6a20-d0fc-43de-4e46" name="Sorcerer on Bike [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="4cb2-d755-a9de-492d" name="➤ Infernal Gaze - witchfire" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8c7b-9533-740d-4a8c" name="Accursed weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="a0a1-48ac-9e5d-4b23" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="f24f-65b0-644b-4d42" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="19c8-a730-ce00-4b24" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        <categoryLink id="203d-5d9f-3dcd-433b" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
+        <categoryLink id="6a44-16d4-47dc-473e" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="f1dc-02aa-06d4-4275" name="Sorcerer on Bike" hidden="false" targetId="99a2-dc2a-7cd3-4b29" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="082e-21e9-b89d-4820" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="91b7-ad83-df13-48be" name="Renegade Ogryn Beast Handler [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="7f15-6af9-a9a5-4ce4" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Beastmaster</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="baf5-e7a6-45b8-43e6" name="Befouled fangs and claws" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b647-6cbe-4e54-40f6" name="Beast" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
+        <categoryLink id="5b4d-c76d-ba98-43f0" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="2775-65c0-835f-4cf7" name="Renegade Ogryn Beast Handler" hidden="false" targetId="8b75-0f83-8573-4478" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1aa6-532d-860c-48a0" name="1 - 3 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="a792-add6-bedf-43d0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f1f-50a0-58fa-4e72" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3c6-1ca4-a233-46f1" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a792-add6-bedf-43d0" name="01 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f237-ee86-6dd4-4278" name="Renegade Ogryn Beast Handler [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3d16-d2f8-86fc-4a25" name="03 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="08ff-803e-a0ad-4fb5" name="Renegade Ogryn Beast Handler [Legends] (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c585-6b26-f9c3-4a78" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4410-ec05-af38-44ab" name="Chaos Lord on Bike [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="a3a0-6aa0-b43d-4cbb" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Swift Assault</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fc94-3dbd-533d-49a6" name="Chaos Lord on Bike [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="96df-54ed-af27-4434" name="Combi-bolter" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Rapid Fire 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dc50-93dd-cdf7-44ae" name="Astartes chainsword" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3787-167d-7eb8-477b" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="8bed-c3ea-34e2-4770" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="28f5-cd86-d3bd-48f8" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        <categoryLink id="04af-e49a-b768-4560" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="e7c0-cff8-0492-431b" name="Chaos Lord on Bike" hidden="false" targetId="0314-6c92-d9a9-450d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b229-7ea5-a137-497d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3211-6e72-87e5-4962" name="Chaos Deimos Predator [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="46fa-5453-efe0-4509" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Armoured Spearhead</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bad3-2c03-a16c-49bd" name="Chaos Deimos Predator [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">N/A</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="efab-7461-60d7-47a7" name="Heavy flamer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignores Cover, Torrent</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bc96-2a8f-0cb9-4a05" name="Armoured tracks" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1207-a07f-77f0-4b47" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="19b5-9feb-b214-4d67" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="0626-789e-b362-4cea" name="Chaos Deimos Predator" hidden="false" targetId="8133-7245-c081-461e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f6db-f90f-ffc9-43ec" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="122d-7321-765f-4050" name="Cultist Mob with Firearms [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="07e2-452b-5b87-4a6c" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">For the Dark Gods</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="826b-b27c-aa4d-42ff" name="Bolt pistol" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Pistol</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9563-61b6-5e44-46ef" name="Battleline" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
+        <categoryLink id="2a04-9d55-b57b-4207" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="ccb3-7bc4-d419-4a1e" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
+        <categoryLink id="5a87-71cc-dd7e-4e38" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="d721-a3d0-192d-4262" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="ab77-e82d-e22e-4737" name="Cultist Mob with Firearms" hidden="false" targetId="78e3-ca44-20b4-42b8" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e0e5-0124-1870-4eb3" name="9 - 19 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="1c7b-169a-5d45-4ee3">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d194-82aa-f4fb-4944" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa26-c09d-4cd1-4950" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1c7b-169a-5d45-4ee3" name="09 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="c7ed-a2b9-2369-466d" name="Cultist Mob with Firearms [Legends] (9 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">5</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a9ca-dcf9-ac7e-4eea" name="19 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="88c5-df13-4029-4f59" name="Cultist Mob with Firearms [Legends] (19 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">11</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ec53-b11f-ae72-4121" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1293,7 +3228,8 @@
         <categoryLink id="e6e5-fc84-4548-1692" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="c651-ddc2-60c0-6aeb" name="Master of Executions" hidden="false" targetId="8241-c346-74bc-63cc" primary="false"/>
         <categoryLink id="f420-b3b0-5eed-e542" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="911e-3b9b-6f32-41af" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="aebe-6c39-80db-7159" name="Axe of Dismemberment" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1358,7 +3294,9 @@
         <categoryLink id="f736-84ad-6666-6a00" name="Helstalker" hidden="false" targetId="8750-7e83-4036-8f19" primary="false"/>
         <categoryLink id="6468-75fa-2b43-dfc1" name="Lord Discordant" hidden="false" targetId="8be0-45aa-2b83-76ca" primary="false"/>
         <categoryLink id="1866-323c-42c7-96c2" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="e3a6-fc76-9fa9-4b27" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="350e-f85d-9cdf-4c10" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="44a8-0539-695a-b318" name="Impaler Chainglaive" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1468,7 +3406,7 @@
         <entryLink id="43dd-a9ea-4a4b-be4a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="962f-8f89-5ca7-2f65" name="Abaddon the Despoiler" hidden="false" collective="false" import="true" type="unit">
@@ -1523,7 +3461,8 @@
         <categoryLink id="f725-61f6-e00f-d210" name="Terminator" hidden="false" targetId="24bd-5192-53cb-efe8" primary="false"/>
         <categoryLink id="7fa6-4b52-fc98-8646" name="Abaddon the Despoiler" hidden="false" targetId="5ee8-ac92-35da-018d" primary="false"/>
         <categoryLink id="e7d2-2579-53f5-403a" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="7491-e42c-d735-483c" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b2d5-443a-d27b-6ff1" name="Talon of Horus &amp; Drach&apos;nyen" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1609,7 +3548,8 @@
         <categoryLink id="e7de-74dc-45df-6abe" name="Jump Pack" hidden="false" targetId="cdf9-175a-b31b-44a1" primary="false"/>
         <categoryLink id="5103-c36a-d2f3-a295" name="Haarken Worldclaimer" hidden="false" targetId="e395-9dee-18e5-2c3c" primary="false"/>
         <categoryLink id="1ad2-dd70-3ad3-89ae" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="174a-6e00-fdd7-4db3" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2d6b-cdfd-6fda-78bd" name="The Helspear" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1758,7 +3698,7 @@
         <entryLink id="088c-af5e-db0c-9816" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4528-413f-4697-b3fc" name="Exalted Champion" hidden="false" collective="false" import="true" type="unit">
@@ -1801,7 +3741,8 @@
         <categoryLink id="96f6-5886-030a-38d7" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="46af-0bb5-172f-7180" name="Exalted Champion" hidden="false" targetId="193e-962e-2e75-1568" primary="false"/>
         <categoryLink id="7883-519f-26a0-2020" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="f42b-1cee-218f-4cdd" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a519-fcab-3bb3-3bf9" name="Exalted Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1872,7 +3813,8 @@
         <categoryLink id="4a7c-2184-0bcc-f70a" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="c663-9589-d35a-62c3" name="Fabius Bile" hidden="false" targetId="9fff-35be-78b5-3c3c" primary="false"/>
         <categoryLink id="c599-ab58-40e9-f3a3" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="0c63-9b8b-8da8-45d0" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e5a9-cb79-f93c-76f5" name="The Rod of Torment" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1958,7 +3900,8 @@
         <categoryLink id="9546-04f7-89d9-d898" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
         <categoryLink id="5d40-dbef-e898-3999" name="Huron Blackheart" hidden="false" targetId="a9f3-1a7f-1d42-7f49" primary="false"/>
         <categoryLink id="b212-1021-9d77-5e23" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="0d63-203e-b9a9-407c" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d0b1-cd0a-58f2-f9cf" name="The Tyrant&apos;s Claw" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2175,7 +4118,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2873-84ed-46a9-9090" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2227,7 +4170,8 @@
         <categoryLink id="66ec-5b09-9bf7-22bc" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="5dfa-5f00-be88-09a6" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="d105-f037-3b7e-f287" name="Chosen" hidden="false" targetId="abb5-ec13-4ba6-7685" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="6610-485d-931a-4b9f" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6b2d-1162-b750-a668" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="3cb5-8777-9958-4fab">
           <constraints>
@@ -2250,7 +4194,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4c38-d389-5575-2bee" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2268,7 +4212,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2306,7 +4250,8 @@
         <categoryLink id="1b8b-eeb0-9f13-d4ff" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="c4b0-5d63-6332-4c34" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="0a58-87ea-c976-c9a0" name="Terminators" hidden="false" targetId="6744-2bd6-4e13-782c" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="1d94-2698-de77-456b" name="Terminator" hidden="false" targetId="fdbf-e3f2-29b1-461c" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2495-8188-b57c-b6c4" name="Combi-bolters" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2355,7 +4300,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="417e-572d-121b-7120" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2373,7 +4318,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2562,7 +4507,9 @@
         <categoryLink id="e17d-9742-d94c-14b6" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="d6e7-7aad-ed75-c2b2" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="83eb-7cb8-f31e-b3cc" name="Chaos Space Marines" hidden="false" targetId="ced7-2ea5-6c1a-fd7e" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="c3f8-ff80-b1e6-4a77" name="Battleline" hidden="false" targetId="21ec-008a-47d1-d863" primary="false"/>
+        <categoryLink id="b5ab-3ecf-6332-47f3" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="3831-d622-b2e6-e856" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="00cf-fadb-0131-a211">
           <constraints>
@@ -2585,7 +4532,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c48c-429b-f2d9-26eb" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2689,7 +4636,9 @@
         <categoryLink id="52d2-ccac-ce51-1085" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="6125-c290-f531-12b1" name="Biker" hidden="false" targetId="c8b5-9ad5-d8df-45f2" primary="false"/>
         <categoryLink id="0713-06db-3bfc-4d59" name="Bikers" hidden="false" targetId="e9c8-8d02-767a-d61e" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="f1f6-934a-8bd7-4b81" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        <categoryLink id="e6f1-51ef-53fd-46a4" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="348b-3a64-4796-1616" name="3 - 6 Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="f513-772c-2ed0-8052">
           <constraints>
@@ -2712,7 +4661,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4d63-f3b6-d80a-cdd5" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2769,7 +4718,8 @@
         <categoryLink id="7407-845c-faf7-e63f" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="c7b4-194c-63e1-74bf" name="Jump Pack" hidden="false" targetId="cdf9-175a-b31b-44a1" primary="false"/>
         <categoryLink id="e1a7-19dc-910a-2d46" name="Raptors" hidden="false" targetId="5e87-b043-3ede-fa85" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="812a-5a0d-464f-49da" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d4e8-5983-763a-8b52" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="f258-d3eb-1fd5-702b">
           <constraints>
@@ -2792,7 +4742,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0ad1-f402-e6f5-22fb" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2810,7 +4760,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2856,7 +4806,8 @@
         <categoryLink id="220a-989f-7bbf-2094" name="Daemon" hidden="false" targetId="8941-623f-a255-f440" primary="false"/>
         <categoryLink id="37f8-8e01-e07b-35e8" name="Jump Pack" hidden="false" targetId="cdf9-175a-b31b-44a1" primary="false"/>
         <categoryLink id="e010-a23b-5d26-f10f" name="Warp Talons" hidden="false" targetId="fd0d-95bd-4c9d-1eae" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="de86-f011-7e9a-4e84" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5f0f-9f77-1ffe-ffaf" name="5 - 10 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="a683-f93e-b913-233a">
           <constraints>
@@ -2879,7 +4830,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a683-f93e-b913-233a" name="05 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2897,7 +4848,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3047,7 +4998,8 @@
         <categoryLink id="98af-0597-eefc-8712" name="Daemon Engine" hidden="false" targetId="206c-38ea-ac45-dae2" primary="false"/>
         <categoryLink id="1c18-74a4-c8ac-b83a" name="Venomcrawler" hidden="false" targetId="4b9f-ea04-a140-8f60" primary="false"/>
         <categoryLink id="7cd6-528c-6357-f62e" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="b2bc-7ea2-d6d9-48f7" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="588e-a204-5423-15fb" name="Excruciator Cannons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3187,7 +5139,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1a2f-8820-efae-7313" name="4 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -3205,7 +5157,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="17"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3246,7 +5198,8 @@
         <categoryLink id="0f45-ffc7-23d7-0596" name="Daemon" hidden="false" targetId="8941-623f-a255-f440" primary="false"/>
         <categoryLink id="bcac-9519-1767-3b96" name="Daemon Engine" hidden="false" targetId="206c-38ea-ac45-dae2" primary="false"/>
         <categoryLink id="af7d-5667-eae3-913e" name="Lord of Skulls" hidden="false" targetId="45cf-be78-e40f-bc70" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="c7cc-87f2-d16a-4e7b" name="Towering" hidden="false" targetId="0b38-2089-28fe-4a7e" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7452-6447-025c-5cca" name="Great Cleaver of Khorne" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3417,7 +5370,8 @@
         <categoryLink id="5317-1b56-a61d-c2b1" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
         <categoryLink id="d2ac-2cf1-f739-63ef" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="f538-884c-b219-153b" name="Noctilith Crown" hidden="false" targetId="9bb1-cdc1-68ac-0e49" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="a363-fe3d-2f06-4cd2" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3655-600d-f955-ae9d" name="Lashing Warp Energies" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3963,7 +5917,8 @@
         <categoryLink id="cbb3-7392-9fe8-cbfc" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="6626-733d-b235-0dfe" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
         <categoryLink id="6e86-6c96-6ac8-e6cb" name="Rogue Psyker" hidden="false" targetId="5486-fc5d-21bd-a43e" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="64c3-1d03-85b7-4f7a" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8013-e48f-250f-4296" name="Chaos Stave" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4153,7 +6108,9 @@
         <categoryLink id="6a46-0ce8-d321-b466" name="Faction: &lt;Legion&gt;" hidden="false" targetId="a9db-51a0-4be9-9856" primary="false"/>
         <categoryLink id="49ca-5d7c-6552-9f40" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="0960-00a6-4493-c426" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="e3ac-b54c-f998-4fd5" name="Battleline" hidden="false" targetId="21ec-008a-47d1-d863" primary="false"/>
+        <categoryLink id="7b24-306f-58d5-476a" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="82b9-0123-edae-003c" name="10 - 20 models" hidden="false" collective="false" import="true">
           <constraints>
@@ -4176,7 +6133,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b13b-b866-0c56-8103" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -4194,7 +6151,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4278,7 +6235,7 @@ When this unit is selected to perform its action, you may remove a damage marker
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2ab1-c210-66e1-e4b0" name="16 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -4296,7 +6253,7 @@ When this unit is selected to perform its action, you may remove a damage marker
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4359,7 +6316,9 @@ When this unit is selected to perform its action, you may remove a damage marker
         <categoryLink id="dd42-0fb5-c530-510f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="2c19-274f-4015-2a6e" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
         <categoryLink id="b4a2-18ca-2403-97d8" name="Faction: &lt;Legion&gt;" hidden="false" targetId="a9db-51a0-4be9-9856" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="7118-8ef1-e025-40c1" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+                <categoryLink id="198f-2b3a-94fb-48a7" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <entryLinks>
         <entryLink id="d50d-247a-1ed9-a5cc" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
@@ -4406,7 +6365,9 @@ When this unit is selected to perform its action, you may remove a damage marker
         <categoryLink id="d64c-bc95-07c7-5407" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
         <categoryLink id="ff52-5dbc-5864-ef4f" name="Faction: &lt;Legion&gt;" hidden="false" targetId="a9db-51a0-4be9-9856" primary="false"/>
         <categoryLink id="584e-b437-5166-d4eb" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="7db2-7b2d-6aed-48ef" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+                <categoryLink id="e427-4b6d-99b0-4667" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <entryLinks>
         <entryLink id="c9dc-6c0e-dfe1-56d1" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="2814-b35d-ec67-1a82" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="6144-aa85-b770-2f33" type="selectionEntry">
@@ -4417,7 +6378,7 @@ When this unit is selected to perform its action, you may remove a damage marker
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1409-3304-40d8-164d" name="Accursed Weapons" hidden="false" collective="false" import="true" type="upgrade">
@@ -4475,7 +6436,8 @@ When this unit is selected to perform its action, you may remove a damage marker
         <categoryLink id="9bb2-a058-5671-5622" name="Faction: Servants of the Abyss" hidden="false" targetId="24b1-d03e-7c15-b914" primary="false"/>
         <categoryLink id="c784-9445-7de8-de07" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="ad46-09bb-456d-a517" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="99b0-803b-d5b9-492c" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
       </costs>
@@ -4521,7 +6483,8 @@ When this unit is selected to perform its action, you may remove a damage marker
         <categoryLink id="a0ec-d129-031b-f3e7" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="465b-fa58-cd21-1cb8" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="7658-3627-ebdb-e577" name="Cultists" hidden="false" targetId="9a9d-5c54-ec18-a714" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="fa7c-e204-3ba1-4d9f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        </categoryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
       </costs>
@@ -4613,9 +6576,10 @@ When this unit is selected to perform its action, you may remove a damage marker
         <categoryLink id="116d-ef60-35cd-4a45" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="7b9a-f148-8af6-8e7c" name="Faction: Nurgle" hidden="false" targetId="880a-e8ec-2690-e97e" primary="false"/>
         <categoryLink id="9295-a6f0-270f-da30" name="Faction: Chaos" hidden="false" targetId="841f-fc30-da92-90cf" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="c934-80db-66fe-4277" name="Swarm" hidden="false" targetId="65b5-f311-b8c4-3721" primary="true"/>
+        </categoryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="997f-2335-7038-a5d5" name="Daemon Prince with Wings" hidden="false" collective="false" import="true" type="unit">
@@ -4721,7 +6685,8 @@ When this unit is selected to perform its action, you may remove a damage marker
         <categoryLink id="4d02-1cc8-22ff-8bee" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="5145-b105-0949-98b9" name="Cypher" hidden="false" targetId="4b2d-6f39-3754-8981" primary="false"/>
         <categoryLink id="f738-3244-0a49-7764" name="Faction: Heretic Astartes" hidden="false" targetId="cecb-fa3c-dd10-54b1" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="646a-67b7-3142-4058" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f533-88d2-bb27-52a3" name="Cypher&apos;s Pistols" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4800,13 +6765,15 @@ When this unit is selected to perform its action, you may remove a damage marker
         <categoryLink id="96cf-f8de-8c96-c77e" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="9312-a77c-2c20-f204" name="Chaos Lord" hidden="false" targetId="2f53-570e-fcef-604b" primary="false"/>
         <categoryLink id="99df-de7a-2741-b195" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="4cde-8c8d-e708-4c68" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="8079-7411-b44a-4014" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <entryLinks>
         <entryLink id="1eca-2876-990a-0ca4" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink id="bb59-46c1-ba74-3c7e" name="Helwrought Weapons" hidden="false" collective="false" import="true" targetId="928c-a316-0e0f-302c" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d322-0311-740f-8a04" name="Chaos Lord in Terminator Armor" hidden="false" collective="false" import="true" type="unit">
@@ -4900,7 +6867,9 @@ When this unit is selected to perform its action, you may remove a damage marker
         <categoryLink id="e7e8-68ba-3830-3f0e" name="Psyker" hidden="false" targetId="4de4-bea8-4f0e-7f9c" primary="false"/>
         <categoryLink id="83cb-44ad-d4a1-5a0a" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="24c9-e481-ebcb-0462" name="Sorcerer" hidden="false" targetId="5c54-8b43-52eb-6259" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="9f30-96c9-d906-4cce" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="5c47-88e3-1ca6-4ec6" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <entryLinks>
         <entryLink id="9e4e-59a2-1780-db4c" name="Force Weapon" hidden="false" collective="false" import="true" targetId="fb4c-7116-4f16-b27e" type="selectionEntry"/>
         <entryLink id="749a-b2c0-bc45-6a1e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
@@ -5030,7 +6999,7 @@ When this unit is selected to perform its action, you may remove a damage marker
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3e88-c6d8-424b-697d" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -5048,7 +7017,7 @@ When this unit is selected to perform its action, you may remove a damage marker
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5093,7 +7062,8 @@ When this unit is selected to perform its action, you may remove a damage marker
         <categoryLink id="afa1-908d-fdda-1a51" name="Daemon" hidden="false" targetId="8941-623f-a255-f440" primary="false"/>
         <categoryLink id="2154-8dec-fa1a-6c97" name="Daemon Engine" hidden="false" targetId="206c-38ea-ac45-dae2" primary="false"/>
         <categoryLink id="070c-f483-97a7-0e7a" name="Forgefiend" hidden="false" targetId="9714-49e5-a1b1-2387" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="458a-3d02-54c7-4282" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="4ef5-8950-6aba-130b" name="Jaws Weapon" hidden="false" collective="false" import="true">
           <constraints>
@@ -5199,7 +7169,8 @@ When this unit is selected to perform its action, you may remove a damage marker
         <categoryLink id="b7e7-203c-923f-e50d" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="1832-b033-e789-59f0" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="3f21-b634-7747-36b7" name="Helbrute" hidden="false" targetId="4bd7-6e03-a56b-7edb" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="55b2-e7ac-a5a6-49ae" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <entryLinks>
         <entryLink id="c46d-f0dc-ceb3-5a09" name="Helbrute Arm 1" hidden="false" collective="false" import="true" targetId="90e6-f66f-ee82-6b1c" type="selectionEntryGroup"/>
         <entryLink id="2b7f-d94d-6a86-18a8" name="Helbrute Arm 2" hidden="false" collective="false" import="true" targetId="22bb-5910-c91a-0208" type="selectionEntryGroup"/>
@@ -5258,9 +7229,11 @@ When this unit is selected to perform its action, you may remove a damage marker
         <categoryLink id="90dd-ee7d-1fc6-adea" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="25ff-488c-f155-0064" name="Daemon" hidden="false" targetId="dfc6-5d64-127f-97a1" primary="false"/>
         <categoryLink id="2e63-2e96-9768-6448" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="0887-e749-6588-41a7" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="false"/>
+        <categoryLink id="8d4b-9018-0028-4597" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        </categoryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="84cb-b970-8530-e6eb" name="Warsmith" hidden="false" collective="false" import="true" type="unit">
@@ -5623,13 +7596,15 @@ When this unit is selected to perform its action, you may remove a damage marker
         <categoryLink name="Chaos Lord" hidden="false" id="b0eb-13e6-948e-dd09" targetId="2f53-570e-fcef-604b" primary="false"/>
         <categoryLink name="HQ" hidden="false" id="e841-c79d-9a1a-1084" targetId="08d9-07e5-2b35-57b0" primary="true"/>
         <categoryLink targetId="b408-d848-fa84-cfb9" id="70b3-a3e2-6830-95b3" primary="false" name="Fly"/>
-      </categoryLinks>
+              <categoryLink id="d2c6-1732-43ab-4025" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="3a40-62bb-10d1-405a" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Commander" hidden="false" id="eb84-e9dd-a60e-ba14" collective="false" targetId="7347-5716-355f-9165" type="selectionEntry"/>
         <entryLink import="true" name="Helwrought Weapons" hidden="false" id="6a57-8e6d-fe89-c259" collective="false" targetId="928c-a316-0e0f-302c" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

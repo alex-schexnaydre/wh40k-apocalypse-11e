@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="b312-fd81-670e-a84d" name="Imperium - Adeptus Mechanicus" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="20" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="b312-fd81-670e-a84d" name="Imperium - Adeptus Mechanicus" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="20" revision="8" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Arc claw" hidden="false" id="18ad-c401-6936-02d7" collective="true">
       <constraints>
@@ -176,13 +176,14 @@
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Belisarius Cawl" hidden="false" id="6f33-e5b7-2996-b034">
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="1926-ea62-3b12-977a" id="dea1-e71f-304a-8867" primary="true" name="Epic Hero"/>
         <categoryLink targetId="4b9a-33b1-3b42-e3f8" id="8c66-31ca-7aa2-3516" primary="false" name="Character"/>
         <categoryLink targetId="25c7-3353-2028-72b2" id="eec9-f97f-3373-7561" primary="false" name="Heavy"/>
-      </categoryLinks>
+              <categoryLink id="661d-87e9-7d7c-459d" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        </categoryLinks>
       <profiles>
         <profile name="Belisarius Cawl" typeId="758b-2459-9a46-721a" typeName="Unit" hidden="false" id="540f-a483-5c63-0145">
           <characteristics>
@@ -258,7 +259,9 @@
         <categoryLink targetId="4b9a-33b1-3b42-e3f8" id="5a1d-a8f8-91af-5bdc" primary="true" name="Character"/>
         <categoryLink targetId="2d6e-c03a-7a58-74ce" id="a3bd-f10b-eea3-82a4" primary="false" name="Infantry"/>
         <categoryLink targetId="7eb1-73ba-2de4-ca9b" id="5f77-c2dd-e5e1-66b5" primary="false" name="Light"/>
-      </categoryLinks>
+              <categoryLink id="fa4b-87e6-dab7-4221" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="1045-8e2e-a583-4035" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        </categoryLinks>
       <profiles>
         <profile name="Battle Protocols" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="f4b4-1ba6-e658-fa1a">
           <characteristics>
@@ -948,7 +951,8 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
         <categoryLink name="Dedicated Transport" hidden="false" id="2ebd-7e52-187b-4b6e" targetId="2a11-9193-1a80-f0c6" primary="true"/>
         <categoryLink name="Heavy" hidden="false" id="befa-aabc-8465-3f32" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink name="Vehicle" hidden="false" id="c694-4c3f-52a8-d63b" targetId="5aeb-0fa6-9427-2144" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="ab3a-8651-36e8-479d" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        </categoryLinks>
       <profiles>
         <profile name="Fire Support" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="13c1-1ddd-297e-452d">
           <characteristics>
@@ -1020,7 +1024,8 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
         <categoryLink name="Flyer" hidden="false" id="e35c-fdba-bb1e-2a74" targetId="551a-ed52-fd35-9078" primary="true"/>
         <categoryLink name="Aircraft" hidden="false" id="be08-c9d5-c0ca-d4c5" targetId="bad3-1204-2d12-3c3d" primary="false"/>
         <categoryLink name="Fly" hidden="false" id="2707-9f13-5510-15f0" targetId="b408-d848-fa84-cfb9" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="dd50-abab-b989-4760" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        </categoryLinks>
       <profiles>
         <profile name="Archaeopter Transvector" typeId="758b-2459-9a46-721a" typeName="Unit" hidden="false" id="58ba-535e-7577-5101">
           <characteristics>
@@ -1178,7 +1183,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="10 Models" hidden="false" id="60fb-1042-0c55-fdf6">
@@ -1196,7 +1201,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1259,7 +1264,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="10 Models" hidden="false" id="f130-6853-38b7-cd7f">
@@ -1336,7 +1341,8 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
       <categoryLinks>
         <categoryLink targetId="5aeb-0fa6-9427-2144" id="f2de-f4ce-891f-e8f9" primary="true" name="Vehicle"/>
         <categoryLink targetId="25c7-3353-2028-72b2" id="e9c2-c272-495c-d635" primary="false" name="Heavy"/>
-      </categoryLinks>
+              <categoryLink id="7564-4a9d-192a-4bb5" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Models" id="f7a6-6d7a-bedc-fc6b" hidden="false" defaultSelectionEntryId="a283-4840-3945-c88d">
           <selectionEntries>
@@ -1391,7 +1397,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1465,7 +1471,8 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
       <categoryLinks>
         <categoryLink targetId="5aeb-0fa6-9427-2144" id="430d-bb19-ea94-60cb" primary="true" name="Vehicle"/>
         <categoryLink targetId="25c7-3353-2028-72b2" id="273d-686c-b73c-f519" primary="false" name="Heavy"/>
-      </categoryLinks>
+              <categoryLink id="14f0-de83-78c5-41ca" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Models" id="2b5f-011e-c07c-9950" hidden="false" defaultSelectionEntryId="6219-2301-d77f-b4f0">
           <selectionEntries>
@@ -1484,7 +1491,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="04 Models" hidden="false" id="d6b7-7cb4-dc9f-7269">
@@ -1502,7 +1509,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="18"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="15"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1790,7 +1797,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="06 Models" hidden="false" id="1911-af8b-5a1b-1aad">
@@ -1808,7 +1815,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1882,7 +1889,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
       </costs>
       <entryLinks>
         <entryLink import="true" name="Armoured Hull" hidden="false" id="3bf3-b94b-5433-25b1" type="selectionEntry" targetId="3183-83e0-6fa0-56de">
@@ -1990,7 +1997,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="10 Models" hidden="false" id="dd2c-22e7-59ea-beb7">
@@ -2111,7 +2118,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="10 Models" hidden="false" id="1f73-18d4-c698-a80c">
@@ -2129,7 +2136,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2193,7 +2200,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="06 Models" hidden="false" id="212a-752f-ff57-d8e7">
@@ -2211,7 +2218,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2308,7 +2315,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2395,7 +2402,8 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
         <categoryLink name="Infantry" hidden="false" id="92e5-e7e3-a395-159a" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink name="Fly" hidden="false" id="dbc2-50fc-c94f-5b5b" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink name="Light" hidden="false" id="a99d-0250-a1db-ae98" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="0d34-40d3-e34c-4387" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <infoLinks>
         <infoLink name="Deep Strike" id="2045-fc12-5f49-017f" hidden="false" type="profile" targetId="8fc3-5045-3aa5-00ce"/>
       </infoLinks>
@@ -2417,7 +2425,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="10 Models" hidden="false" id="b092-2254-34a3-e091">
@@ -2435,7 +2443,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2540,7 +2548,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="10 Models" hidden="false" id="1fc9-46e2-526d-9fb2">
@@ -2558,7 +2566,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2642,7 +2650,8 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
       <categoryLinks>
         <categoryLink name="Vehicle" hidden="false" id="d45b-342a-0446-7963" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink name="Heavy" hidden="false" id="a87a-1f17-1ad7-f458" targetId="25c7-3353-2028-72b2" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="e14e-f28b-e752-4a8f" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <profiles>
         <profile name="Onager Dunecrawler" typeId="758b-2459-9a46-721a" typeName="Unit" hidden="false" id="8337-7251-7d7b-1224">
           <characteristics>
@@ -2809,7 +2818,8 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
       <categoryLinks>
         <categoryLink name="Vehicle" hidden="false" id="9924-d349-89e8-d9cc" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink name="Heavy" hidden="false" id="5423-2fe6-f9af-6f5c" targetId="25c7-3353-2028-72b2" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="70d8-42d9-fe7d-4a41" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Models" id="692b-8ca6-e087-2bc9" hidden="false" defaultSelectionEntryId="a283-4840-3945-c88d">
           <selectionEntries>
@@ -2846,7 +2856,7 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="03 Models" hidden="false" id="8e0b-be5e-22c8-8daf">
@@ -2938,6 +2948,738 @@ You must attach this model to a KASTELAN ROBOTS unit, even if one or more other 
           </constraints>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <selectionEntry id="08e4-8dc5-7276-4e0c" name="Archaeopter Stratoraptor" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="00d0-bf28-fa26-4b6e" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Strafing Run; Chaff Launcher; Command Uplink</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="045e-591d-da21-4671" name="Archaeopter Stratoraptor (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="be64-7580-8c2a-4077" name="Syntaxik Charger" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-Infantry 2+, Devastating Wounds, One Shot</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5363-8d0f-c632-46ba" name="Armoured hull" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9634-6d58-d853-4086" name="Flyer" hidden="false" targetId="551a-ed52-fd35-9078" primary="true"/>
+        <categoryLink id="e28f-367a-5252-411d" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="1618-1770-1b6b-408b" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="6fa1-36df-beb7-405b" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="01ba-9262-1458-4c3c" name="Aircraft" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="false"/>
+        <categoryLink id="5afa-149d-7fd8-4f9d" name="Archaeopter Stratoraptor" hidden="false" targetId="d779-91e3-783c-40f0" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2396-1d40-3002-42ae" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4460-8a25-1802-4fdb" name="Skitarii Vanguard" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="af90-8b0e-443b-4a77" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Rad-saturation (Aura); Enhanced data-tether</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="973b-2f95-d7c5-4958" name="Radium carbine" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-Infantry 4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="353e-a7f5-023b-4149" name="Close combat weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="55a5-bc10-e949-4481" name="Battleline" hidden="false" targetId="21ec-008a-47d1-d863" primary="true"/>
+        <categoryLink id="7edf-4c7f-c858-44ce" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="0b37-74ed-df11-4d28" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
+        <categoryLink id="e282-e01f-d331-40c2" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="f2ea-3fc7-ab0a-45a5" name="Skitarii Vanguard" hidden="false" targetId="7af7-59e6-6e40-439d" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0619-7d3c-ff2b-4979" name="1 - 6 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="b514-7891-265a-47f0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5094-f1bc-cbd5-4df6" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1acd-6e1a-78a6-4942" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b514-7891-265a-47f0" name="01 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="84ac-98c6-3e20-4e73" name="Skitarii Vanguard (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a9ae-ffde-c45a-4f81" name="06 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="976e-3e3f-2cbb-47a9" name="Skitarii Vanguard (6 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7b44-2900-38fe-4eaa" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9c6a-6316-65e4-4fe2" name="Servitor Battleclade" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="6dc5-e6d9-6f04-42fd" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Network Override; Attached Unit</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6abe-6637-649b-46bb" name="Servitor Battleclade (6 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="6fa9-e618-f194-427b" name="Phosphor blaster" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignores Cover, Rapid Fire 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0441-6dcd-197a-4181" name="Servo-claw" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="fa2e-3d2a-56a3-4105" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="e7a0-ada7-a2c2-4b4f" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="ffdd-dcbc-4351-45e8" name="Servitor Battleclade" hidden="false" targetId="64a6-481c-aada-4ab7" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bd3f-597e-00d7-45af" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="64f3-dd9f-adb0-49c2" name="Magos [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="352f-9225-1033-469d" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Technoarcane Zealotry</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="908a-c6f9-266c-4c9b" name="Magos [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="7856-11fc-f9c6-44c8" name="Syntaxik Charger" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-Infantry 2+, Devastating Wounds, One Shot</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3963-e280-efee-4fa9" name="Transonic blades" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Devastating Wounds, Precision</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="6630-7261-7dfb-4adc" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="46fc-f3e7-ed88-49af" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="491a-d892-96a6-46e2" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="a37a-2e29-2b49-4294" name="Magos [Crucible]" hidden="false" targetId="5e99-7e02-1578-4ef6" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="30ad-c551-eee3-4822" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="abc9-90a7-fd64-42da" name="Cohort Commander [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="5ac7-8de6-ed61-40e2" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Prioritisation Protocol</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dbaf-eb2a-c318-4b72" name="Cohort Commander [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="9d16-6070-3af7-494e" name="Syntaxik Charger" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-Infantry 2+, Devastating Wounds, One Shot</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6619-167c-c811-4d67" name="Transonic blades" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Devastating Wounds, Precision</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="89bf-fa6c-35b0-4dba" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="16af-1151-c7ce-4390" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="51d6-8c42-24a8-4c26" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="da57-9c63-8dd0-4459" name="Cohort Commander [Crucible]" hidden="false" targetId="5e7c-d198-b299-413e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d971-3afb-fb8a-466e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7924-8044-51de-441d" name="Ironstrider Alpha [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="bbfa-17ab-bd49-40b5" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Vector of the Omnissiah's Wrath</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="06a1-3b93-61a8-4c06" name="Ironstrider Alpha [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="bf94-d24b-46ca-4370" name="Syntaxik Charger" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-Infantry 2+, Devastating Wounds, One Shot</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c8c6-46be-fe12-4114" name="Transonic blades" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Devastating Wounds, Precision</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3edb-a6c9-a71c-4737" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="04af-e566-8d88-48b7" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="24ce-fb62-518e-4daf" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="de4b-9a44-60a0-4e05" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        <categoryLink id="af48-769b-1fba-420e" name="Ironstrider Alpha [Crucible]" hidden="false" targetId="2047-32e7-cda1-496d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2521-46c8-0d66-4640" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ca1e-d51c-7613-4a6c" name="Thulia Ghuld" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="5988-7e6b-11e3-4b80" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Icon of War; Mechanicus Bodyguard; Secutor of Olympus; Supreme Commander; Rod of the War Forge</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0084-44f6-ab14-4695" name="Thulia Ghuld (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="f01d-69b6-b2af-4473" name="➤ Jericho-class conversion resonator - shockwave" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast, Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5547-f57c-20a4-4194" name="➤ Rod of the War Forge - sweep" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x6</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="0f4b-1f96-e140-4565" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="79c5-707c-47cc-4736" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="998f-b7bc-9b64-484f" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="b959-5956-3b28-4b94" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="99ed-c1b5-70bf-47fc" name="Thulia Ghuld" hidden="false" targetId="b189-05e0-1349-467c" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="89e1-2c94-1ab2-4c12" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4507-3773-d4fa-47d8" name="Hastarii Exterminators" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="ccdc-ecdc-4b84-4a4f" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Attached Unit; Broad‑spectrum Targeting Augurs</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d1b1-a72b-9cc8-443c" name="Hastarii Exterminators (4 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="c61b-acae-5eb3-4ff6" name="➤ Eradication caster - focused" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">15&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-Infantry 4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="acb1-74e3-f035-4f24" name="Close combat weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="307f-9476-e719-43cc" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="7cf2-e8a2-c2f6-441b" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="7935-29da-b44b-4d38" name="Hastarii Exterminators" hidden="false" targetId="0f01-0c57-69d7-4dbb" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e5df-3068-d397-4c91" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d94-e4af-3613-4f8e" name="Hastarii Fusiliers" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="a7ee-52ee-e220-41b9" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Attached Unit; Monocular Targeting Helms</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ca77-c7b6-c927-406b" name="Hastarii Fusiliers (4 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="f0f4-496d-f819-4e9a" name="Hastarii phosphor blaster" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4053-ea1f-1a23-4a95" name="Close combat weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5f52-f0d2-6a9b-43f3" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="9760-8ded-0ec4-41d3" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="afea-0113-ce7e-40fb" name="Hastarii Fusiliers" hidden="false" targetId="62c4-5f8f-ec13-4585" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="29b9-5434-9796-498f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e7a2-7fc3-557a-41fe" name="Secutarii Hoplites [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="dc57-1a82-1de8-46e8" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Titan Guard; Secutarii; Enhanced data-tether</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b648-4935-38be-42de" name="Arc lance" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-Vehicle 4+, Devastating Wounds</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2aee-9863-a22f-468b" name="Alpha close combat weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="0420-bd3e-24ef-410a" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="aa00-3433-5106-4f77" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="b459-6061-9dfd-4c36" name="Secutarii Hoplites" hidden="false" targetId="baa8-2eb5-25c1-4408" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="eac8-41c4-3775-4400" name="4 - 9 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="6d58-9901-a9b0-42cd">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b6b-1a35-c91f-4350" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a27b-2d62-0eb3-4478" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6d58-9901-a9b0-42cd" name="04 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="1538-e6f5-ac80-4194" name="Secutarii Hoplites [Legends] (4 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">5</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="caf7-298e-29d9-43d8" name="09 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="282e-d070-ecd4-4dd7" name="Secutarii Hoplites [Legends] (9 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">10</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="dfdd-4567-7e66-4129" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f662-cc5e-3bfb-402a" name="Secutarii Peltasts [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="76ab-c7e7-dfca-4ab7" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Blind Barrage; Secutarii; Enhanced data-tether</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9052-7d9a-da55-419c" name="➤ Galvanic caster - flechette" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ea26-b7e2-703d-432a" name="Alpha close combat weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d9e2-386c-1d01-4755" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="e651-24f5-fd51-4343" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="e37a-41d5-ce65-4e0a" name="Secutarii Peltasts" hidden="false" targetId="1d89-9bc5-ac1c-48b4" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="219c-d0d2-4839-427e" name="4 - 9 models" hidden="false" collective="false" import="true" defaultSelectionEntryId="d524-51cf-a748-4306">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a517-baa9-e473-4240" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13cf-1bbc-08c6-4287" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d524-51cf-a748-4306" name="04 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="6dfc-2339-50f2-41af" name="Secutarii Peltasts [Legends] (4 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="643e-d7b2-67fa-4ebe" name="09 models" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="4a7c-ecac-6696-4f56" name="Secutarii Peltasts [Legends] (9 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                    <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                    <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">5</characteristic>
+                    <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                    <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                    <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c181-4e3d-85a1-42a4" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
 </catalogue>

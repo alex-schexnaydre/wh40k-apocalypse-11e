@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="542c-98a0-8e27-4f4d" name="Unaligned Forces" revision="5" battleScribeVersion="2.03" authorName="Community Apocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+  <categoryEntries>
+    <categoryEntry id="9867-b92a-496c-4e4b" name="Faction: Unaligned Forces" hidden="false"/>
+    <categoryEntry id="20f1-3479-bbee-49cf" name="Sentry Gun" hidden="false"/>
+    <categoryEntry id="c143-3d06-01ae-43dd" name="Breaching Robot" hidden="false"/>
+    <categoryEntry id="e5d9-7302-bf8f-46f4" name="Aegis Defence Line with Weapon Emplacement" hidden="false"/>
+    <categoryEntry id="53cb-c6b7-9318-4fbf" name="Ambull" hidden="false"/>
+    <categoryEntry id="db50-bd6b-649b-4158" name="Bastion" hidden="false"/>
+    <categoryEntry id="96e2-392e-71ff-492a" name="Firestorm Redoubt" hidden="false"/>
+    <categoryEntry id="fee1-44ad-0ce4-4ac2" name="Fortress of Redemption" hidden="false"/>
+    <categoryEntry id="37d6-3b5c-1d42-459d" name="Guardian Drone" hidden="false"/>
+    <categoryEntry id="4ebd-aa09-a815-4c34" name="Macro-cannon Aquila Strongpoint" hidden="false"/>
+    <categoryEntry id="cd62-3422-4b4e-4c21" name="Plasma Obliterator" hidden="false"/>
+    <categoryEntry id="7a59-74f6-41ba-4dfb" name="Primaris Redoubt" hidden="false"/>
+    <categoryEntry id="742e-c75f-e378-4771" name="Skyshield Landing Pad" hidden="false"/>
+    <categoryEntry id="a716-f084-68cd-47f6" name="Spindle Drones" hidden="false"/>
+    <categoryEntry id="6e00-9cf5-fe4b-4c77" name="The Archivist" hidden="false"/>
+    <categoryEntry id="e935-f7ee-dd0d-459a" name="Vengeance Weapon Battery" hidden="false"/>
+    <categoryEntry id="92b6-61fa-2452-4734" name="Void Shield Generator" hidden="false"/>
+    <categoryEntry id="d8a7-20d9-ca04-4331" name="Vortex Missile Strongpoint" hidden="false"/>
+    <categoryEntry id="0599-189d-a1ad-40af" name="Wall of Martyrs Bunker" hidden="false"/>
+    <categoryEntry id="da15-d390-e382-4d01" name="Wall of Martyrs Defence Emplacement" hidden="false"/>
+    <categoryEntry id="fed3-68fe-4ef3-4c4c" name="Wall of Martyrs Defence Line" hidden="false"/>
+    <categoryEntry id="ac24-ba54-2edc-4207" name="Imperial Fortress Walls" hidden="false"/>
+    <categoryEntry id="29a3-ca11-0d4b-434a" name="Castellum Stronghold" hidden="false"/>
+  </categoryEntries>
+  <selectionEntries>
+    
+    
+    
+    
+    <selectionEntry id="4e1b-1657-778d-462c" name="Sentry Gun" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="c88c-660d-af0a-4376" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Defensive Emplacement</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="23c0-9ae1-88c1-4f12" name="Sentry Gun (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="5d93-2e61-d96e-406a" name="Twin heavy bolter" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9869-eb1c-d21e-48c1" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="72a0-509b-ac2a-4e57" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="d45e-dc9b-d7e0-4f3c" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="1e10-d40e-b6cd-4293" name="Sentry Gun" hidden="false" targetId="20f1-3479-bbee-49cf" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="abc2-513b-e812-4b21" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5315-4e0f-7882-40a8" name="Breaching Robot" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="b8a8-30f5-abe6-4539" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Limited Loadout; Assault Robot; Bomb Kit; Cutting Gear</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="80c9-8887-2774-45e2" name="Breaching Robot (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="99a7-9440-121b-4bbe" name="Cutting blade" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="17b2-9758-d111-4b84" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="5569-2901-ecaa-4af1" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="86b8-d949-162a-4ca3" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="e732-4ac8-59ae-4629" name="Breaching Robot" hidden="false" targetId="c143-3d06-01ae-43dd" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7ae9-a760-672b-4d92" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f8d4-c550-eb80-4f4c" name="Aegis Defence Line with Weapon Emplacement [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="845f-ed0d-2af2-4a53" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">No additional abilities.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="96be-ba22-83e3-47b1" name="Aegis Defence Line with Weapon Emplacement [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="1ce4-486f-e35e-425a" name="Quad-gun" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-Fly 3+, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ba6a-36ee-d378-4ded" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="af05-ee24-dee7-4308" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="d034-345c-833a-4438" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="c411-b954-d5a5-455e" name="Aegis Defence Line with Weapon Emplacement" hidden="false" targetId="e5d9-7302-bf8f-46f4" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0a2a-40a7-e0bb-4768" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3abc-c5d1-51d8-4fd0" name="Ambull [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="d4f9-b2a2-5bc6-4d9c" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Frenzy; Borewyrm Infestation</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f568-f82a-b7ba-49b9" name="Ambull [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="f6f0-f342-dca6-40b7" name="Enormous claws" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7918-f7c1-98b0-4b80" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="1658-e3ff-87b0-4e25" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="10a1-d985-97eb-4fd9" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="1c7f-509d-5554-4f5e" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="a483-0138-1dd2-44af" name="Ambull" hidden="false" targetId="53cb-c6b7-9318-4fbf" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2ff0-cc56-5b94-43b3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="33fa-4786-3828-4a69" name="Bastion [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="f33e-3a78-a3b3-4f4b" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">No additional abilities.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ec19-873c-4406-4abf" name="Bastion [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="cea2-262b-0345-4780" name="Quad-gun" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-Fly 3+, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="713a-bf06-787f-48f0" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="be13-ac3b-28f5-4110" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
+        <categoryLink id="4050-c167-78a6-4d0a" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="a19f-4452-3782-4f35" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="8112-7640-8a01-4003" name="Towering" hidden="false" targetId="0b38-2089-28fe-4a7e" primary="false"/>
+        <categoryLink id="ebf8-e3fc-3c46-4776" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="cc49-909e-44fb-4cfe" name="Bastion" hidden="false" targetId="db50-bd6b-649b-4158" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cbb2-f0b6-9e82-47da" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c18f-87a7-19c5-471f" name="Firestorm Redoubt [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="bb91-3f39-347c-4865" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">No additional abilities.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e460-a727-4ef7-4b0c" name="Firestorm Redoubt [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="2cbb-16b7-1e03-4ce2" name="Punisher gatling cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x10</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3199-0d48-71f1-4a6c" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="7169-0adc-66a1-4f4b" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="2dd9-a1c1-cbc1-42fe" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="8fc9-3875-46e4-4c16" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="f9e1-aa3d-2df1-4526" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="4f2c-3e35-e6a9-4b67" name="Firestorm Redoubt" hidden="false" targetId="96e2-392e-71ff-492a" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8368-7d10-3909-4ef5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="13"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="657c-461c-129a-46cf" name="Fortress of Redemption [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="0995-1a0a-491f-43bf" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Vantage Point</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2a8d-9d61-92ef-476a" name="Fortress of Redemption [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="c613-192a-8c32-4c3e" name="Heavy bolter" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4a11-6162-f159-4984" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="1ac7-39b4-70a4-4fac" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
+        <categoryLink id="58cd-4ed7-7c6d-46fe" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="99d0-229e-b1a2-486d" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="8196-bf1e-5b99-4307" name="Towering" hidden="false" targetId="0b38-2089-28fe-4a7e" primary="false"/>
+        <categoryLink id="b749-b616-2981-46d3" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="4b03-8955-f2e2-43f7" name="Fortress of Redemption" hidden="false" targetId="fee1-44ad-0ce4-4ac2" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c267-57b1-7cf2-4c51" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="24"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4b8c-f6f5-543f-4822" name="Guardian Drone [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="3160-8cf6-45cb-4c94" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Drone Commander (Aura)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="38ab-aeaf-3f71-4510" name="Guardian Drone [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="ec82-8ff7-6f3c-44da" name="Guardian salvo launchers" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2535-a5ae-1578-48eb" name="Manipulator limbs" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="70cc-d43f-6537-42b4" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="true"/>
+        <categoryLink id="d1be-5d77-3a96-4104" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="7eb2-da78-a5c9-47f1" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="1fc9-b1df-04d3-447d" name="Guardian Drone" hidden="false" targetId="37d6-3b5c-1d42-459d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1ec6-cfea-e11e-413b" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b572-437a-0235-4850" name="Macro-cannon Aquila Strongpoint [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="085b-54e6-bbfe-4fe0" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Tremor Quake</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="00c6-23bc-464f-4492" name="Macro-cannon Aquila Strongpoint [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="7616-0154-f0d0-40cf" name="Aquila macro-cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">72&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e395-7796-2ff2-4dfd" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="9e20-40c6-d2cc-43a4" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
+        <categoryLink id="0b6d-7014-a6fa-4e8d" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="e64a-cf4a-4e33-4584" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="59ff-f631-9477-4fff" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="e3b2-2ce1-e65a-4e5c" name="Macro-cannon Aquila Strongpoint" hidden="false" targetId="4ebd-aa09-a815-4c34" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="694e-0d8c-2f2f-40e3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="28"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db94-2331-d636-4144" name="Plasma Obliterator [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="0e1f-6d2b-49fa-42f6" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Emergency Plasma Vents</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="35e3-aecb-34e7-4187" name="Plasma Obliterator [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="4eaf-b3f6-cec0-451c" name="➤ Plasma obliterator - standard" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">4+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e693-0f07-f1b0-4c38" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="13d1-ea92-ed60-45b5" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
+        <categoryLink id="9890-2cc1-71e3-43d6" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="6a28-aadc-0b33-415a" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="d3b2-c973-a8fd-483a" name="Towering" hidden="false" targetId="0b38-2089-28fe-4a7e" primary="false"/>
+        <categoryLink id="4e18-b1a3-68e5-45a3" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="1c06-89f5-b590-4ff0" name="Plasma Obliterator" hidden="false" targetId="cd62-3422-4b4e-4c21" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d628-2bf1-8e8b-4599" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="af72-92ab-077b-49dd" name="Primaris Redoubt [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="0369-2cc4-e742-46fc" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">No additional abilities.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1a68-736c-5e10-4a10" name="Primaris Redoubt [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="3da8-8c1b-03df-4c1e" name="Battle cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ced3-54aa-6911-4d85" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="eda8-b8b4-19b3-4b75" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="bcdb-5377-3c33-4df4" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="de83-75e9-5efb-48ae" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="dac4-3fd8-29ea-4d67" name="Primaris Redoubt" hidden="false" targetId="7a59-74f6-41ba-4dfb" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b63a-4e94-31f4-46b6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5f76-e1e9-4dcd-40d3" name="Skyshield Landing Pad [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="4de5-35a3-44fa-4ad9" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Skyshield; Repair Aircraft</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1569-024f-9ea3-4a92" name="Skyshield Landing Pad [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="dcb2-d557-5f90-45ad" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="8b68-0998-fe11-40e8" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="0d6d-0a0a-e5c3-41f5" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="b583-d400-ec24-4f8e" name="Skyshield Landing Pad" hidden="false" targetId="742e-c75f-e378-4771" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9f36-7bf3-f710-4dd8" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f40-0603-55c8-4095" name="Spindle Drones [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="316f-c708-e671-48cd" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Threat Level Rising</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c767-df5b-075f-40a4" name="Spindle Drones [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="71ca-130e-5f7d-4263" name="Drone pulse" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Pistol</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6084-fce4-6d55-4e7d" name="Close combat weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="87c3-3d3d-b906-47c5" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="6de4-5bbf-1759-46d2" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="58d6-7410-9ef3-43fb" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="ea51-3300-d76c-40cb" name="Spindle Drones" hidden="false" targetId="a716-f084-68cd-47f6" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5ca8-4935-adfa-450e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd19-a7e9-9af3-4614" name="The Archivist [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="ac14-e3af-d8a6-49fc" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Fearsome Assault; Disruptive Influence (Aura)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="32d4-5674-4ced-45a4" name="The Archivist [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="653b-81ff-02bd-4df8" name="Atomic disassembler" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignores Cover, Pistol</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4fd7-33cb-eb8f-4513" name="Eradicator glove" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1771-ac2f-92b6-406d" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="e950-1c43-cff7-4e5d" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="e778-35d1-fce6-4ebd" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="380a-97f4-3a7d-4724" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        <categoryLink id="8da4-3b0d-4ec1-4d32" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="7975-8a7e-8557-487f" name="The Archivist" hidden="false" targetId="6e00-9cf5-fe4b-4c77" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c8c1-08b1-c0bb-401e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a973-4843-0d67-4d67" name="Vengeance Weapon Battery [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="ba7e-f32b-236a-421b" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Automated Defences</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d66e-470a-80c4-4f52" name="Vengeance Weapon Battery [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="8aed-a02f-ae3a-42d6" name="Punisher gatling cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x10</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4545-3a21-4ea8-4694" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="1d8c-534e-a02a-4f68" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="4da1-6826-43e7-47c1" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="5c25-5670-7792-4935" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="301e-7dd7-8a3a-49ca" name="Vengeance Weapon Battery" hidden="false" targetId="e935-f7ee-dd0d-459a" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b58f-7e17-9c72-4fda" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f4e3-a69c-7af0-4ba8" name="Void Shield Generator [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="eff3-7435-ffff-4328" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Projected Void Shields (Aura)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d9c0-cf53-b6ef-4e2b" name="Void Shield Generator [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">3</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                          </characteristics>
+                        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8f8b-5a35-1374-41b0" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="97b4-7965-d2f5-4035" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="17f5-7ee7-5937-4c2a" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="99fe-75d0-74aa-41f0" name="Void Shield Generator" hidden="false" targetId="92b6-61fa-2452-4734" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="34fe-9895-cde1-49c5" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="930c-1486-6e67-424a" name="Vortex Missile Strongpoint [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="2675-62eb-b678-4088" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Vortex</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="436e-fe92-1942-4e45" name="Vortex Missile Strongpoint [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">6</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="686c-45cb-be1c-476e" name="Vortex missile battery" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">72&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast, Devastating Wounds, Hazardous, Indirect Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8aa0-5fcc-2d01-468a" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="7348-4cdd-365e-4f5a" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
+        <categoryLink id="073b-a5d8-70e8-4893" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="1940-19d4-b07a-4849" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="ee34-1fda-03ff-472c" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="683b-0298-b523-4823" name="Vortex Missile Strongpoint" hidden="false" targetId="d8a7-20d9-ca04-4331" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="87cf-b88a-615e-484a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="26"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0227-df23-b4ec-46f2" name="Wall of Martyrs Bunker [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="2145-56d2-6fb2-4d9c" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Inviolable Bastion</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bdc5-48b3-5f82-4033" name="Wall of Martyrs Bunker [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">5+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="e4ca-53af-18b9-46ab" name="Quad-gun" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">48&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-Fly 3+, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9efb-b5f2-b5d0-48cf" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="a7b5-e417-caad-4825" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="f391-1f63-353b-4329" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="5490-e998-c246-40f8" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="2680-9eed-8bb5-48bd" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="5135-6eb2-1bf7-45ec" name="Wall of Martyrs Bunker" hidden="false" targetId="0599-189d-a1ad-40af" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0430-6459-9142-4fb3" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec91-0234-05fe-4310" name="Wall of Martyrs Defence Emplacement [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="97da-3236-0bc6-4a8e" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">No additional abilities.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="730c-09c0-7d0e-4e65" name="Wall of Martyrs Defence Emplacement [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d000-c613-c5a7-4a23" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="cb75-2dce-c1d0-485c" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="5a2e-95c3-2abc-4505" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="bec6-6e87-bcf7-4c79" name="Wall of Martyrs Defence Emplacement" hidden="false" targetId="da15-d390-e382-4d01" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9832-a9c5-e3c4-4541" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f49a-07f7-2779-455c" name="Wall of Martyrs Defence Line [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="7c4c-e6bd-ed84-40af" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">No additional abilities.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c153-76fe-1841-4d18" name="Wall of Martyrs Defence Line [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9056-0de7-2947-499a" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="a51f-7ef2-4969-4a62" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="31ec-7614-31fe-4912" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="a5f9-38cc-7f71-4a1d" name="Wall of Martyrs Defence Line" hidden="false" targetId="fed3-68fe-4ef3-4c4c" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c792-2407-f9c8-4b47" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="47a6-f62d-63a7-4b6b" name="Imperial Fortress Walls [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="d377-7871-0f5f-4402" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Damaged: 1-30 Wounds Remaining; Fortress</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4d31-b603-c1f7-4efb" name="Imperial Fortress Walls [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">10</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">16</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="b30e-ede8-823c-4865" name="Twin heavy bolter" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="00e9-d0e4-7937-4560" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="505c-a56b-6afb-4031" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
+        <categoryLink id="fc52-1efd-670e-4181" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="0764-c09a-7f65-4e00" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="fc44-bc71-d531-4994" name="Towering" hidden="false" targetId="0b38-2089-28fe-4a7e" primary="false"/>
+        <categoryLink id="0346-fad2-fe14-4105" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="e0e5-31c5-2f80-4f93" name="Imperial Fortress Walls" hidden="false" targetId="ac24-ba54-2edc-4207" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a928-08b8-2521-4db0" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="86d0-2e2b-85a8-49bb" name="Castellum Stronghold [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="92a5-9bd7-8377-49b2" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Stronghold; Damaged: 1-15 Wounds Remaining</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bf11-65d2-28d0-4953" name="Castellum Stronghold [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">N/A</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">10</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="54fe-1fa9-4bff-4403" name="Twin heavy flamer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignores Cover, Torrent, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="152a-7ce8-c139-40c5" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="97f8-3d3a-167a-4977" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
+        <categoryLink id="f46b-560d-bf43-45ca" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="7bf8-d3c9-306e-4c17" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="3b00-5b79-98c7-414d" name="Faction: Unaligned Forces" hidden="false" targetId="9867-b92a-496c-4e4b" primary="false"/>
+        <categoryLink id="be00-4e19-47af-4f66" name="Castellum Stronghold" hidden="false" targetId="29a3-ca11-0d4b-434a" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7789-2ed0-75e0-4293" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>

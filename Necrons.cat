@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1943-f050-58ad-7d88" name="Necrons" revision="4" battleScribeVersion="2.03" authorName="th3proj3ct" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="1943-f050-58ad-7d88" name="Necrons" revision="10" battleScribeVersion="2.03" authorName="th3proj3ct" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="4eda-9ba2-6d0f-0775" name="Faction: Necrons" hidden="false"/>
     <categoryEntry id="8840-ea82-b73d-58fb" name="Cryptek" hidden="false"/>
     <categoryEntry id="d42c-8c48-1ee0-7ac1" name="Noble" hidden="false"/>
+    <categoryEntry id="7200-b30f-3d63-4587" name="Canoptek Macrocytes" hidden="false"/>
+    <categoryEntry id="380b-530d-3d95-46a9" name="Canoptek Tomb Crawlers" hidden="false"/>
+    <categoryEntry id="cd2c-be78-dc05-4b2b" name="Annihilation Barge" hidden="false"/>
+    <categoryEntry id="451d-eab6-99e3-4e15" name="Geomancer" hidden="false"/>
+    <categoryEntry id="47a0-399d-75b3-4b98" name="Nekrosor Ammentar" hidden="false"/>
+    <categoryEntry id="096c-38c3-8193-4e38" name="Dynastic Conqueror [Crucible]" hidden="false"/>
+    <categoryEntry id="f40e-8af0-4b7f-4dea" name="Hyperscientist [Crucible]" hidden="false"/>
+    <categoryEntry id="bd49-856b-a067-4e6e" name="Triarchal Overseer [Crucible]" hidden="false"/>
+    <categoryEntry id="a2b6-564f-54ee-4b2e" name="Anrakyr the Traveller" hidden="false"/>
+    <categoryEntry id="d647-7ab7-df5d-4be8" name="Canoptek Acanthrites" hidden="false"/>
+    <categoryEntry id="a240-82b0-8434-4131" name="Tomb Citadel Walls" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="3a61-ae8d-6ccc-fd2a" name="C&apos;tan Shard of the Deceiver" hidden="false" collective="false" import="true" type="upgrade">
@@ -34,7 +45,8 @@
         <categoryLink id="b588-2155-df74-a7a2" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="e5f6-099e-bba3-4f4d" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="c74e-405e-ffcb-a94c" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="1d39-b846-4cbc-4f56" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9466-7643-a22c-d377" name="Golden Fists" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -119,7 +131,8 @@
         <categoryLink id="2568-e201-ef7e-187e" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="254b-a691-ced0-9819" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="cf11-63da-f8a2-183d" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="aa46-10b3-68b7-4ee0" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bd84-8186-6181-f4a3" name="Scythe of the Nightbringer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -204,7 +217,8 @@
         <categoryLink id="2884-4248-cc61-7f56" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="13b2-8acb-a406-f75c" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="150d-5a4b-7131-b234" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="8cff-42f2-74ae-4592" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1a87-61f3-4ee7-d688" name="Voltaic Storm" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -364,7 +378,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6615-471b-4b46-7eef" name="Chronomancer" hidden="false" collective="false" import="true" type="upgrade">
@@ -1436,7 +1450,8 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or 
         <categoryLink id="f150-5bf4-68e3-43d8" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="b733-5561-0c28-15f0" name="Faction: Necrons" hidden="false" targetId="4eda-9ba2-6d0f-0775" primary="false"/>
         <categoryLink id="f941-bbc7-9e60-c1a4" name="Cryptek" hidden="false" targetId="8840-ea82-b73d-58fb" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="fd0e-d2e3-1e8c-43cc" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        </categoryLinks>
       <entryLinks>
         <entryLink id="388d-311a-a769-be3b" name="Staff of Light" hidden="false" collective="false" import="true" targetId="9769-ae02-d532-3441" type="selectionEntry">
           <constraints>
@@ -1446,7 +1461,7 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3bbc-e67b-b2c0-ec23" name="The Silent King" hidden="false" collective="false" import="true" type="upgrade">
@@ -1612,7 +1627,8 @@ You can attach this model to one of the above units even if one ROYAL WARDEN or 
         <categoryLink id="9256-6e1b-ae8f-5b7a" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="e086-e044-e38c-0ce2" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="075f-12f4-d4d3-4e84" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="dd10-efac-0a36-40ce" name="Monster" hidden="false" targetId="3bbd-6bb7-b214-6dca" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a0f1-0bfe-c5a3-0c33" name="Crackling Tendrils" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2031,7 +2047,9 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         <categoryLink id="adf5-2e58-74e6-9df7" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="38c7-9d7b-22f9-58e2" name="Faction: Necrons" hidden="false" targetId="4eda-9ba2-6d0f-0775" primary="false"/>
         <categoryLink id="1bff-43eb-3aed-22ac" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="46ef-de20-bc80-4120" name="Battleline" hidden="false" targetId="21ec-008a-47d1-d863" primary="false"/>
+        <categoryLink id="20ae-359f-596e-42df" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a7bd-7a37-66d3-84c7" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="82cd-12f2-badc-6d81">
           <constraints>
@@ -2054,7 +2072,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="37c1-8ecc-8468-c59b" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2072,7 +2090,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2147,7 +2165,9 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         <categoryLink id="07de-2c14-da9d-9da7" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="958f-e89c-453b-7690" name="Faction: Necrons" hidden="false" targetId="4eda-9ba2-6d0f-0775" primary="false"/>
         <categoryLink id="21ca-84e7-0487-d5ec" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="400d-55b3-d27d-48e6" name="Battleline" hidden="false" targetId="21ec-008a-47d1-d863" primary="false"/>
+        <categoryLink id="3a05-1653-e4d6-47d2" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="bfa7-5887-a144-940c" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="5997-f1ee-c714-f436">
           <constraints>
@@ -2170,7 +2190,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2c3f-4e2a-ab43-8b42" name="20 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2283,7 +2303,8 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         <categoryLink id="3841-87a8-e4b1-337a" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="196a-f39b-289f-c533" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="6cde-def5-6be2-4e7f" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="1e30-fae9-ea7b-4f83" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        </categoryLinks>
       <entryLinks>
         <entryLink id="a2a5-3d47-dbb6-7e55" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="52b5-c1eb-6d46-49b4" type="selectionEntry">
           <constraints>
@@ -2299,7 +2320,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="02c1-be68-6b8c-d01d" name="Convergence of Dominion" hidden="false" collective="false" import="true" type="upgrade">
@@ -2449,7 +2470,8 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         <categoryLink id="894a-1c7a-775d-21b3" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
         <categoryLink id="6680-0aa7-dc9a-c7c5" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="754c-513d-d74a-3062" name="Faction: Necrons" hidden="false" targetId="4eda-9ba2-6d0f-0775" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="bccd-7622-f014-459c" name="Towering" hidden="false" targetId="0b38-2089-28fe-4a7e" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2820-7592-d2de-281d" name="Gauss Annihilator" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2644,7 +2666,8 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         <categoryLink id="32ed-daa1-e2af-a7e4" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="47dd-3f76-b33a-731e" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="1097-875b-4bc0-5b56" name="Faction: Necrons" hidden="false" targetId="4eda-9ba2-6d0f-0775" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="6cfa-30c0-e792-443e" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="12c4-e02a-8cfa-f9c8" name="Doomsday Blaster" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2732,7 +2755,8 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         <categoryLink id="6b88-7680-6078-0988" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="62eb-aee4-b1ab-baa3" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="e193-4737-ec38-8ac0" name="Faction: Necrons" hidden="false" targetId="4eda-9ba2-6d0f-0775" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="f055-c8ac-f724-47cb" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5357-6e31-c767-19df" name="Atomiser Beam" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2848,7 +2872,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2932,7 +2956,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8961-7013-165f-848c" name="2 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2950,7 +2974,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3003,7 +3027,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ef0e-9bb7-bd60-4508" name="6 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -3260,7 +3284,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3312,7 +3336,8 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         <categoryLink id="eace-465b-875d-091c" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="f92c-e06f-8a86-8cb7" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="d5a1-68cc-dad1-64c0" name="Flyer" hidden="false" targetId="551a-ed52-fd35-9078" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="c0e2-a5a6-4acf-4ace" name="Aircraft" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="false"/>
+        </categoryLinks>
       <entryLinks>
         <entryLink id="5602-6dcf-9c68-18d1" name="Twin Tesla Destructor" hidden="false" collective="false" import="true" targetId="6ede-4275-afec-b40f" type="selectionEntry">
           <constraints>
@@ -3322,7 +3347,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="18b1-4c3f-7e59-c3e1" name="Night Scythe" hidden="false" collective="false" import="true" type="upgrade">
@@ -3374,7 +3399,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4d24-5c6b-ff21-be2d" name="Doomsday Ark" hidden="false" collective="false" import="true" type="upgrade">
@@ -3513,7 +3538,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3852-1716-6e8c-a6ed" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -3531,7 +3556,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3553,7 +3578,8 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         <categoryLink id="9ec4-38d6-bff5-59b9" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="77c7-33cd-d6bc-8bac" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
         <categoryLink id="d38f-85fa-0d74-8db8" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="0718-fb16-2983-4fb3" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="50b6-0063-2218-9df7" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="427c-60c3-5961-e5fa">
           <constraints>
@@ -3594,7 +3620,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a771-3514-37f9-bb32" name="03 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -3612,7 +3638,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6971-29dd-9839-7ee6" name="06 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -3630,7 +3656,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3660,7 +3686,8 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         <categoryLink id="5477-f74f-0859-7261" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="9b84-4139-ab5e-5dde" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
         <categoryLink id="0eed-1ec2-da27-da24" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="c2d8-f90a-89a1-4097" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6cfa-773e-0f7f-b48f" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="ebf0-01ef-0df0-1569">
           <constraints>
@@ -3683,7 +3710,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="389d-a0d8-5d95-3db8" name="02 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -3943,7 +3970,8 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         <categoryLink id="d738-64eb-58f7-0ec9" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
         <categoryLink id="207d-68a7-c365-c45d" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="7876-b726-34b0-65da" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="3028-a247-08f9-4a39" name="Towering" hidden="false" targetId="0b38-2089-28fe-4a7e" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6459-c063-59a8-8953" name="Particle Whip" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4082,7 +4110,8 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         <categoryLink id="baad-5251-97fa-f2d1" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
         <categoryLink id="dfb7-6857-b94b-b2d7" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="3bd2-6f2a-0112-24bb" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="e1f8-8cfc-3884-41f0" name="Towering" hidden="false" targetId="0b38-2089-28fe-4a7e" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b3d3-94b3-0732-7f06" name="Tesla Spheres" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4147,7 +4176,8 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         <categoryLink id="0a07-7576-8642-16cb" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
         <categoryLink id="0930-6a19-ee80-3e4d" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="6073-da7e-5b01-fd94" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="9e32-7062-ec98-4610" name="Towering" hidden="false" targetId="0b38-2089-28fe-4a7e" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f414-3d5e-1979-90ad" name="Cosmic Fire" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4292,7 +4322,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3d53-825e-dcea-b775" name="06 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -4310,7 +4340,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4393,7 +4423,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8180-05dd-2c35-32c8" name="06 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -4411,7 +4441,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4513,7 +4543,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4603,7 +4633,8 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         <categoryLink id="0a10-da99-a66a-6221" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="7ee7-f4f1-ea98-5129" name="Faction: Necrons" hidden="false" targetId="4eda-9ba2-6d0f-0775" primary="false"/>
         <categoryLink id="3583-3837-6284-9608" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="b5e7-0c3f-aa13-436e" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b245-3f9a-6821-36e3" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="1a7d-7102-7133-0326">
           <constraints>
@@ -4626,7 +4657,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1622-3c22-4f06-f5ac" name="10 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -4644,7 +4675,7 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4738,7 +4769,8 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
       <categoryLinks>
         <categoryLink id="6435-dad6-f6f6-0d8c" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="f6b0-1d0d-3d96-ec1f" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="d153-6110-8606-44f9" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5106-60a2-2a97-3119" name="Primary Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="7524-0561-0a39-e16e">
           <constraints>
@@ -4849,7 +4881,8 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         <categoryLink id="ba2e-181c-c129-755a" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="6b1b-24b3-0d37-06d4" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="643f-c689-6e24-af71" name="Flyer" hidden="false" targetId="551a-ed52-fd35-9078" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="649d-4e80-3806-444e" name="Aircraft" hidden="false" targetId="bad3-1204-2d12-3c3d" primary="false"/>
+        </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="0261-9847-b3a3-561c" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6022-2e08-968d-68f3">
           <constraints>
@@ -5000,7 +5033,9 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
         <categoryLink id="0c9c-f5b8-dcda-3d67" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="635e-5120-2226-aef3" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="702d-a021-2615-f6ae" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="31c8-6fb2-b302-4dc3" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        <categoryLink id="4244-9ed3-cfcf-463b" name="Towering" hidden="false" targetId="0b38-2089-28fe-4a7e" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b2b6-5a6b-ae54-3136" name="Titanic Forelimbs" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -5253,6 +5288,629 @@ This model can be attached to a unit even if NEMESOR ZAHNDREKH has already been 
       </selectionEntries>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+      </costs>
+    </selectionEntry>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <selectionEntry id="cf94-8c4e-52fb-458d" name="Annihilation Barge" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="aabb-15ec-3020-44e0" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Malevolent Arcing</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b9ce-81d3-0687-48a6" name="Annihilation Barge (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="f050-2f29-a7bf-4c33" name="Twin tesla destructor" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 2, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="eede-ccb5-b83c-4db1" name="Armoured bulk" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="12e8-5d20-d0b8-4a91" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="b2a3-b0c2-4ea5-40f9" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="97dd-bfb7-5d6f-4b0c" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="b1c8-e71f-ae2c-46b6" name="Faction: Necrons" hidden="false" targetId="4eda-9ba2-6d0f-0775" primary="false"/>
+        <categoryLink id="144c-6364-7b9b-4b61" name="Annihilation Barge" hidden="false" targetId="cd2c-be78-dc05-4b2b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4d77-cfae-7df6-4fd4" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a36f-13f9-4a26-44ed" name="Canoptek Macrocytes" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="2b9f-09e0-9d40-40c5" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Harassment Swarm (Aura); Nanoscarab Projector; Accelerator Mandible</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c639-26ed-9982-44b0" name="Canoptek Macrocytes (5 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">3</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="12e7-12bb-ef19-42dd" name="Atomiser beam" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3517-4507-e539-44b4" name="Claws" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c20b-25df-c0fe-4940" name="Beast" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
+        <categoryLink id="4023-7700-5486-428a" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="d0ab-4980-d003-4662" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="280f-bd6b-f365-4cb5" name="Faction: Necrons" hidden="false" targetId="4eda-9ba2-6d0f-0775" primary="false"/>
+        <categoryLink id="856d-dd74-f4e2-489c" name="Canoptek Macrocytes" hidden="false" targetId="7200-b30f-3d63-4587" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3a9f-4287-005a-4d7a" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9bd4-14f0-2071-4960" name="Canoptek Tomb Crawlers" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="3daa-93af-d5c3-4c62" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Weapon Sentinels; Canoptek Retinue</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b63b-5da2-556c-49cf" name="Canoptek Tomb Crawlers (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="2a86-0270-a9b6-432a" name="Twin gauss reaper" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Lethal Hits, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dbc6-d165-9ba2-40c9" name="Claws" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="a182-cfca-f672-4e19" name="Beast" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
+        <categoryLink id="41a9-15e4-14b7-41f5" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="eb57-7ebf-91f3-4d61" name="Faction: Necrons" hidden="false" targetId="4eda-9ba2-6d0f-0775" primary="false"/>
+        <categoryLink id="36ca-9e5a-1cd6-4bf7" name="Canoptek Tomb Crawlers" hidden="false" targetId="380b-530d-3d95-46a9" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2ed7-717f-a4f5-4e73" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7404-31a6-b15d-4db9" name="Geomancer" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="120b-ee54-82ce-4498" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Tectonic Reverberations; Obelisk Node Control; Support; Vanguard Protocols</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0b78-2d75-f1b1-46c8" name="Geomancer (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">N/A</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="1019-502c-07ea-49e4" name="➤ Tremorglaive - shock wave pulse" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignores Cover, Torrent</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cf5f-7c81-bd06-4cd0" name="Tremorglaive" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">7+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5b04-cf1d-4fc6-4861" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="8ac4-7700-f535-4fbe" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="a119-fb46-a239-4261" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="1303-642d-6eba-4183" name="Faction: Necrons" hidden="false" targetId="4eda-9ba2-6d0f-0775" primary="false"/>
+        <categoryLink id="b676-52e5-69ae-44cd" name="Geomancer" hidden="false" targetId="451d-eab6-99e3-4e15" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ef99-d9f0-8ed3-4ae2" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d234-7071-d7a7-4047" name="Nekrosor Ammentar" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="bc97-85d7-a1b1-4b26" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Protective Disciples; Infectious Murder‑madness (Aura); Prophet of Destruction; Nullstone Field Generator (Aura)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8ef1-b585-640a-4e1e" name="Nekrosor Ammentar (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">10&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="02e1-0210-0737-4615" name="Enmitic disintegrators" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignores Cover, Pistol, Sustained Hits 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ad12-8d1b-81d9-4042" name="Blade tail and whip coils" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Extra Attacks</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="cd26-9e25-68aa-41db" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="7aff-c4c6-8af1-46c0" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="1733-e8f4-a9b6-4c6e" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="d220-6141-eace-442e" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="6972-74c2-7052-4646" name="Faction: Necrons" hidden="false" targetId="4eda-9ba2-6d0f-0775" primary="false"/>
+        <categoryLink id="7e25-6840-ecf6-4949" name="Nekrosor Ammentar" hidden="false" targetId="47a0-399d-75b3-4b98" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5b63-5a91-41d5-4382" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ccfa-3dfe-05a4-43a9" name="Dynastic Conqueror [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="8568-d6d4-19f3-4869" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Implacable Resistance</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fce0-d21e-1aad-4d85" name="Dynastic Conqueror [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="0bed-7ef0-b287-42da" name="Chronomancer's stave" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8171-e320-e37c-43cc" name="Flensing claw" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5502-f45a-2caa-4695" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="8192-cefb-af8c-4280" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="674e-784a-24ae-440c" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="3f66-788d-bc40-46ba" name="Faction: Necrons" hidden="false" targetId="4eda-9ba2-6d0f-0775" primary="false"/>
+        <categoryLink id="996a-8b99-ed30-4551" name="Dynastic Conqueror [Crucible]" hidden="false" targetId="096c-38c3-8193-4e38" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2fe0-9977-cde3-463c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f82a-f76c-9ef3-442c" name="Hyperscientist [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="7221-ffb6-7438-4b30" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4c00-03c2-f2bc-4d36" name="Hyperscientist [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">8+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="3112-c3db-9c66-436e" name="Chronomancer's stave" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cd69-a0da-6c3d-4436" name="Flensing claw" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="abfa-84ae-cd99-496d" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="ee26-25ad-6dc0-40d2" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="91b7-d782-b8c4-4d72" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="07f0-beb0-7ad7-4c95" name="Faction: Necrons" hidden="false" targetId="4eda-9ba2-6d0f-0775" primary="false"/>
+        <categoryLink id="610f-d3d2-221b-4df4" name="Hyperscientist [Crucible]" hidden="false" targetId="f40e-8af0-4b7f-4dea" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9485-e454-42b0-4138" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="edd1-b732-ef5e-45bb" name="Triarchal Overseer [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="51e4-8b9e-2455-43c9" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Targeting Relay</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6543-5774-3d52-462a" name="Triarchal Overseer [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="4973-1b04-a478-4393" name="Chronomancer's stave" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Blast</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4057-8605-5826-44e1" name="Flensing claw" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x4</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="26c2-3655-499d-4ac7" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="e27b-8d61-d95c-4f3c" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="539f-dfe2-acb9-4593" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="233d-1b7c-46eb-4649" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        <categoryLink id="5b9c-7caa-529b-4a73" name="Faction: Necrons" hidden="false" targetId="4eda-9ba2-6d0f-0775" primary="false"/>
+        <categoryLink id="95ce-de55-9dba-4782" name="Triarchal Overseer [Crucible]" hidden="false" targetId="bd49-856b-a067-4e6e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="51e3-1b4b-585b-4b7f" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="140a-8adb-bb62-4051" name="Anrakyr the Traveller [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="2498-82c4-9b50-42b0" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Leader; Lord of the Pyrrhian Eternals; Mind in the Machine</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a34e-0a9b-ff7e-4194" name="Anrakyr the Traveller [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">2+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="75bd-0bbe-24ff-45fc" name="Tachyon arrow" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">72&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">One Shot</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e5c2-b95c-b404-4e41" name="Warscythe" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">6+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Devastating Wounds</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e525-fbef-5389-44ba" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="11cb-9412-6d48-495f" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="c356-bcaa-6ce8-4e15" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="a1b7-d67f-268c-4d0d" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="8730-e385-dc38-4f43" name="Faction: Necrons" hidden="false" targetId="4eda-9ba2-6d0f-0775" primary="false"/>
+        <categoryLink id="6fdc-18ad-e644-4fbb" name="Anrakyr the Traveller" hidden="false" targetId="a2b6-564f-54ee-4b2e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e8af-ec46-9e2a-4434" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="38ee-ce03-ec7e-4851" name="Canoptek Acanthrites [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="eb82-bf66-6a34-4dd0" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Damaged Armour</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="763f-d531-4427-470b" name="Canoptek Acanthrites [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">8</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="4c77-2e5e-47a5-46cc" name="Cutting beam" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">1</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">10+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">3+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Melta 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8b98-d644-e54a-4f0b" name="Voidblade" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b13f-13db-4953-44e4" name="Beast" hidden="false" targetId="ef15-faf4-a4a1-33f5" primary="true"/>
+        <categoryLink id="0bba-45d5-71a6-4ab1" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="9267-c73e-e702-4da8" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="e791-482f-7d77-4459" name="Faction: Necrons" hidden="false" targetId="4eda-9ba2-6d0f-0775" primary="false"/>
+        <categoryLink id="b556-4e1e-47f0-4174" name="Canoptek Acanthrites" hidden="false" targetId="d647-7ab7-df5d-4be8" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3501-c14b-5135-44a2" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2f14-087a-dc5f-4c73" name="Tomb Citadel Walls [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="3123-19df-0dbe-4715" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Ziggurat Dock; Phased Cover; Damaged: 1-15 wounds remaining</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="54af-e14a-e0b6-40fe" name="Tomb Citadel Walls [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">6</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">10</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="843f-1a74-390c-4521" name="Twin tesla destructor" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Heavy</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">36&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">8+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 2, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="58f9-a176-be9c-47a1" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="b70e-0310-9ed5-426b" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
+        <categoryLink id="f6fd-6518-8e26-4a50" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="d715-21f3-6230-4edd" name="Faction: Necrons" hidden="false" targetId="4eda-9ba2-6d0f-0775" primary="false"/>
+        <categoryLink id="dce0-81f5-d2dd-478f" name="Tomb Citadel Walls" hidden="false" targetId="a240-82b0-8434-4131" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="526d-2287-e4f7-449e" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

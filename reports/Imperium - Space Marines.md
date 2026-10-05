@@ -1,0 +1,145 @@
+# Imperium - Space Marines.json
+
+Catalogue: `Library_Space_Marines.cat`
+
+Matched or already present: 88.
+New matched-play datasheets: 22.
+
+## New datasheets
+
+- **Captain in Gravis Armour** (1 models). M 5", WS 2+, BS 2+, A 1, W 1, Ld 6, Sv 4+, PL 4. Keywords: Character, Infantry, Captain, Grenades, Imperium, Faction: Adeptus Astartes, Gravis, Leader. Weapons: Master-crafted Heavy Bolt Rifle Heavy 30" A1 SAP 5+ SAT 10+, Master-crafted power weapon Melee Melee Ax3 SAP 4+ SAT 10+.
+- **Captain in Phobos Armour** (1 models). M 6", WS 2+, BS 2+, A 1, W 1, Ld 6, Sv 5+, PL 4. Keywords: Character, Infantry, Grenades, Imperium, Captain, Phobos, Faction: Adeptus Astartes, Leader. Weapons: Instigator Bolt Carbine Small Arms 24" AUser SAP 5+ SAT 10+, Combat Knife Melee Melee Ax3 SAP 6+ SAT 11+.
+- **Captain in Terminator Armour** (1 models). M 5", WS 2+, BS 3+, A 1, W 1, Ld 6, Sv 4+, PL 4. Keywords: Character, Infantry, Captain, Faction: Adeptus Astartes, Imperium, Terminator, Leader. Weapons: Storm bolter Small Arms 24" AUser SAP 7+ SAT 10+, Relic Weapon Melee Melee Ax3 SAP 4+ SAT 10+.
+- **Captain with Jump Pack** (1 models). M 12", WS 2+, BS 3+, A 1, W 1, Ld 6, Sv 5+, PL 4. Keywords: Character, Infantry, Grenades, Captain, Imperium, Faction: Adeptus Astartes, Fly, Jump Pack, Tacticus, Leader. Weapons: Heavy Bolt Pistol Small Arms 18" AUser SAP 6+ SAT 11+, Astartes Chainsword Melee Melee Ax4 SAP 6+ SAT 11+.
+- **Chaplain in Terminator Armour** (1 models). M 5", WS 2+, BS 3+, A 1, W 1, Ld 5, Sv 4+, PL 4. Keywords: Character, Infantry, Terminator, Chaplain, Imperium, Faction: Adeptus Astartes, Leader. Weapons: Storm bolter Small Arms 24" AUser SAP 7+ SAT 10+, Crozius arcanum Melee Melee Ax2 SAP 4+ SAT 10+.
+- **Chaplain on Bike** (1 models). M 12", WS 2+, BS 3+, A 1, W 1, Ld 5, Sv 4+, PL 4. Keywords: Character, Mounted, Imperium, Grenades, Chaplain, Faction: Adeptus Astartes, Leader. Weapons: Twin bolt rifle Small Arms 24" AUser SAP 6+ SAT 11+, Crozius arcanum Melee Melee Ax2 SAP 4+ SAT 10+.
+- **Chaplain with Jump Pack** (1 models). M 12", WS 2+, BS 3+, A 1, W 1, Ld 5, Sv 5+, PL 4. Keywords: Character, Infantry, Imperium, Chaplain, Faction: Adeptus Astartes, Fly, Jump Pack, Leader. Weapons: Storm bolter Small Arms 24" AUser SAP 7+ SAT 10+, Crozius arcanum Melee Melee Ax2 SAP 4+ SAT 10+.
+- **Invader ATV** (1 models). M 12", WS 3+, BS 3+, A 1, W 2, Ld 6, Sv 5+, PL 3. Keywords: Mounted, Grenades, Imperium, Invader ATV, Faction: Adeptus Astartes, Frame. Weapons: Onslaught gatling cannon Small Arms 24" Ax4 SAP 7+ SAT 11+, Close combat weapon Melee Melee Ax2 SAP 7+ SAT 10+.
+- **Librarian in Phobos Armour** (1 models). M 6", WS 2+, BS 3+, A 1, W 1, Ld 6, Sv 6+, PL 4. Keywords: Character, Grenades, Imperium, Psyker, Faction: Adeptus Astartes, Phobos, Librarian, Infantry, Leader. Weapons: ➤ Smite - Witchfire Small Arms 24" Ax3 SAP 5+ SAT 11+, Orksbane Melee Melee Ax2 SAP 4+ SAT 6+.
+- **Librarian in Terminator Armour** (1 models). M 5", WS 2+, BS 3+, A 1, W 1, Ld 6, Sv 4+, PL 4. Keywords: Character, Infantry, Imperium, Psyker, Terminator, Librarian, Faction: Adeptus Astartes, Leader. Weapons: ➤ Smite - Witchfire Small Arms 24" Ax3 SAP 5+ SAT 11+, Orksbane Melee Melee Ax2 SAP 4+ SAT 6+.
+- **Lieutenant in Phobos Armour** (1 models). M 6", WS 2+, BS 2+, A 1, W 1, Ld 6, Sv 6+, PL 2. Keywords: Character, Infantry, Grenades, Imperium, Phobos, Faction: Adeptus Astartes, Lieutenant, Support. Weapons: Master-crafted Scoped Bolt Carbine Small Arms 24" AUser SAP 7+ SAT 10+, Paired Combat Blades Melee Melee Ax2 SAP 6+ SAT 11+.
+- **Lieutenant in Reiver Armour** (1 models). M 6", WS 2+, BS 2+, A 1, W 1, Ld 6, Sv 6+, PL 2. Keywords: Character, Infantry, Grenades, Smoke, Imperium, Phobos, Faction: Adeptus Astartes, Lieutenant, Lieutenant in Reiver Armour, Support. Weapons: Master-crafted Special Issue Bolt Pistol Small Arms 12" AUser SAP 6+ SAT 11+, Combat Knife Melee Melee Ax3 SAP 6+ SAT 11+.
+- **Lieutenant with Combi-weapon** (1 models). M 6", WS 2+, BS 4+, A 1, W 1, Ld 6, Sv 6+, PL 5. Keywords: Character, Infantry, Grenades, Imperium, Lieutenant with Combi-weapon, Faction: Adeptus Astartes, Phobos, Lieutenant. Weapons: Combi-weapon Small Arms 24" AUser SAP 7+ SAT 10+, Paired Combat Blades Melee Melee Ax2 SAP 6+ SAT 11+.
+- **Ancient** (1 models). M 6", WS 2+, BS 3+, A 1, W 1, Ld 6, Sv 6+, PL 2. Keywords: Infantry, Character, Grenades, Imperium, Tacticus, Faction: Adeptus Astartes, Ancient, Support. Weapons: Bolt Rifle Heavy 24" A1 SAP 6+ SAT 11+, Power weapon Melee Melee Ax2 SAP 5+ SAT 10+.
+- **Vanguard Veteran Squad with Jump Packs** (5-10 models). M 12", WS 3+, BS 3+, A 6, W 2, Ld 6, Sv 6+, PL 5. Maximum size A 11, W 4, PL 10. Keywords: Infantry, Grenades, Imperium, Faction: Adeptus Astartes, Vanguard Veteran Squad with Jump Packs, Jump Pack, Fly, Vanguard Veteran Squad. Weapons: Bolt pistol Small Arms 12" AUser SAP 7+ SAT 10+, Vanguard Veteran Weapon Melee Melee Ax2 SAP 6+ SAT 11+.
+- **Astraeus** (1 models). M 10", WS 4+, BS 3+, A 3, W 5, Ld 6, Sv 4+, PL 26. Keywords: Faction: Adeptus Astartes, Vehicle, Titanic, Imperium, Astraeus. Weapons: Twin macro-accelerator cannon Heavy 72" A3 SAP 10+ SAT 6+, Armoured hull Melee Melee Ax3 SAP 5+ SAT 8+.
+- **Thunderhawk Gunship** (1 models). M 20+", WS 4+, BS 3+, A 4, W 6, Ld 6, Sv 4+, PL 42. Keywords: Faction: Adeptus Astartes, Vehicle, Titanic, Fly, Transport, Imperium, Thunderhawk Gunship. Weapons: Thunderhawk heavy cannon Heavy 48" A2 SAP 10+ SAT 4+, Armoured hull Melee Melee Ax3 SAP 5+ SAT 8+.
+- **Champion of the Chapter [Crucible]** (1 models). M 6", WS 2+, BS 3+, A 1, W 1, Ld 6, Sv 6+, PL 4. Keywords: Character, Infantry, Grenades, Imperium, Champion of the Chapter, Tacticus, Faction: Adeptus Astartes, Crucible. Weapons: ➤ Smite - Witchfire Small Arms 24" Ax3 SAP 5+ SAT 11+, Black Sword - sweep Melee Melee Ax5 SAP 4+ SAT 9+.
+- **Librarius Adept [Crucible]** (1 models). M 6", WS 2+, BS 3+, A 1, W 1, Ld 6, Sv 6+, PL 4. Keywords: Character, Infantry, Grenades, Imperium, Psyker, Tacticus, Faction: Adeptus Astartes, Librarius Adept, Crucible. Weapons: ➤ Smite - Witchfire Small Arms 24" Ax3 SAP 5+ SAT 11+, Black Sword - sweep Melee Melee Ax5 SAP 4+ SAT 9+.
+- **Venerable Battle-Brother [Crucible]** (1 models). M 8", WS 2+, BS 2+, A 2, W 2, Ld 6, Sv 4+, PL 8. Keywords: Character, Vehicle, Dreadnought, Venerable Battle-Brother, Faction: Adeptus Astartes, Imperium, Walker, Crucible. Weapons: Heavy Onslaught Gatling Cannon Small Arms 24" Ax6 SAP 6+ SAT 10+, ➤ Brutalis Talons - Sweep Melee Melee Ax5 SAP 4+ SAT 8+.
+- **Land Speeder** (1 models). M 14", WS 3+, BS 3+, A 1, W 2, Ld 6, Sv 6+, PL 5. Keywords: Vehicle, Fly, Imperium, Land Speeder, Faction: Adeptus Astartes. Weapons: Onslaught gatling cannon Small Arms 24" Ax4 SAP 7+ SAT 11+, Close combat weapon Melee Melee Ax2 SAP 7+ SAT 10+.
+- **Eradicator Squad with Heavy Bolters** (3 models). M 5", WS 3+, BS 3+, A 3, W 2, Ld 6, Sv 5+, PL 4. Keywords: Infantry, Imperium, Gravis, Eradicator Squad, Faction: Adeptus Astartes, Eradicator Squad with Heavy Bolters. Weapons: Heavy Bolter Heavy 36" A1 SAP 5+ SAT 11+, Close combat weapon Melee Melee Ax2 SAP 7+ SAT 10+.
+
+## Already in the catalogues
+
+- Aggressor Squad: matched 1 existing entry; 11e points 80.0 / 165.0; proposed minimum PL 4.
+- Ancient in Terminator Armour: matched 1 existing entry; 11e points 65.0; proposed minimum PL 3.
+- Apothecary Biologis: matched 1 existing entry; 11e points 70.0; proposed minimum PL 4.
+- Assault Intercessor Squad: matched 1 existing entry; 11e points 75.0 / 150.0; proposed minimum PL 4.
+- Assault Squad [Legends]: matched 1 existing entry; 11e points 95.0 / 190.0; proposed minimum PL 5.
+- Assault Squad with Jump Packs [Legends]: Legends, not created on this pass.
+- Astartes Servitors [Legends]: Legends, not created on this pass.
+- Attack Bike Squad [Legends]: matched 1 existing entry; 11e points unknown; proposed minimum PL unchanged.
+- Ballistus Dreadnought: matched 1 existing entry; 11e points 150.0; proposed minimum PL 8.
+- Bike Squad [Legends]: matched 1 existing entry; 11e points 80.0 / 160.0; proposed minimum PL 4.
+- Bladeguard Ancient: matched 1 existing entry; 11e points 40.0; proposed minimum PL 2.
+- Bladeguard Veteran Squad: matched 1 existing entry; 11e points 80.0 / 160.0; proposed minimum PL 4.
+- Brutalis Dreadnought: matched 1 existing entry; 11e points 150.0; proposed minimum PL 8.
+- Captain on Bike [Legends]: Legends, not created on this pass.
+- Centurion Assault Squad: matched 1 existing entry; 11e points 150.0 / 300.0; proposed minimum PL 8.
+- Centurion Devastator Squad: matched 1 existing entry; 11e points 175.0 / 365.0; proposed minimum PL 9.
+- Command Squad [Legends]: matched 1 existing entry; 11e points 165.0; proposed minimum PL 8.
+- Desolation Squad: matched 1 existing entry; 11e points 180.0; proposed minimum PL 9.
+- Dreadnought: matched 1 existing entry; 11e points 135.0; proposed minimum PL 7.
+- Drop Pod: matched 1 existing entry; 11e points 60.0; proposed minimum PL 3.
+- Eliminator Squad: matched 1 existing entry; 11e points 75.0; proposed minimum PL 4.
+- Eradicator Squad: matched 1 existing entry; 11e points 90.0 / 180.0; proposed minimum PL 4.
+- Firestrike Servo-Turrets: matched 1 existing entry; 11e points unknown; proposed minimum PL unchanged.
+- Gladiator Lancer: matched 1 existing entry; 11e points 160.0; proposed minimum PL 8.
+- Gladiator Reaper: matched 1 existing entry; 11e points 160.0; proposed minimum PL 8.
+- Gladiator Valiant: matched 1 existing entry; 11e points 150.0; proposed minimum PL 8.
+- Hammerfall Bunker: matched 1 existing entry; 11e points 175.0; proposed minimum PL 9.
+- Heavy Intercessor Squad: matched 1 existing entry; 11e points 100.0 / 200.0; proposed minimum PL 5.
+- Hellblaster Squad: matched 1 existing entry; 11e points 110.0 / 220.0; proposed minimum PL 6.
+- Hunter [Legends]: matched 1 existing entry; 11e points 100.0; proposed minimum PL 5.
+- Impulsor: matched 1 existing entry; 11e points 70.0; proposed minimum PL 4.
+- Inceptor Squad: matched 1 existing entry; 11e points 125.0 / 250.0; proposed minimum PL 6.
+- Incursor Squad: matched 1 existing entry; 11e points 85.0 / 150.0; proposed minimum PL 4.
+- Infernus Squad: matched 1 existing entry; 11e points 85.0 / 180.0; proposed minimum PL 4.
+- Infiltrator Squad: matched 1 existing entry; 11e points 110.0 / 180.0; proposed minimum PL 6.
+- Intercessor Squad: matched 1 existing entry; 11e points 80.0 / 150.0; proposed minimum PL 4.
+- Invictor Tactical Warsuit: matched 1 existing entry; 11e points 125.0; proposed minimum PL 6.
+- Ironclad Dreadnought [Legends]: matched 2 existing entries; 11e points 150.0; proposed minimum PL 8.
+- Land Speeder Tornado [Legends]: Legends, not created on this pass.
+- Judiciar: matched 1 existing entry; 11e points 55.0; proposed minimum PL 3.
+- Land Raider: matched 1 existing entry; 11e points 220.0; proposed minimum PL 11.
+- Land Raider Crusader: matched 1 existing entry; 11e points 220.0; proposed minimum PL 11.
+- Land Raider Redeemer: matched 1 existing entry; 11e points 260.0; proposed minimum PL 13.
+- Land Speeder Typhoon [Legends]: Legends, not created on this pass.
+- Land Speeder Storm [Legends]: matched 1 existing entry; 11e points unknown; proposed minimum PL unchanged.
+- Vanguard Veteran Squad [Legends]: matched 1 existing entry; 11e points 120.0 / 240.0; proposed minimum PL 6.
+- Librarian with Jump Pack [Legends]: Legends, not created on this pass.
+- Apothecary: matched 1 existing entry; 11e points 40.0; proposed minimum PL 2.
+- Thunderfire Cannon [Legends]: matched 2 existing entries; 11e points 90.0; proposed minimum PL 4.
+- Outrider Squad: matched 1 existing entry; 11e points 70.0 / 140.0; proposed minimum PL 4.
+- Scout Bike Squad [Legends]: matched 1 existing entry; 11e points 75.0 / 150.0; proposed minimum PL 4.
+- Rhino: matched 1 existing entry; 11e points 65.0; proposed minimum PL 3.
+- Predator Annihilator: matched 1 existing entry; 11e points 135.0; proposed minimum PL 7.
+- Repulsor Executioner: matched 1 existing entry; 11e points 255.0; proposed minimum PL 13.
+- Lieutenant: matched 1 existing entry; 11e points 45.0; proposed minimum PL 2.
+- Relic Terminator Squad [Legends]: Legends, not created on this pass.
+- Predator Destructor: matched 1 existing entry; 11e points 140.0; proposed minimum PL 7.
+- Redemptor Dreadnought: matched 1 existing entry; 11e points 195.0; proposed minimum PL 10.
+- Primaris Company Champion [Legends]: Legends, not created on this pass.
+- Razorback: matched 1 existing entry; 11e points 85.0; proposed minimum PL 4.
+- Librarian: matched 1 existing entry; 11e points 70.0; proposed minimum PL 4.
+- Chaplain: matched 1 existing entry; 11e points 60.0; proposed minimum PL 3.
+- Reiver Squad: matched 1 existing entry; 11e points 75.0 / 150.0; proposed minimum PL 4.
+- Captain: matched 1 existing entry; 11e points 80.0; proposed minimum PL 4.
+- Techmarine: matched 1 existing entry; 11e points 55.0; proposed minimum PL 3.
+- Repulsor: matched 1 existing entry; 11e points 170.0; proposed minimum PL 8.
+- Scout Sniper Squad [Legends]: Legends, not created on this pass.
+- Scout Squad: matched 1 existing entry; 11e points 65.0 / 120.0; proposed minimum PL 3.
+- Terminator Squad: matched 1 existing entry; 11e points 160.0 / 320.0; proposed minimum PL 8.
+- Whirlwind: matched 1 existing entry; 11e points 175.0; proposed minimum PL 9.
+- Terminator Assault Squad: matched 1 existing entry; 11e points 155.0 / 310.0; proposed minimum PL 8.
+- Stormtalon Gunship: matched 1 existing entry; 11e points 165.0; proposed minimum PL 8.
+- Stormraven Gunship: matched 1 existing entry; 11e points 280.0; proposed minimum PL 14.
+- Tactical Squad: matched 1 existing entry; 11e points 140.0; proposed minimum PL 7.
+- Suppressor Squad: matched 1 existing entry; 11e points 85.0; proposed minimum PL 4.
+- Storm Speeder Hailstrike: matched 1 existing entry; 11e points 105.0; proposed minimum PL 5.
+- Stalker [Legends]: matched 1 existing entry; 11e points 140.0; proposed minimum PL 7.
+- Sternguard Veteran Squad: matched 1 existing entry; 11e points 100.0 / 200.0; proposed minimum PL 5.
+- Storm Speeder Hammerstrike: matched 1 existing entry; 11e points 140.0; proposed minimum PL 7.
+- Storm Speeder Thunderstrike: matched 1 existing entry; 11e points 135.0; proposed minimum PL 7.
+- Stormhawk Interceptor: matched 1 existing entry; 11e points 155.0; proposed minimum PL 8.
+- Vindicator: matched 1 existing entry; 11e points 185.0; proposed minimum PL 9.
+- Devastator Squad: matched 1 existing entry; 11e points 120.0 / 200.0; proposed minimum PL 6.
+- Land Raider Helios [Legends]: matched 1 existing entry; 11e points 265.0; proposed minimum PL 13.
+- Mortis Dreadnought [Legends]: matched 1 existing entry; 11e points 130.0; proposed minimum PL 6.
+- Deimos Predator [Legends]: matched 1 existing entry; 11e points 115.0; proposed minimum PL 6.
+- Chaplain Venerable Dreadnought [Legends]: matched 1 existing entry; 11e points 150.0; proposed minimum PL 8.
+- Land Speeder Tempest [Legends]: Legends, not created on this pass.
+- Carab Culln the Risen [Legends]: matched 1 existing entry; 11e points 250.0; proposed minimum PL 12.
+- Caestus Assault Ram [Legends]: matched 1 existing entry; 11e points 215.0; proposed minimum PL 11.
+- Land Raider Prometheus [Legends]: matched 1 existing entry; 11e points 250.0; proposed minimum PL 12.
+- Imperial Space Marine [Legends]: Legends, not created on this pass.
+- Terminus Ultra [Legends]: matched 1 existing entry; 11e points 285.0; proposed minimum PL 14.
+- Relic Razorback [Legends]: Legends, not created on this pass.
+- Company Veterans on Bikes [Legends]: Legends, not created on this pass.
+- Company Champion on Bike [Legends]: Legends, not created on this pass.
+- Ancient on Bike [Legends]: Legends, not created on this pass.
+- Apothecary on Bike [Legends]: Legends, not created on this pass.
+- Techmarine on Bike [Legends]: Legends, not created on this pass.
+- Librarian on Bike [Legends]: Legends, not created on this pass.
+- Thunderhawk Transporter [Legends]: matched 1 existing entry; 11e points 495.0; proposed minimum PL 25.
+- Tarantula Air Defense Battery [Legends]: Legends, not created on this pass.
+- Venerable Dreadnought [Legends]: matched 1 existing entry; 11e points 165.0; proposed minimum PL 8.
+- Rhino Primaris [Legends]: matched 1 existing entry; 11e points 95.0; proposed minimum PL 5.
+- Land Raider Excelsior [Legends]: matched 1 existing entry; 11e points 250.0; proposed minimum PL 12.
+- Assault Intercessors with Jump Packs: matched 1 existing entry; 11e points 85.0 / 160.0; proposed minimum PL 4.
+- Company Heroes: matched 1 existing entry; 11e points 105.0; proposed minimum PL 5.
+- Ferren Areios [Legends]: Legends, not created on this pass.
+- Judiciar Xacharus [Legends]: Legends, not created on this pass.
+- Chaplain Kastiel [Legends]: Legends, not created on this pass.
+

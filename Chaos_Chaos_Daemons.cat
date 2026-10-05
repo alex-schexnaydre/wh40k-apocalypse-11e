@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3d75-ac82-4b40-9091" name="Chaos - Chaos Daemons" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="3d75-ac82-4b40-9091" name="Chaos - Chaos Daemons" revision="5" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse/" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <profileTypes>
     <profileType id="bb5c-0fba-06fd-2fcb" name="Tally of Pestilence">
       <characteristicTypes>
@@ -94,6 +94,9 @@
     <categoryEntry id="b42b-c274-27e1-98bf" name="Spined Chaos Beast" hidden="false"/>
     <categoryEntry id="a984-f9de-3a4b-6033" name="Giant Chaos Spawn" hidden="false"/>
     <categoryEntry id="68e0-d8a3-a5c1-74cd" name="Scabeiathrax the Bloated" hidden="false"/>
+    <categoryEntry id="7ad0-9d6e-858d-45e3" name="Blue Horrors" hidden="false"/>
+    <categoryEntry id="29f1-ed52-ca96-41c6" name="Pink Horrors" hidden="false"/>
+    <categoryEntry id="9973-bbf9-0957-40c4" name="Hellflayers" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="a261-8c4e-77e0-2d45" name="Skarbrand" hidden="false" collective="false" import="true" type="unit">
@@ -2274,12 +2277,13 @@
         <categoryLink name="Light" hidden="false" id="47cc-3f30-e8f3-5664" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink targetId="21ec-008a-47d1-d863" id="2a2b-152d-9d3c-9906" primary="true" name="Battleline"/>
         <categoryLink targetId="2d6e-c03a-7a58-74ce" id="79e0-587a-fdd0-0eb8" primary="false" name="Infantry"/>
-      </categoryLinks>
+              <categoryLink id="83db-0b43-50ee-44ef" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
+        </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Hellblades" hidden="false" id="519a-b380-be0c-9183" type="selectionEntry" targetId="b597-0a47-5d03-be57"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Plaguebearers" hidden="false" id="5cff-9627-c319-7397" collective="false">
@@ -2321,7 +2325,8 @@
         <categoryLink name="Light" hidden="false" id="4561-94e2-24b9-f15a" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink name="Battleline" hidden="false" id="2ddf-b5ac-6530-f53d" targetId="21ec-008a-47d1-d863" primary="true"/>
         <categoryLink name="Infantry" hidden="false" id="d5ea-1587-05f0-01df" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="8a89-a8a1-f4b6-4647" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Plaguesword" hidden="false" id="b3bd-3d77-659c-a75e">
           <profiles>
@@ -2388,7 +2393,8 @@
         <categoryLink name="Light" hidden="false" id="03ee-d2be-0567-8e5c" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink name="Battleline" hidden="false" id="0161-e4bf-a9c1-9ba8" targetId="21ec-008a-47d1-d863" primary="true"/>
         <categoryLink name="Infantry" hidden="false" id="871a-6acf-9f6d-e101" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="b597-4ca9-7f44-45e6" name="Troops" hidden="false" targetId="4182-4f4b-94dc-40d9" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Slashing Claws" hidden="false" id="103b-744c-7c7f-edce">
           <profiles>
@@ -2457,7 +2463,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2530,7 +2536,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="06 Models" hidden="false" id="6cdc-fa95-7030-575c">
@@ -2548,7 +2554,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2624,7 +2630,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="06 Models" hidden="false" id="b010-c94f-3026-9ae0">
@@ -2688,6 +2694,9 @@
         </modifier>
       </modifiers>
     </selectionEntry>
+    
+    
+    
   </selectionEntries>
   <sharedProfiles>
     <profile name="Daemonic Master Psyker" typeId="f075-616f-79da-32a6" typeName="Abilities" hidden="false" id="f322-35ac-c1ef-0ee4">

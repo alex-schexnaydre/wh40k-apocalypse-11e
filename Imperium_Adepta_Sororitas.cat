@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2d79-f064-bfae-b8f6" name="Imperium - Adepta Sororitas" revision="4" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="2d79-f064-bfae-b8f6" name="Imperium - Adepta Sororitas" revision="10" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorContact="" authorUrl="https://github.com/th3proj3ct/wh40k-fundapocalypse" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="571e-a83e-e771-780a" name="Faction: Adeptus Ministorum" hidden="false"/>
     <categoryEntry id="21f5-1b47-2570-42d1" name="Faction: Adepta Sororitas" hidden="false"/>
@@ -42,6 +42,16 @@
     <categoryEntry id="0809-3c45-9ab8-4da6" name="Palatine" hidden="false"/>
     <categoryEntry id="88b7-4270-9350-1f83" name="Morvenn Vahl" hidden="false"/>
     <categoryEntry id="9c28-93de-0667-9497" name="Celestian Sacresants" hidden="false"/>
+    <categoryEntry id="6cd2-90ca-f73b-4f6a" name="Sanctifiers" hidden="false"/>
+    <categoryEntry id="67d9-d5f1-c517-493f" name="Celestian Insidiants" hidden="false"/>
+    <categoryEntry id="5fe0-cdf0-c28d-4f19" name="Canoness with Jump Pack" hidden="false"/>
+    <categoryEntry id="d6ea-45de-af2a-462f" name="Militant Commander [Crucible]" hidden="false"/>
+    <categoryEntry id="4501-c8ac-a2a9-4799" name="Inspiring Devotee [Crucible]" hidden="false"/>
+    <categoryEntry id="65e7-c93e-c59f-4f77" name="Reliquant Knight [Crucible]" hidden="false"/>
+    <categoryEntry id="cda5-1129-dee8-4d8b" name="Intranzia Fraye" hidden="false"/>
+    <categoryEntry id="fda1-2506-476d-4857" name="Repressor" hidden="false"/>
+    <categoryEntry id="daff-93bc-80c3-4c19" name="Battle Sanctum" hidden="false"/>
+    <categoryEntry id="752d-bed5-19d2-46ff" name="Celestian Sacresant Aveline" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="09b2-d0ac-5c76-b710" name="Saint Celestine" hidden="false" collective="false" import="true" type="unit">
@@ -82,7 +92,8 @@
         <categoryLink id="168a-b5f7-03f7-4aaf" name="Jump Pack" hidden="false" targetId="cdf9-175a-b31b-44a1" primary="false"/>
         <categoryLink id="9286-eda2-8491-ed70" name="Celestine" hidden="false" targetId="b6cb-539d-aa9d-dcae" primary="false"/>
         <categoryLink id="1b24-33f9-9ea6-4712" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="5d8f-b25d-f7b5-49a1" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f1cc-33ca-d49f-25d6" name="Celestine and Geminae Superia" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -103,7 +114,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="0"/>
+            <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="75dc-31cd-c803-f251" name="The Ardent Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -214,7 +225,8 @@
         <categoryLink id="4131-d4df-f42c-a83d" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="8375-fd2a-eb66-292c" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="db79-5b45-6c0c-317f" name="Canoness" hidden="false" targetId="14d2-e9bb-166c-be34" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="c077-5036-2847-4a36" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8e3b-19eb-e6ba-38c1" name="Master-crafted Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -284,7 +296,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="0634-3ee8-43a4-5d27" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="5522-c14c-536c-eb85" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="d86f-7e8c-db03-1b3d" name="Imagifier" hidden="false" targetId="c89d-3eb5-a80b-ecaa" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="aa78-376f-de17-40a6" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="529b-faf2-f83d-8f0a" name="Close Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -921,7 +934,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="50e8-91d8-6be3-5798" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="626f-2ed2-c112-dd00" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
         <categoryLink id="6629-df4a-83c0-971b" name="Retributor Squad" hidden="false" targetId="4f83-9f0c-b49e-e4af" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="0759-0492-4bfb-4a41" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <entryLinks>
         <entryLink id="43d4-3f8d-d467-5fc4" name="Close Combat Weapons" hidden="false" collective="false" import="true" targetId="a558-e259-5105-97eb" type="selectionEntry"/>
         <entryLink id="4528-fc77-5d29-4e98" name="Heavy Weapons" hidden="false" collective="false" import="true" targetId="d261-1682-80d1-47cb" type="selectionEntryGroup">
@@ -932,7 +946,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="d20f-7a31-cd69-0b75" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8284-79c4-2005-9e92" name="Dominion Squad" hidden="false" collective="false" import="true" type="unit">
@@ -1051,7 +1065,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <entryLink id="f7eb-38d5-bf3a-f09c" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e59e-3b41-35d5-49c4" name="Immolator" hidden="false" collective="false" import="true" type="unit">
@@ -1319,7 +1333,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="db9c-724a-cd9b-b6ca" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="1c2f-9123-7d6a-eca6" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="e7e2-980b-03d8-3c76" name="Penitent Engines" hidden="false" targetId="73f8-9aa8-193a-60b5" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="2f9a-fa46-082e-4735" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5d2c-f24a-5ddd-714b" name="Penitent Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1468,7 +1483,9 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="67ec-b96f-ca1c-b856" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="eb87-d559-8fae-7a69" name="Junith Eruita" hidden="false" targetId="7628-365f-a6b9-b564" primary="false"/>
         <categoryLink id="0c2f-18c7-1f8c-bcd7" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="e89c-32f7-8945-432c" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="6714-7dcc-7223-4131" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="147b-3b6d-ecae-28fd" name="The Mace of Castigation" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1544,7 +1561,9 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="216b-a325-c365-c145" name="Triumph of Saint Katherine" hidden="false" targetId="3dd1-7ccf-df45-e908" primary="false"/>
         <categoryLink id="4b3b-f5a0-6d6e-a22d" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="d80e-e27d-f9d7-8c3d" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="f8a8-1a0d-6da5-452c" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="dae2-d07b-bc01-438c" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7c70-134c-bb47-470f" name="Relic Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1762,7 +1781,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="46c9-382e-3f91-5694" name="Faction: Adeptus Ministorum" hidden="false" targetId="571e-a83e-e771-780a" primary="false"/>
         <categoryLink id="90ad-781a-5a3e-9418" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
         <categoryLink id="3c09-33c3-6ecb-c55b" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="ff5f-6515-4ba1-4767" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4ab2-d5ad-fb58-3366" name="Mortifier Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1815,7 +1835,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8aa7-be08-cfdf-c9f4" name="2 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -1833,7 +1853,7 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1898,7 +1918,9 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="2b0f-e03a-6776-70c5" name="Faction: Adepta Sororitas" hidden="false" targetId="21f5-1b47-2570-42d1" primary="false"/>
         <categoryLink id="50a3-e528-109c-1943" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="47b9-4b8a-beb0-097f" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="888d-5f86-1d08-40d0" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+                <categoryLink id="6f74-b9d9-f181-4bde" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1ab6-e375-a36e-e1fa" name="Ephrael Stern" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -2009,7 +2031,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="f8c8-8cfe-c53c-0734" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="d631-29f4-6a45-8e46" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="79ec-815b-0ee8-9d58" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="6d0a-1e1b-3b64-4ed4" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5a9c-2ade-3b07-10ca" name="Master-crafted Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2083,7 +2106,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="023f-7423-a8ad-15bf" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="6ccc-d167-f54b-0968" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
         <categoryLink id="14dc-b55e-897a-edd8" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="dd31-af13-907c-4edb" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2ab8-9629-335f-51d2" name="Fidelis" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2244,7 +2268,9 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="3cb5-e7a9-b41e-7a5b" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="f8bf-9742-eb6a-9565" name="Elites" hidden="false" targetId="8f90-47d8-c075-cbb2" primary="false"/>
         <categoryLink id="26f3-4e4f-f239-a400" name="Paragon Warsuits" hidden="false" targetId="8df8-d0a6-33c7-61f5" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="d380-3c1a-8bfb-422c" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        <categoryLink id="f980-0828-9ca1-4606" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d8c8-4998-a56d-c049" name="Paragon Weapon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2578,7 +2604,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9e94-3697-4fda-d729" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2670,7 +2696,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="1"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ad11-e4ec-6b22-d791" name="4 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2688,7 +2714,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="39de-28a5-9648-f218" name="6 Models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2706,7 +2732,7 @@ Each time this model makes an attack with its Castigator battle cannon that targ
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2866,7 +2892,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="8af5-416c-4a23-346a" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
         <categoryLink id="b55c-50bb-cd4e-fa88" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
         <categoryLink id="5ee4-48ff-1f77-e565" name="Dialogus" hidden="false" targetId="cc41-5d5a-466f-bb57" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="f1e9-6398-888d-4ff5" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="eac0-4019-572c-8935" name="Mace of the Righteous" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2945,7 +2972,8 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
         <categoryLink id="653e-2d7f-66c4-07de" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
         <categoryLink id="476a-a955-2da6-4f75" name="Hospitaller" hidden="false" targetId="f4af-b4e6-1f73-6c84" primary="false"/>
         <categoryLink id="73dd-25e4-92ff-99af" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="ad98-72da-e3fa-4952" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e352-818a-0554-d0af" name="Blade of Vigil" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2980,6 +3008,616 @@ This model can be attached to a BATTLE SISTERS SQUAD, even if one CANONESS, PALA
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="1466-da3f-0d27-dace" value="3"/>
+      </costs>
+    </selectionEntry>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <selectionEntry id="2782-d130-87eb-4049" name="Ministorum Priest" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="9ba0-2406-a4e7-4e20" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Righteous Smiting; Zealot; Holy Mission; Leader</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="83bb-f3d2-9e30-4d4b" name="Ministorum Priest (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">N/A</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">9+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="33a1-5f6d-9d0b-4fc1" name="Zealot's vindictor" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignores Cover, Torrent</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b1af-489c-c13a-49c0" name="Power weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="52eb-6120-62ed-4399" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="519d-8f62-1075-4272" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="1822-bef7-c481-4928" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="c352-34cd-6d94-4d7d" name="Ministorum Priest" hidden="false" targetId="3649-ee2c-d401-047d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8670-cba1-1fa5-4ffd" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cc1f-a8b1-a658-4cfb" name="Canoness with Jump Pack" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="df64-5908-ec40-4885" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Divine Deliverance; Leader</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7580-bdd3-d9b2-4ee4" name="Canoness with Jump Pack (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">N/A</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="2d36-0db9-2399-4af2" name="Ministorum hand flamer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignores Cover, Pistol, Torrent</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e996-f332-b189-445f" name="Blessed Halberd" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="004b-5a81-4c83-41ce" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="5548-8b86-77d9-42a9" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="fe22-aa83-c59b-4956" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="8203-cf4d-7541-44ea" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="5674-59fe-fdd7-47a4" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="a3f5-5dfc-988b-4ce6" name="Canoness with Jump Pack" hidden="false" targetId="5fe0-cdf0-c28d-4f19" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5d3a-3883-7033-4a75" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="63a9-b835-a36a-46ac" name="Sanctifiers" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="7b7f-b0de-4ba0-444c" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Ministorum Sermon; Cherub; Attached Unit; Simulacrum Imperialis; Salvationist Medikit</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a1e3-b574-a0a2-4ae8" name="Sanctifiers (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">N/A</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">10+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="e84f-a10d-800b-4499" name="Ministorum hand flamer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignores Cover, Pistol, Torrent</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="62aa-2777-e690-463f" name="Sanctifier melee weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">8+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3245-30e3-f1a7-4861" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="406e-c57c-2d30-4089" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="c10d-1efe-7b2c-4a68" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="51ce-ad30-aa17-427d" name="Sanctifiers" hidden="false" targetId="6cd2-90ca-f73b-4f6a" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b386-e91f-e49b-4dd6" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5c09-831b-caf1-40b7" name="Celestian Insidiants" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="88e0-26e2-f472-4f61" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Rituale Nullificatus; Virtue of Intolerance; Attached Unit; Denuncia Oratory; Simulacrum Imperialis</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="af35-1d9a-099d-4635" name="Celestian Insidiants (9 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">8</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="b8ac-9656-bcff-4829" name="Condemnor bolt pistol" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-PSYKER 4+, Devastating Wounds, Pistol</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2b48-7a40-53c9-4f4a" name="Null mace" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-PSYKER 4+, Devastating Wounds</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="52f7-fe31-8f9d-4b9c" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="c9c4-4670-3128-445b" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="27a9-d2f3-f9e6-42f4" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="f91b-d192-001b-4ba1" name="Celestian Insidiants" hidden="false" targetId="67d9-d5f1-c517-493f" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8673-8c1d-d8ae-47be" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="87c1-a171-0f8b-465c" name="Militant Commander [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="c95c-7b6f-8ae6-445b" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Sacred Command; Leader</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fdfe-b5cd-55fd-4735" name="Militant Commander [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">N/A</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="e812-2584-a0d4-4e14" name="Brazier of holy fire" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignores Cover, One Shot, Torrent</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e67e-8cfb-0c7a-4670" name="Neural whips" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-Infantry 4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="91c0-a0ee-8526-4e5b" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="bfe5-bbeb-feb3-461a" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="fd41-7a39-f388-404e" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="e1d5-dc18-95c5-4317" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="0596-c08d-bece-49c5" name="Militant Commander [Crucible]" hidden="false" targetId="d6ea-45de-af2a-462f" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="09e8-fbfd-cd3c-4217" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da32-95e9-b7df-4001" name="Inspiring Devotee [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="1ed2-bbd4-d243-4437" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Sacred Devotions; Leader</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8065-bd75-aaba-4907" name="Inspiring Devotee [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">N/A</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="c8f7-2f13-3740-4176" name="Brazier of holy fire" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignores Cover, One Shot, Torrent</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9dea-909a-d792-45d9" name="Neural whips" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-Infantry 4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="fd78-7461-5c98-40ea" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="cb0f-c32c-faf0-42eb" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="445c-80b9-eb1d-49af" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="50ee-22e2-c780-43d6" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="647e-388b-c5da-4d0b" name="Inspiring Devotee [Crucible]" hidden="false" targetId="4501-c8ac-a2a9-4799" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b7bc-d204-e034-4c14" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ccdf-c8cd-4d0a-4b98" name="Reliquant Knight [Crucible]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="2a77-cd16-a7b1-4b7a" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Adamant Wrath; Leader</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d1c4-cd82-43ab-4dd3" name="Reliquant Knight [Crucible] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">N/A</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">4+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="0021-00ef-bfd8-471f" name="Brazier of holy fire" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignores Cover, One Shot, Torrent</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3b4b-ff82-4a7b-4d23" name="Neural whips" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Anti-Infantry 4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f10c-3f41-4ac3-43d9" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="true"/>
+        <categoryLink id="fe1d-a31f-8036-4b77" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="ec14-c520-d693-42b1" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="fdec-30e2-c0e9-421f" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        <categoryLink id="24a7-d034-d7cb-469c" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="3bc5-77e6-57ec-4f81" name="Reliquant Knight [Crucible]" hidden="false" targetId="65e7-c93e-c59f-4f77" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8ef7-2a31-220c-448d" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4ac8-47f5-f54e-462f" name="Intranzia Fraye" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="c143-3764-b8a1-41fc" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Righteous Denunciation; Judged for Execution</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2045-118c-b437-42cf" name="Intranzia Fraye (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">8&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">2+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">N/A</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="2086-adff-1f75-45e1" name="Ministorum heavy flamer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignores Cover, Torrent</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="051d-4a2a-f9e5-48ad" name="Mace of Saint Praxedes" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="84fe-a628-480b-445e" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="32ba-95b8-e46a-4785" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="c424-c319-f800-4833" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="a70b-44ba-a033-4b67" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="edef-00af-02a9-428d" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        <categoryLink id="f2ba-e7bd-2ffa-497b" name="Intranzia Fraye" hidden="false" targetId="cda5-1129-dee8-4d8b" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c4f0-fc9f-efc7-4a93" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="7"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="31a9-f56a-2958-4d87" name="Repressor [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="fe46-158d-9387-4414" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Transport; Emergency Combat Embarkation</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b0fa-8695-5c11-40a1" name="Repressor [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">12&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">N/A</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="e8e5-9012-9cea-4439" name="Heavy flamer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">5+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignores Cover, Torrent</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9a68-52e0-83d1-421d" name="Dozer Ram" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b874-ccb0-ccce-416f" name="Dedicated Transport" hidden="false" targetId="2a11-9193-1a80-f0c6" primary="true"/>
+        <categoryLink id="2c2c-9d58-4e8e-4314" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="b031-78e8-61e1-4af9" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
+        <categoryLink id="9ab5-bc13-5e05-43bf" name="Transport" hidden="false" targetId="6f18-a45e-43de-b8b8" primary="false"/>
+        <categoryLink id="7335-b272-8e53-436c" name="Repressor" hidden="false" targetId="fda1-2506-476d-4857" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6c7d-4ce1-8002-42d9" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dcaf-c9d9-ae40-405e" name="Battle Sanctum [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="97ab-07c7-ea9d-4c7e" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Consecrated Ground; Holy Cover</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="97c8-067b-94c1-4a17" name="Battle Sanctum [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">-</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">4+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">4+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">2</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">4</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="0f86-cbd1-8fee-44b4" name="Fortification" hidden="false" targetId="e2ad-0813-395c-442a" primary="true"/>
+        <categoryLink id="d74b-f6d5-29f5-467c" name="Super-heavy" hidden="false" targetId="9030-584a-81ae-9e31" primary="false"/>
+        <categoryLink id="5f17-90ee-5f90-4e7f" name="Towering" hidden="false" targetId="0b38-2089-28fe-4a7e" primary="false"/>
+        <categoryLink id="65bf-e400-b379-42df" name="Battle Sanctum" hidden="false" targetId="daff-93bc-80c3-4c19" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3e81-11fb-d3bf-45b4" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfd0-efa7-223f-4298" name="Celestian Sacresant Aveline [Legends]" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c13b-ab88-b33f-dcd5" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="ca14-8000-3d45-4988" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Instrument of the Emperor's Wrath; Daemonbreaker</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9001-b276-2f13-4bdb" name="Celestian Sacresant Aveline [Legends] (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">N/A</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">1</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">7</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">5+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="126c-38eb-3a2c-4718" name="Ministorum hand flamer" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">12&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Ignores Cover, Pistol, Torrent</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4fb4-3869-b7f4-49dc" name="The Thorn of the White Rose" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9605-c847-c27f-42af" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
+        <categoryLink id="82df-9a5b-15f3-47b0" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="0384-f056-b8bf-4595" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="6057-5771-1077-491a" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="false"/>
+        <categoryLink id="b7a7-4a93-b805-4202" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="ed68-c970-1a88-4297" name="Celestian Sacresant Aveline" hidden="false" targetId="752d-bed5-19d2-46ff" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6bb8-9bbf-c2ce-4a37" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="2"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5350-4b52-ee7f-e4c8" name="Imperium - Dark Angels" revision="9" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="5350-4b52-ee7f-e4c8" name="Imperium - Dark Angels" revision="14" battleScribeVersion="2.03" authorName="Th3Proj3ct" authorUrl="https://discord.gg/3QtaU2g" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <categoryEntries>
     <categoryEntry id="6268-f517-c933-bf19" name="Faction: Adeptus Astartes" hidden="false"/>
     <categoryEntry id="51a9-73ff-29ec-793c" name="Tactical Squad" hidden="false"/>
@@ -25,6 +25,7 @@
     <categoryEntry id="3bfb-ebb6-76f1-9343" name="Nephilim Jetfighter" hidden="false"/>
     <categoryEntry id="3600-450b-a555-569e" name="Lazarus" hidden="false"/>
     <categoryEntry id="d537-b50c-719d-d101" name="Inner Circle" hidden="false"/>
+    <categoryEntry id="61b1-8fe9-244f-4cb0" name="Inner Circle Companions" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
     <selectionEntry id="a56e-faa1-4102-8b59" name="Unit Filter" hidden="false" collective="false" import="true" type="upgrade">
@@ -105,7 +106,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="5"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="6 models" hidden="false" id="7407-4654-69d1-0992" collective="false">
@@ -126,7 +127,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="9"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -136,6 +137,114 @@
         <categoryLink targetId="2d6e-c03a-7a58-74ce" id="51b1-364d-48b5-a402" primary="true" name="Infantry"/>
         <categoryLink targetId="7eb1-73ba-2de4-ca9b" id="7782-7432-56a1-5d18" primary="false" name="Light"/>
       </categoryLinks>
+    </selectionEntry>
+    
+    
+    <selectionEntry id="a89a-6a4c-33f9-43fa" name="Land Speeder Vengeance" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="f160-236c-c50c-4e0c" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Nightforged Battery; Storm of Vengeance</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="466f-6f99-3611-47a5" name="Land Speeder Vengeance (1 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">14&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">1</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="a111-e7eb-2f05-4fe4" name="Assault cannon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">24&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x3</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Devastating Wounds</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6ded-dbc4-69bd-46b7" name="Close Combat Weapon" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">7+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">10+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="17e7-e04e-dca7-48c1" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
+        <categoryLink id="9b82-fdc0-859f-442e" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
+        <categoryLink id="f3fa-c073-c337-47a5" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
+        <categoryLink id="b555-4206-6558-4a7d" name="Land Speeder Vengeance" hidden="false" targetId="95c8-20ff-aa6a-8497" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7f13-4c5c-c6ce-4866" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="6"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7b85-3232-3e9d-4ec7" name="Inner Circle Companions" hidden="false" collective="false" import="true" type="unit">
+      <comment>Inferred from the 11th edition datasheet. SAP and SAT are calibrated estimates.</comment>
+      <profiles>
+        <profile id="7484-30b2-a5c2-4f66" name="Abilities" hidden="false" typeId="f075-616f-79da-32a6" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="4493-9fa3-8c30-866f">Attached Unit; Braziers of Judgement; Emnity for the Unworthy</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="19be-062e-7505-45a7" name="Inner Circle Companions (3 models)" hidden="false" typeId="758b-2459-9a46-721a" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="606d-344a-bc3d-9dce">6&quot;</characteristic>
+                            <characteristic name="WS" typeId="e2a3-fade-c12d-860b">3+</characteristic>
+                            <characteristic name="BS" typeId="bcfe-d5af-2691-5c77">3+</characteristic>
+                            <characteristic name="A" typeId="ddfe-6a9e-32c1-a51c">4</characteristic>
+                            <characteristic name="W" typeId="7c7f-f763-1f39-410c">2</characteristic>
+                            <characteristic name="Ld" typeId="91b0-3d37-1843-1290">6</characteristic>
+                            <characteristic name="Sv" typeId="a56f-38ae-3917-aadc">6+</characteristic>
+                          </characteristics>
+                        </profile>
+        <profile id="d4d4-ef28-be0f-4bb7" name="Heavy Bolt Pistol" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Small Arms</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">18&quot;</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">User</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">6+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">11+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Pistol</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b39a-e07d-baa3-4264" name="➤ Calibanite Greatsword - Sweep" hidden="false" typeId="c9f1-094d-9681-28f3" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Type" typeId="359f-19b3-6670-21f5">Melee</characteristic>
+            <characteristic name="Range" typeId="bea7-7040-8485-6f0f">Melee</characteristic>
+            <characteristic name="A" typeId="2883-af07-d4e8-d8d0">x2</characteristic>
+            <characteristic name="SAP" typeId="74b1-f85d-ede5-c758">4+</characteristic>
+            <characteristic name="SAT" typeId="4b6c-996a-d317-affb">9+</characteristic>
+            <characteristic name="Abilities" typeId="61ff-d2ec-f13b-06fa">Sustained Hits 2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="153f-188c-274f-443f" name="Infantry" hidden="false" targetId="2d6e-c03a-7a58-74ce" primary="true"/>
+        <categoryLink id="929c-fcd5-91b2-4391" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="0680-102e-a814-44ef" name="Tacticus" hidden="false" targetId="6d08-59e9-28ad-4b36" primary="false"/>
+        <categoryLink id="6c21-0af6-2efe-4464" name="Inner Circle Companions" hidden="false" targetId="61b1-8fe9-244f-4cb0" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="175a-d091-d66e-4073" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -1110,7 +1219,9 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
         <categoryLink id="04d4-0d14-58e3-622a" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="7894-8736-6435-1cc1" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="4810-4ebf-9639-5a81" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="4cb8-9755-b9a6-4304" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="f69e-f44c-c4a3-4d76" name="Tacticus" hidden="false" targetId="6d08-59e9-28ad-4b36" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e6ec-eedc-dc1a-c14d" name="Lion&apos;s Wrath" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1308,7 +1419,9 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
         <categoryLink id="93e5-f4af-1ffb-9daf" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
         <categoryLink id="d324-95e0-fc2b-4336" name="Sammael" hidden="false" targetId="6693-a499-f60d-c30c" primary="false"/>
         <categoryLink id="fd17-2f2c-b5c3-ec35" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="21ef-cb46-3880-43c4" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="false"/>
+        <categoryLink id="88ac-01cb-9f46-4c30" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="dfca-6a41-e6a6-babe" name="The Raven Sword" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1643,7 +1756,10 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
         <categoryLink id="0a91-e0d6-e61c-61cc" name="Priest" hidden="false" targetId="0642-3d2d-db41-9ddd" primary="false"/>
         <categoryLink id="8fdf-a110-0221-fd82" name="Chaplain" hidden="false" targetId="89c1-3354-3e0d-279e" primary="false"/>
         <categoryLink id="c7cc-54eb-d6e7-f81a" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="1b5b-bc28-0bdf-4bf3" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="bb44-abdd-a84d-42e1" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="5fed-4b2d-ffc5-4bbe" name="Tacticus" hidden="false" targetId="6d08-59e9-28ad-4b36" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="993c-6f84-e3be-e02a" name="The Blades oF Reason" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -1725,7 +1841,8 @@ Each TERMINATOR and JUMP PACK model takes the space of 2 other INFANTRY models a
         <categoryLink id="02d6-8b0f-0974-3a0d" name="Chief Librarian" hidden="false" targetId="50cb-96c6-f120-0e77" primary="false"/>
         <categoryLink id="3d57-40c7-1c8b-e016" name="HQ" hidden="false" targetId="08d9-07e5-2b35-57b0" primary="false"/>
         <categoryLink id="dc36-b293-185d-3711" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="8cde-60d0-be34-448e" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8305-df12-5849-7551" name="Traitor&apos;s Bane" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2000,7 +2117,7 @@ Hit roll</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fc21-4e7b-d54a-8d72" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2018,7 +2135,7 @@ Hit roll</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2156,7 +2273,7 @@ Hit roll</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="14"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2553,7 +2670,8 @@ Hit roll</characteristic>
         <categoryLink id="9bd4-1709-493c-91dc" name="Ravenwing Black Knights" hidden="false" targetId="e3bd-cef6-9d66-30f1" primary="false"/>
         <categoryLink id="bbd7-053e-aa2a-dcff" name="Fast Attack" hidden="false" targetId="3945-9603-5902-58c0" primary="false"/>
         <categoryLink id="31b6-43b2-0e64-ee45" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="8f09-dabf-e65a-4f23" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2dd1-f5c9-6649-0b65" name="Black Knight Combat Weapons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2599,7 +2717,7 @@ Hit roll</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="4"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="db42-adbe-dc64-b885" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -2617,7 +2735,7 @@ Hit roll</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="8"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2864,7 +2982,9 @@ Hit roll</characteristic>
         <categoryLink id="b48a-47c6-3027-c92a" name="Captain" hidden="false" targetId="7151-56f9-0163-eadc" primary="false"/>
         <categoryLink id="386b-ba6e-5b91-0537" name="Inner Circle" hidden="false" targetId="d537-b50c-719d-d101" primary="false"/>
         <categoryLink id="1b7c-4997-8f95-603d" name="Epic Hero" hidden="false" targetId="1926-ea62-3b12-977a" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="842e-2509-003c-4b3e" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        <categoryLink id="613c-6648-7435-4b53" name="Tacticus" hidden="false" targetId="6d08-59e9-28ad-4b36" primary="false"/>
+        </categoryLinks>
       <entryLinks>
         <entryLink id="31d3-00ca-beb0-2899" name="Commander" hidden="false" collective="false" import="true" targetId="7347-5716-355f-9165" type="selectionEntry"/>
       </entryLinks>
@@ -3189,7 +3309,7 @@ Hit roll</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="11"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="10"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6a8c-4ca4-2f96-df75" name="10 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -3207,7 +3327,7 @@ Hit roll</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="22"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="20"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3255,7 +3375,10 @@ Hit roll</characteristic>
         <categoryLink id="2e92-1a32-dcb4-23eb" name="Fly" hidden="false" targetId="b408-d848-fa84-cfb9" primary="false"/>
         <categoryLink id="4ddf-4fb8-159e-a9bd" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="false"/>
         <categoryLink id="487d-d6a9-87de-b3da" name="Mounted" hidden="false" targetId="351c-b6fa-4d4f-70f3" primary="true"/>
-      </categoryLinks>
+              <categoryLink id="ce05-9425-faf9-449c" name="Character" hidden="false" targetId="4b9a-33b1-3b42-e3f8" primary="false"/>
+        <categoryLink id="6dae-be1d-b183-4fb2" name="Light" hidden="false" targetId="7eb1-73ba-2de4-ca9b" primary="false"/>
+        <categoryLink id="3e79-abbc-172c-4e32" name="Grenades" hidden="false" targetId="3f52-4395-f39d-4c62" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="34b9-498e-12e1-0223" name="Ravenwing Ancient" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
           <constraints>
@@ -3378,7 +3501,7 @@ Hit roll</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="12"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="16"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c108-3986-5de2-3bb9" name="6 models" hidden="false" collective="false" import="true" type="upgrade">
@@ -3396,7 +3519,7 @@ Hit roll</characteristic>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="23"/>
+                <cost name=" PL" typeId="1466-da3f-0d27-dace" value="32"/>
               </costs>
             </selectionEntry>
           </selectionEntries>

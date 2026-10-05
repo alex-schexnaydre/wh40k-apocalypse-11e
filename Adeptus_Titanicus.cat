@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="71af-f8d4-f072-a865" name="Adeptus Titanicus" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="71af-f8d4-f072-a865" name="Adeptus Titanicus" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="440c-9567-ca71-f95b" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
     <selectionEntry id="05ad-0c67-98c4-ede3" name="Warhound Titan" publicationId="8df9-0b3e-abea-3c15" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -27,7 +27,9 @@
         <categoryLink id="06c0-b0cf-4903-f7e3" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
         <categoryLink id="9bdf-c612-d7cc-3dbe" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="1bfa-ee89-ad04-3525" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="1a95-eb20-afb5-4071" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        <categoryLink id="16ec-0e9f-49c9-4131" name="Towering" hidden="false" targetId="0b38-2089-28fe-4a7e" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="cab0-fc9a-5003-9e31" name="Warhound Feet" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -183,7 +185,9 @@
         <categoryLink id="bb5d-a8d5-c4ba-664b" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
         <categoryLink id="dfd1-08a1-dfd2-ea20" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="6231-6971-fe0c-e179" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="ba3d-1f2c-0e69-46b7" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        <categoryLink id="f2fe-8437-be9f-4d93" name="Towering" hidden="false" targetId="0b38-2089-28fe-4a7e" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6ecf-9c81-0461-1eef" name="Reaver Feet" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -283,7 +287,9 @@
         <categoryLink id="fa64-6c2c-7c56-fff8" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
         <categoryLink id="6499-b369-1b59-2840" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="b6cb-2733-c33e-aee1" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="d3ea-ea1b-b66b-48d9" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        <categoryLink id="01bb-457d-5cfa-45e1" name="Towering" hidden="false" targetId="0b38-2089-28fe-4a7e" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5d01-f227-bf4d-0244" name="Nemisis Feet" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -452,7 +458,9 @@
         <categoryLink id="00ac-9c8b-1bf3-4120" name="Titanic" hidden="false" targetId="bef0-3698-6fb6-9b5c" primary="false"/>
         <categoryLink id="f3af-fe54-df3a-1931" name="Vehicle" hidden="false" targetId="5aeb-0fa6-9427-2144" primary="true"/>
         <categoryLink id="25c6-e4fd-4072-0b0b" name="Heavy" hidden="false" targetId="25c7-3353-2028-72b2" primary="false"/>
-      </categoryLinks>
+              <categoryLink id="d7fb-bed6-7479-4510" name="Walker" hidden="false" targetId="b4a0-6913-48c3-42c1" primary="false"/>
+        <categoryLink id="bcb9-497d-194c-40a0" name="Towering" hidden="false" targetId="0b38-2089-28fe-4a7e" primary="false"/>
+        </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0474-1d9c-2696-5566" name="Warlord Feet" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
