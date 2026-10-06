@@ -12,8 +12,6 @@
 
 __What's this?__
 
-NOTE: This is now only supported by NewRecruit, Battlescribe has been deprecated.
-
 This repository was based off the work of the Fundamalleus and many other community members in 9e to catch Apocalypse up to 11th edition, and is now being brought in line with 11th edition units, keywords, and points. Power Level is `round(points / 20)`. New matched-play datasheets are inferred into Apocalypse profiles (M, WS, BS, A, W, Ld, Sv and weapon SAP/SAT) rather than copied from 11th edition. The conversion rules are in `docs/INFERENCE.md`, and the per-faction review lists are in `reports/`. It's a GitHub repository of datafiles. 
 
 __Okay, nice project. Is it actually working?__ _I just want those files..._
